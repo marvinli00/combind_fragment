@@ -333,6 +333,7 @@ def screen(score_fname, root, stats_root, alpha, features):
     from score.screen import screen, load_features_screen
     from score.statistics import read_stats
 
+    features = 'hbond,saltbridge,contact'
     features = features.split(',')
     stats = read_stats(stats_root, features)
     single, raw = load_features_screen(features, root)
