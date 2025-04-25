@@ -121,7 +121,7 @@ def structprep(struct, grid_struct, root):
     for folder in os.listdir(f'structures'):
         shutil.copytree(f'structures/{folder}', f'{root}/structures/{folder}', dirs_exist_ok=True)
     #remove structures folder
-    shutil.rmtree(f'structures')
+    #shutil.rmtree(f'structures')
     
 
 @main.command()
