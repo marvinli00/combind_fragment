@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "combind_structprep",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "combind",
+            "console": "integratedTerminal",
+            "args": "structprep",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "COMBINDHOME":"`pwd`",
+                "SCHRODINGER_ALLOW_UNSAFE_MULTIPROCESSING":"1",
+            }
+        },
+        {
+            "name": "combind_featurize",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "combind",
+            "console": "integratedTerminal",
+            "args": ["featurize",
+                    "features",
+                    "docking/*/*_pv.maegz"],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "COMBINDHOME":"`pwd`",
+                "SCHRODINGER_ALLOW_UNSAFE_MULTIPROCESSING":"1",
+            }
+        },
+        {
+            "name": "combind_pose_prediction",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "combind",
+            "console": "integratedTerminal",
+            "args": ["pose-prediction",
+                    "features",
+                    "poses.csv"],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "COMBINDHOME":"${workspaceFolder}",
+                "SCHRODINGER_ALLOW_UNSAFE_MULTIPROCESSING":"1",
+            }
+        }
+    ]
+}
