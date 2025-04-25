@@ -1,0 +1,146 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_ct_format
+ :::
+ fragment_2XDX 
+  0
+  12 
+  Structure12 
+  "STRUCTURE OF HSP90 WITH SMALL MOLECULE INHIBITOR BOUND" 
+  2XDX 
+  52.439
+  43.928
+  53.08
+  90
+  114.38
+  90
+  "P 1 21 1" 
+  2
+  CHAPERONE 
+  10-MAY-10 
+  3.30 
+  0.203
+  0.33
+  2.42
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2xdx.pdb 
+  1
+  2
+ m_atom[26] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 3 0.516126 31.094861 49.278601 1224 A 10 "WOE " " C1 " 6 1EE11E  1 36.9 1680
+  2 16 1.202174 32.326824 49.041319 1224 A 70 "WOE " " O2 " 8 FF2E2E  1 30.97 1681
+  3 2 0.466911 33.483783 49.084892 1224 A 10 "WOE " " C3 " 6 1EE11E  1 14.71 1682
+  4 2 -0.856206 33.592125 48.687058 1224 A 10 "WOE " " C4 " 6 1EE11E  1 10.33 1683
+  5 2 -1.504694 34.804110 48.766663 1224 A 10 "WOE " " C5 " 6 1EE11E  1 14.7 1684
+  6 2 -0.846782 35.910817 49.278777 1224 A 10 "WOE " " C6 " 6 1EE11E  1 19.02 1685
+  7 2 0.472544 35.813722 49.687062 1224 A 10 "WOE " " C7 " 6 1EE11E  1 12.81 1686
+  8 2 1.142094 34.599334 49.610775 1224 A 10 "WOE " " C8 " 6 1EE11E  1 10.89 1687
+  9 2 2.555069 34.526151 50.053544 1224 A 10 "WOE " " C9 " 6 1EE11E  1 3.04 1688
+  10 2 2.974672 35.017991 51.265281 1224 A 10 "WOE " " C10" 6 1EE11E  1 10.04 1689
+  11 2 4.322011 34.922115 51.569183 1224 A 10 "WOE " " C11" 6 1EE11E  1 21.62 1690
+  12 57 4.911292 35.557917 53.074247 1224 A 9 "WOE " "CL1 " 17 008C00  1 30.49 1691
+  13 25 5.229659 34.356634 50.761930 1224 A 38 "WOE " " N13" 7 2E2EFF  1 19.19 1692
+  14 2 4.730974 33.888522 49.577001 1224 A 10 "WOE " " C14" 6 1EE11E  1 19.83 1693
+  15 25 5.616292 33.283927 48.701163 1224 A 38 "WOE " " N15" 7 2E2EFF  1 16.55 1694
+  16 25 3.419952 33.937718 49.208042 1224 A 38 "WOE " " N16" 7 2E2EFF  1 12.9 1695
+  17 41 1.221906 30.266829 49.212742 1224 A 21 "WOE " "H1_1" 1 FFFFFF  <> <> <>
+  18 41 0.069520 31.112724 50.272746 1224 A 21 "WOE " "H1_2" 1 FFFFFF  <> <> <>
+  19 41 -0.266749 30.964601 48.531447 1224 A 21 "WOE " "H1_3" 1 FFFFFF  <> <> <>
+  20 41 -1.380579 32.724910 48.313733 1224 A 21 "WOE " " HC4" 1 FFFFFF  <> <> <>
+  21 41 -2.526980 34.892715 48.429796 1224 A 21 "WOE " " HC5" 1 FFFFFF  <> <> <>
+  22 41 -1.363197 36.855763 49.361191 1224 A 21 "WOE " " HC6" 1 FFFFFF  <> <> <>
+  23 41 0.985731 36.684748 50.066999 1224 A 21 "WOE " " HC7" 1 FFFFFF  <> <> <>
+  24 41 2.261397 35.461079 51.944479 1224 A 21 "WOE " "HC10" 1 FFFFFF  <> <> <>
+  25 43 5.286070 32.925724 47.816435 1224 A 21 "WOE " "H151" 1 FFFFFF  <> <> <>
+  26 43 6.592430 33.201026 48.946892 1224 A 21 "WOE " "H152" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[27] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 17 1
+  3 1 18 1
+  4 1 19 1
+  5 2 3 1
+  6 3 4 1
+  7 3 8 2
+  8 4 5 2
+  9 4 20 1
+  10 5 6 1
+  11 5 21 1
+  12 6 7 2
+  13 6 22 1
+  14 7 8 1
+  15 7 23 1
+  16 8 9 1
+  17 9 10 2
+  18 9 16 1
+  19 10 11 1
+  20 10 24 1
+  21 11 12 1
+  22 11 13 2
+  23 13 14 1
+  24 14 15 1
+  25 14 16 2
+  26 15 25 1
+  27 15 26 1
+  :::
+ } 
+} 
+

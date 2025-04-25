@@ -1,0 +1,161 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_2
+ i_m_ct_format
+ :::
+ fragment_2XDL 
+  0
+  15 
+  Structure15 
+  "STRUCTURE OF HSP90 WITH SMALL MOLECULE INHIBITOR BOUND" 
+  2XDL 
+  66.227
+  90.154
+  100.626
+  90
+  90
+  90
+  "I 2 2 2" 
+  8
+  CHAPERONE 
+  04-MAY-10 
+  3.30 
+  0.191
+  0.252
+  1.98
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2xdl.pdb 
+  1
+  "-1.000000 0.000000 0.000000   132.454000;0.000000 -1.000000 0.000000   90.154000;0.000000 0.000000 1.000000   0.000000" 
+  2
+ m_atom[33] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 2 3.236255 32.670201 47.709171 1225 A 10 "2DL " " C1 " 6 1EE11E  1 25.22 1635
+  2 2 2.176603 32.870888 48.600630 1225 A 10 "2DL " " C2 " 6 1EE11E  1 21.31 1636
+  3 2 2.412677 33.494191 49.804597 1225 A 10 "2DL " " C3 " 6 1EE11E  1 15.92 1637
+  4 2 3.686816 33.909071 50.166714 1225 A 10 "2DL " " C4 " 6 1EE11E  1 15.25 1638
+  5 2 4.751903 33.703986 49.281667 1225 A 10 "2DL " " C5 " 6 1EE11E  1 16.12 1639
+  6 2 4.528994 33.088242 48.063632 1225 A 10 "2DL " " C6 " 6 1EE11E  1 23.77 1640
+  7 16 2.997093 32.080041 46.504049 1225 A 70 "2DL " " O7 " 8 FF2E2E  1 16.15 1641
+  8 3 3.083874 37.848581 50.607524 1225 A 10 "2DL " " C9 " 6 1EE11E  1 25.78 1642
+  9 3 2.508470 36.452771 50.708358 1225 A 10 "2DL " " C10" 6 1EE11E  1 25.91 1643
+  10 3 3.087721 36.234804 53.124801 1225 A 10 "2DL " " C12" 6 1EE11E  1 21.47 1644
+  11 3 1.657008 36.422659 53.599946 1225 A 10 "2DL " " C13" 6 1EE11E  1 29.41 1645
+  12 2 3.897474 34.558682 51.492566 1225 A 10 "2DL " " C14" 6 1EE11E  1 16.56 1646
+  13 15 4.681359 34.075423 52.277498 1225 A 70 "2DL " " O15" 8 FF2E2E  1 18.89 1647
+  14 16 0.936882 32.446532 48.194919 1225 A 70 "2DL " " O16" 8 FF2E2E  1 22.53 1648
+  15 25 3.141560 35.659251 51.781391 1225 A 38 "2DL " " N3 " 7 2E2EFF  1 21.1 1649
+  16 3 -0.211354 33.214588 48.644904 1225 A 10 "2DL " " C15" 6 1EE11E  1 27.03 1650
+  17 41 1.597356 33.669874 50.490737 1225 A 21 "2DL " " HC3" 1 FFFFFF  <> <> <>
+  18 41 5.746983 34.026578 49.550275 1225 A 21 "2DL " " HC5" 1 FFFFFF  <> <> <>
+  19 41 5.353249 32.929265 47.384124 1225 A 21 "2DL " " HC6" 1 FFFFFF  <> <> <>
+  20 42 3.818178 32.013896 46.011053 1225 A 21 "2DL " " HO7" 1 FFFFFF  <> <> <>
+  21 41 2.584938 38.390658 49.804208 1225 A 21 "2DL " "H9_1" 1 FFFFFF  <> <> <>
+  22 41 2.930416 38.374351 51.549923 1225 A 21 "2DL " "H9_2" 1 FFFFFF  <> <> <>
+  23 41 4.151356 37.787653 50.395699 1225 A 21 "2DL " "H9_3" 1 FFFFFF  <> <> <>
+  24 41 2.634537 35.939114 49.755278 1225 A 21 "2DL " "H101" 1 FFFFFF  <> <> <>
+  25 41 1.435355 36.515356 50.888933 1225 A 21 "2DL " "H102" 1 FFFFFF  <> <> <>
+  26 41 3.618128 35.583808 53.819764 1225 A 21 "2DL " "H121" 1 FFFFFF  <> <> <>
+  27 41 3.600179 37.196820 53.127988 1225 A 21 "2DL " "H122" 1 FFFFFF  <> <> <>
+  28 41 1.659750 36.852310 54.601691 1225 A 21 "2DL " "H131" 1 FFFFFF  <> <> <>
+  29 41 1.132555 37.093066 52.919061 1225 A 21 "2DL " "H132" 1 FFFFFF  <> <> <>
+  30 41 1.150754 35.457576 53.620477 1225 A 21 "2DL " "H133" 1 FFFFFF  <> <> <>
+  31 41 -1.124536 32.768410 48.251044 1225 A 21 "2DL " "H151" 1 FFFFFF  <> <> <>
+  32 41 -0.246741 33.211687 49.734326 1225 A 21 "2DL " "H152" 1 FFFFFF  <> <> <>
+  33 41 -0.125460 34.240709 48.287417 1225 A 21 "2DL " "H153" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[33] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 2
+  3 1 7 1
+  4 2 3 2
+  5 2 14 1
+  6 3 4 1
+  7 3 17 1
+  8 4 5 2
+  9 4 12 1
+  10 5 6 1
+  11 5 18 1
+  12 6 19 1
+  13 7 20 1
+  14 8 9 1
+  15 8 21 1
+  16 8 22 1
+  17 8 23 1
+  18 9 15 1
+  19 9 24 1
+  20 9 25 1
+  21 10 11 1
+  22 10 15 1
+  23 10 26 1
+  24 10 27 1
+  25 11 28 1
+  26 11 29 1
+  27 11 30 1
+  28 12 13 2
+  29 12 15 1
+  30 14 16 1
+  31 16 31 1
+  32 16 32 1
+  33 16 33 1
+  :::
+ } 
+} 
+

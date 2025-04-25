@@ -1,0 +1,7 @@
+ID,affinity_uM,SMILES,doi
+5c3h,5000,C1CCN(CC1)C(=O)CN2CC[NH2+]CC2,https://doi.org/10.1021/acs.jmedchem.5b00706
+5c0l,5000,c1c(cn(n1)C2CC[NH2+]CC2)Br,https://doi.org/10.1021/acs.jmedchem.5b00706
+5c3k,110,C[C@@H](C(=O)Nc1cccc(n1)N)[NH3+],https://doi.org/10.1021/acs.jmedchem.5b00706
+5c7b,410,C[C@@H]1CN(CC[NH2+]1)CC(=O)N2CCCC2,https://doi.org/10.1021/acs.jmedchem.5b00706
+5c7a,495,C[C@@H]1CN(CC[NH2+]1)CC(=O)N2CCc3c2cccc3,https://doi.org/10.1021/acs.jmedchem.5b00706
+5c7d,7.7,C[C@@H]1CN(CC[NH2+]1)CC(=O)N2CCc3c2cc(nc3)Cl,https://doi.org/10.1021/acs.jmedchem.5b00706

@@ -1,0 +1,134 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ r_pdb_PDB_EXPDTA_PH
+ i_m_ct_format
+ :::
+ fragment_2OHK 
+  0
+  11 
+  Structure11 
+  "X-RAY CRYSTAL STRUCTURE OF BETA SECRETASE COMPLEXED WITH 1-AMINO- ISOQUINOLINE" 
+  2OHK 
+  102.895
+  102.895
+  168.312
+  90
+  90
+  120
+  "P 61 2 2" 
+  12
+  HYDROLASE 
+  10-JAN-07 
+  3.30 
+  0.221
+  0.279
+  2.2
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2ohk.pdb 
+  1
+  6.6
+  2
+ m_atom[19] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 25 66.744132 48.948604 5.838591 390 A 38 "1SQ " " N1 " 7 2E2EFF  1 24.85 2975
+  2 2 67.506292 49.013124 6.963120 390 A 10 "1SQ " " C2 " 6 1EE11E  1 36.94 2976
+  3 25 67.965520 50.226440 7.337049 390 A 38 "1SQ " " N3 " 7 2E2EFF  1 40.34 2977
+  4 2 68.725855 50.290435 8.436564 390 A 10 "1SQ " " C4 " 6 1EE11E  1 47.26 2978
+  5 2 69.024521 49.195437 9.224023 390 A 10 "1SQ " " C5 " 6 1EE11E  1 49.06 2979
+  6 2 68.527069 47.946793 8.882584 390 A 10 "1SQ " " C6 " 6 1EE11E  1 48.44 2980
+  7 2 68.781966 46.807102 9.637659 390 A 10 "1SQ " " C7 " 6 1EE11E  1 49.34 2981
+  8 2 68.265822 45.585534 9.251499 390 A 10 "1SQ " " C8 " 6 1EE11E  1 47.14 2982
+  9 2 67.502802 45.488594 8.107635 390 A 10 "1SQ " " C9 " 6 1EE11E  1 40.83 2983
+  10 2 67.238912 46.607264 7.351938 390 A 10 "1SQ " " C10" 6 1EE11E  1 40.51 2984
+  11 2 67.737154 47.847538 7.723573 390 A 10 "1SQ " " C11" 6 1EE11E  1 41.94 2985
+  12 43 66.305225 49.745325 5.519641 390 A 21 "1SQ " "HN11" 1 FFFFFF  1 29.57 2986
+  13 43 66.698779 48.129663 5.334216 390 A 21 "1SQ " "HN12" 1 FFFFFF  1 29.57 2987
+  14 41 69.107846 51.265462 8.705903 390 A 21 "1SQ " " H4 " 1 FFFFFF  1 45.83 2988
+  15 41 69.623291 49.311127 10.116221 390 A 21 "1SQ " " H5 " 1 FFFFFF  1 48.38 2989
+  16 41 69.383729 46.879813 10.531781 390 A 21 "1SQ " " H7 " 1 FFFFFF  1 48.47 2990
+  17 41 68.470853 44.702441 9.838757 390 A 21 "1SQ " " H8 " 1 FFFFFF  1 45.99 2991
+  18 41 67.103014 44.533958 7.808729 390 A 21 "1SQ " " H9 " 1 FFFFFF  1 42.51 2992
+  19 41 66.638100 46.521700 6.465096 390 A 21 "1SQ " " H10" 1 FFFFFF  1 41 2993
+  :::
+ } 
+ m_bond[20] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 12 1
+  3 1 13 1
+  4 2 3 2
+  5 2 11 1
+  6 3 4 1
+  7 4 5 2
+  8 4 14 1
+  9 5 6 1
+  10 5 15 1
+  11 6 7 2
+  12 6 11 1
+  13 7 8 1
+  14 7 16 1
+  15 8 9 2
+  16 8 17 1
+  17 9 10 1
+  18 9 18 1
+  19 10 11 2
+  20 10 19 1
+  :::
+ } 
+} 
+

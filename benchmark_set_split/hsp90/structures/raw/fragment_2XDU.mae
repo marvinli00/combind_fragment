@@ -1,0 +1,117 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_ct_format
+ :::
+ fragment_2XDU 
+  0
+  14 
+  Structure14 
+  "STRUCTURE OF HSP90 WITH SMALL MOLECULE INHIBITOR BOUND" 
+  2XDU 
+  67.013
+  90.725
+  98.735
+  90
+  90
+  90
+  "I 2 2 2" 
+  8
+  CHAPERONE 
+  07-MAY-10 
+  3.30 
+  0.196
+  0.222
+  1.74
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2xdu.pdb 
+  1
+  2
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 25 5.391791 33.328496 48.700756 1227 A 38 "LGA " " N2 " 7 2E2EFF  1 23.83 1642
+  2 2 4.490848 33.801372 49.554319 1227 A 10 "LGA " " C1 " 6 1EE11E  1 23.41 1643
+  3 25 3.197078 33.821647 49.154598 1227 A 38 "LGA " " N1 " 7 2E2EFF  1 24.83 1644
+  4 2 2.315078 34.315161 50.024538 1227 A 10 "LGA " " C4 " 6 1EE11E  1 24.47 1645
+  5 2 2.697332 34.770944 51.248743 1227 A 10 "LGA " " C5 " 6 1EE11E  1 24.68 1646
+  6 2 4.021970 34.722116 51.589259 1227 A 10 "LGA " " C3 " 6 1EE11E  1 27.74 1647
+  7 25 4.939629 34.237797 50.751816 1227 A 38 "LGA " " N7 " 7 2E2EFF  1 23.23 1648
+  8 43 6.366962 33.296903 48.961800 1227 A 21 "LGA " "H2_1" 1 FFFFFF  <> <> <>
+  9 43 5.101768 33.000477 47.790597 1227 A 21 "LGA " "H2_2" 1 FFFFFF  <> <> <>
+  10 41 1.267770 34.360505 49.764747 1227 A 21 "LGA " " HC4" 1 FFFFFF  <> <> <>
+  11 41 1.959837 35.162979 51.933440 1227 A 21 "LGA " " HC5" 1 FFFFFF  <> <> <>
+  12 41 4.344740 35.080908 52.555431 1227 A 21 "LGA " " HC3" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[12] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 8 1
+  3 1 9 1
+  4 2 3 1
+  5 2 7 2
+  6 3 4 2
+  7 4 5 1
+  8 4 10 1
+  9 5 6 2
+  10 5 11 1
+  11 6 7 1
+  12 6 12 1
+  :::
+ } 
+} 
+

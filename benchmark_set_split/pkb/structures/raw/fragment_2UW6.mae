@@ -1,0 +1,169 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_ct_format
+ :::
+ fragment_2UW6 
+  0
+  7 
+  Structure7 
+  "STRUCTURE OF PKA-PKB CHIMERA COMPLEXED WITH  (S)-2-(4- CHLORO-PHENYL)-2-(4-1H-PYRAZOL-4-YL)-PHENYL)-ETHYLAMINE" 
+  2UW6 
+  72.959
+  75.003
+  79.927
+  90
+  90
+  90
+  "P 21 21 21" 
+  4
+  TRANSFERASE/INHIBITOR 
+  19-MAR-07 
+  3.15 
+  0.19
+  0.244
+  2.23
+  "X-RAY DIFFRACTION" 
+  100
+  "A, I" 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2uw6.pdb 
+  1
+  2
+ m_atom[37] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 26 12.525240 7.357112 2.733688 1351 A 38 "GVO " " N1 " 7 2E2EFF  1 23.61 2948
+  2 3 11.177020 7.882652 2.999228 1351 A 10 "GVO " " C2 " 6 1EE11E  1 22.5 2949
+  3 3 11.110676 9.426772 3.092984 1351 A 10 "GVO " " C3 " 6 1EE11E  1 22.93 2950
+  4 2 12.095256 9.811944 4.181552 1351 A 10 "GVO " " C4 " 6 1EE11E  1 23.16 2951
+  5 2 12.027600 9.286992 5.467268 1351 A 10 "GVO " " C5 " 6 1EE11E  1 26.29 2952
+  6 2 12.971568 9.627616 6.432492 1351 A 10 "GVO " " C6 " 6 1EE11E  1 25.14 2953
+  7 2 14.010880 10.481472 6.124068 1351 A 10 "GVO " " C7 " 6 1EE11E  1 27.32 2954
+  8 57 15.173548 10.889788 7.359460 1351 A 9 "GVO " "CL8 " 17 008C00  1 29.08 2955
+  9 2 14.100448 11.001904 4.836424 1351 A 10 "GVO " " C9 " 6 1EE11E  1 26.49 2956
+  10 2 13.153388 10.657356 3.870172 1351 A 10 "GVO " " C10" 6 1EE11E  1 26.28 2957
+  11 2 9.616544 9.652032 3.260752 1351 A 10 "GVO " " C11" 6 1EE11E  1 18.57 2958
+  12 2 8.845500 9.524140 2.112060 1351 A 10 "GVO " " C12" 6 1EE11E  1 20.02 2959
+  13 2 7.460536 9.651208 2.161888 1351 A 10 "GVO " " C13" 6 1EE11E  1 19.41 2960
+  14 2 6.818320 9.937824 3.370416 1351 A 10 "GVO " " C14" 6 1EE11E  1 15.96 2961
+  15 2 7.592600 10.035576 4.530004 1351 A 10 "GVO " " C15" 6 1EE11E  1 17.57 2962
+  16 2 8.974044 9.885612 4.472072 1351 A 10 "GVO " " C16" 6 1EE11E  1 18.25 2963
+  17 2 5.334324 10.022292 3.407672 1351 A 10 "GVO " " C17" 6 1EE11E  1 16.06 2964
+  18 2 4.521144 9.845016 4.546688 1351 A 10 "GVO " " C18" 6 1EE11E  1 15.42 2965
+  19 25 3.272548 9.916484 4.180844 1351 A 38 "GVO " " N19" 7 2E2EFF  1 14.9 2966
+  20 25 3.240332 10.100028 2.797384 1351 A 38 "GVO " " N20" 7 2E2EFF  1 13.18 2967
+  21 2 4.494116 10.152868 2.342708 1351 A 10 "GVO " " C21" 6 1EE11E  1 11.69 2968
+  22 43 12.490744 6.348820 2.686181 1351 A 21 "GVO " "H1_1" 1 FFFFFF  <> <> <>
+  23 43 12.863024 7.723701 1.855272 1351 A 21 "GVO " "H1_2" 1 FFFFFF  <> <> <>
+  24 41 10.795031 7.447752 3.922833 1351 A 21 "GVO " "H2_1" 1 FFFFFF  <> <> <>
+  25 41 10.495221 7.538161 2.221683 1351 A 21 "GVO " "H2_2" 1 FFFFFF  <> <> <>
+  26 41 11.434986 9.858448 2.146105 1351 A 21 "GVO " " HC3" 1 FFFFFF  <> <> <>
+  27 41 11.233856 8.603526 5.730412 1351 A 21 "GVO " " HC5" 1 FFFFFF  <> <> <>
+  28 41 12.893408 9.222897 7.430737 1351 A 21 "GVO " " HC6" 1 FFFFFF  <> <> <>
+  29 41 14.905115 11.675445 4.580975 1351 A 21 "GVO " " HC9" 1 FFFFFF  <> <> <>
+  30 41 13.250136 11.055959 2.871095 1351 A 21 "GVO " "HC10" 1 FFFFFF  <> <> <>
+  31 41 9.319891 9.323230 1.162856 1351 A 21 "GVO " "HC12" 1 FFFFFF  <> <> <>
+  32 41 6.874313 9.528323 1.263199 1351 A 21 "GVO " "HC13" 1 FFFFFF  <> <> <>
+  33 41 7.118731 10.229029 5.481016 1351 A 21 "GVO " "HC15" 1 FFFFFF  <> <> <>
+  34 41 9.548723 9.952709 5.384016 1351 A 21 "GVO " "HC16" 1 FFFFFF  <> <> <>
+  35 41 4.974090 9.683505 5.513722 1351 A 21 "GVO " "HC18" 1 FFFFFF  <> <> <>
+  36 43 2.354240 10.168860 2.317589 1351 A 21 "GVO " "HN20" 1 FFFFFF  <> <> <>
+  37 41 4.897568 10.272676 1.348086 1351 A 21 "GVO " "HC21" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[39] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 22 1
+  3 1 23 1
+  4 2 3 1
+  5 2 24 1
+  6 2 25 1
+  7 3 4 1
+  8 3 11 1
+  9 3 26 1
+  10 4 5 1
+  11 4 10 2
+  12 5 6 2
+  13 5 27 1
+  14 6 7 1
+  15 6 28 1
+  16 7 8 1
+  17 7 9 2
+  18 9 10 1
+  19 9 29 1
+  20 10 30 1
+  21 11 12 1
+  22 11 16 2
+  23 12 13 2
+  24 12 31 1
+  25 13 14 1
+  26 13 32 1
+  27 14 15 2
+  28 14 17 1
+  29 15 16 1
+  30 15 33 1
+  31 16 34 1
+  32 17 18 1
+  33 17 21 2
+  34 18 19 2
+  35 18 35 1
+  36 19 20 1
+  37 20 21 1
+  38 20 36 1
+  39 21 37 1
+  :::
+ } 
+} 
+

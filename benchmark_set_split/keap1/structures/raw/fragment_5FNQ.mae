@@ -1,0 +1,136 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ r_pdb_PDB_EXPDTA_PH
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_ct_format
+ :::
+ fragment_5FNQ 
+  0
+  4 
+  Structure4 
+  "STRUCTURE OF THE KEAP1 KELCH DOMAIN IN COMPLEX WITH A SMALL MOLECULE INHIBITOR." 
+  5FNQ 
+  103.625
+  103.625
+  56.027
+  90
+  90
+  120
+  "P 61" 
+  6
+  TRANSCRIPTION 
+  16-NOV-15 
+  3.30 
+  0.178
+  0.215
+  1.91
+  "X-RAY DIFFRACTION" 
+  93
+  7
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Documents\rondror 
+  5fnq.pdb 
+  1
+  2
+ m_atom[20] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 17 18.597000 64.108000 24.042000 1614 A 70 "S0W " " O1 " 8 0 FF2E2E  0.77 22.69 2235
+  2 2 17.793000 64.926000 24.536000 1614 A 10 "S0W " " C2 " 6 0 1EE11E  0.77 23.89 2236
+  3 18 16.975000 65.617000 23.883000 1614 A 70 "S0W " " O3 " 8 -1 FF2E2E  0.77 28.38 2237
+  4 3 17.812000 65.094000 26.047000 1614 A 10 "S0W " " C4 " 6 0 1EE11E  0.77 22.88 2238
+  5 3 16.975000 64.062000 26.767000 1614 A 10 "S0W " " C5 " 6 0 1EE11E  0.77 22.42 2239
+  6 2 16.999000 64.215000 28.267000 1614 A 10 "S0W " " C6 " 6 0 1EE11E  0.77 19.76 2240
+  7 2 18.146000 63.900000 28.987000 1614 A 10 "S0W " " C7 " 6 0 1EE11E  0.77 17.54 2241
+  8 2 18.173000 64.038000 30.362000 1614 A 10 "S0W " " C8 " 6 0 1EE11E  0.77 15.85 2242
+  9 2 17.055000 64.491000 31.021000 1614 A 10 "S0W " " C9 " 6 0 1EE11E  0.77 17.92 2243
+  10 57 17.092000 64.663000 32.754000 1614 A 9 "S0W " "CL1 " 17 0 008C00  0.77 18.56 2244
+  11 2 15.905000 64.809000 30.331000 1614 A 10 "S0W " " C11" 6 0 1EE11E  0.77 17.7 2245
+  12 2 15.878000 64.672000 28.954000 1614 A 10 "S0W " " C12" 6 0 1EE11E  0.77 17.48 2246
+  13 41 18.739000 65.030000 26.360000 1614 A 21 "S0W " "H41C" 1 0 FFFFFF  0.77 22.98 2247
+  14 41 17.479000 65.988000 26.269000 1614 A 21 "S0W " "H42C" 1 0 FFFFFF  0.77 22.9 2248
+  15 41 16.049000 64.132000 26.453000 1614 A 21 "S0W " "H51C" 1 0 FFFFFF  0.77 21.55 2249
+  16 41 17.306000 63.169000 26.533000 1614 A 21 "S0W " "H52C" 1 0 FFFFFF  0.77 21.84 2250
+  17 41 18.911000 63.590000 28.533000 1614 A 21 "S0W " " H7 " 1 0 FFFFFF  0.77 17.29 2251
+  18 41 15.094000 64.889000 28.477000 1614 A 21 "S0W " " H12" 1 0 FFFFFF  0.77 18.27 2252
+  19 41 18.951000 63.824000 30.844000 1614 A 21 "S0W " " H8 " 1 0 FFFFFF  0.77 17.12 2253
+  20 41 15.144000 65.119000 30.793000 1614 A 21 "S0W " " H11" 1 0 FFFFFF  0.77 17.76 2254
+  :::
+ } 
+ m_bond[20] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 2 3 2
+  3 2 4 1
+  4 4 5 1
+  5 4 13 1
+  6 4 14 1
+  7 5 6 1
+  8 5 15 1
+  9 5 16 1
+  10 6 7 1
+  11 6 12 2
+  12 7 8 2
+  13 7 17 1
+  14 8 9 1
+  15 8 19 1
+  16 9 10 1
+  17 9 11 2
+  18 11 12 1
+  19 11 20 1
+  20 12 18 1
+  :::
+ } 
+} 
+

@@ -1,0 +1,156 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ r_pdb_PDB_EXPDTA_PH
+ i_m_ct_format
+ :::
+ fragment_2VTN 
+  0
+  10 
+  Structure10 
+  "IDENTIFICATION OF N-(4-PIPERIDINYL)-4-(2,6-DICHLOROBENZOYLAMINO)-1H- PYRAZOLE-3-CARBOXAMIDE (AT7519), A NOVEL CYCLIN DEPENDENT KINASE INHIBITOR USING FRAGMENT-BASED X-RAY CRYSTALLOGRAPHY AND STRUCTURE BASED DRUG DESIGN." 
+  2VTN 
+  53.513
+  71.956
+  71.69
+  90
+  90
+  90
+  "P 21 21 21" 
+  4
+  TRANSFERASE 
+  15-MAY-08 
+  3.30 
+  0.204
+  0.251
+  2.2
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2vtn.pdb 
+  1
+  6.7
+  2
+ m_atom[30] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 3 24.157142 6.028674 61.532490 1299 A 10 "LZ7 " " C1 " 6 1EE11E  1 37.39 2213
+  2 2 24.738677 4.924274 62.349225 1299 A 10 "LZ7 " " C2 " 6 1EE11E  1 38.49 2214
+  3 15 24.260566 3.803746 62.354058 1299 A 70 "LZ7 " " O3 " 8 FF2E2E  1 37.68 2215
+  4 25 25.834434 5.241461 63.066356 1299 A 38 "LZ7 " " N4 " 7 2E2EFF  1 44.65 2216
+  5 2 26.521321 4.400912 63.927145 1299 A 10 "LZ7 " " C5 " 6 1EE11E  1 42.16 2217
+  6 2 26.274647 3.096843 64.241333 1299 A 10 "LZ7 " " C6 " 6 1EE11E  1 30.78 2218
+  7 25 27.209020 2.732042 65.107104 1299 A 38 "LZ7 " " N7 " 7 2E2EFF  1 31.87 2219
+  8 25 28.053584 3.748926 65.379436 1299 A 38 "LZ7 " " N9 " 7 2E2EFF  1 36.57 2220
+  9 2 27.647143 4.759057 64.656257 1299 A 10 "LZ7 " " C10" 6 1EE11E  1 40.96 2221
+  10 2 28.371511 6.052297 64.693105 1299 A 10 "LZ7 " " C11" 6 1EE11E  1 47.62 2222
+  11 15 27.934356 7.040305 64.123966 1299 A 70 "LZ7 " " O12" 8 FF2E2E  1 44.19 2223
+  12 25 29.543842 6.059465 65.351772 1299 A 38 "LZ7 " " N13" 7 2E2EFF  1 45.84 2224
+  13 2 30.414178 7.130464 65.483106 1299 A 10 "LZ7 " " C14" 6 1EE11E  1 48.04 2225
+  14 2 31.038873 7.381621 66.703115 1299 A 10 "LZ7 " " C15" 6 1EE11E  1 51.82 2226
+  15 2 31.898217 8.454628 66.837473 1299 A 10 "LZ7 " " C16" 6 1EE11E  1 47.43 2227
+  16 2 32.135857 9.267475 65.751807 1299 A 10 "LZ7 " " C17" 6 1EE11E  1 48.16 2228
+  17 56 32.974172 10.309502 65.887176 1299 A 141 "LZ7 " " F18" 9 6BFFB5  1 54.71 2229
+  18 2 31.534175 9.037299 64.527773 1299 A 10 "LZ7 " " C19" 6 1EE11E  1 47.79 2230
+  19 2 30.670834 7.967296 64.393426 1299 A 10 "LZ7 " " C20" 6 1EE11E  1 49.43 2231
+  20 41 24.741331 6.936967 61.680232 1299 A 21 "LZ7 " "H1_1" 1 FFFFFF  <> <> <>
+  21 41 24.177705 5.751486 60.478524 1299 A 21 "LZ7 " "H1_2" 1 FFFFFF  <> <> <>
+  22 41 23.126831 6.205754 61.841039 1299 A 21 "LZ7 " "H1_3" 1 FFFFFF  <> <> <>
+  23 43 26.228690 6.169137 63.002486 1299 A 21 "LZ7 " " HN4" 1 FFFFFF  <> <> <>
+  24 41 25.438096 2.582127 63.792279 1299 A 21 "LZ7 " " HC6" 1 FFFFFF  <> <> <>
+  25 43 27.219388 1.790314 65.471990 1299 A 21 "LZ7 " " HN7" 1 FFFFFF  <> <> <>
+  26 43 29.867785 5.222624 65.815300 1299 A 21 "LZ7 " "HN13" 1 FFFFFF  <> <> <>
+  27 41 30.851926 6.736058 67.548514 1299 A 21 "LZ7 " "HC15" 1 FFFFFF  <> <> <>
+  28 41 32.375538 8.648631 67.786645 1299 A 21 "LZ7 " "HC16" 1 FFFFFF  <> <> <>
+  29 41 31.741724 9.690068 63.692778 1299 A 21 "LZ7 " "HC19" 1 FFFFFF  <> <> <>
+  30 41 30.193683 7.778198 63.443179 1299 A 21 "LZ7 " "HC20" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 20 1
+  3 1 21 1
+  4 1 22 1
+  5 2 3 2
+  6 2 4 1
+  7 4 5 1
+  8 4 23 1
+  9 5 6 2
+  10 5 9 1
+  11 6 7 1
+  12 6 24 1
+  13 7 8 1
+  14 7 25 1
+  15 8 9 2
+  16 9 10 1
+  17 10 11 2
+  18 10 12 1
+  19 12 13 1
+  20 12 26 1
+  21 13 14 1
+  22 13 19 2
+  23 14 15 2
+  24 14 27 1
+  25 15 16 1
+  26 15 28 1
+  27 16 17 1
+  28 16 18 2
+  29 18 19 1
+  30 18 29 1
+  31 19 30 1
+  :::
+ } 
+} 
+

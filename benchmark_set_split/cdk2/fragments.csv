@@ -1,0 +1,10 @@
+ID,affinity_uM,SMILES,doi
+2vta,185,c1ccc2c(c1)cn[nH]2,https://doi.org/10.1021/jm800382h
+2vth,120,c1cc2c(cccc2S(=O)(=O)N)c(c1)O,https://doi.org/10.1021/jm800382h
+2vtm,1000,c1cnc2c(cnn2c1)C#N,https://doi.org/10.1021/jm800382h
+2vtj,1.9,c1cc(ccc1Nc2cncc(n2)Cl)S(=O)(=O)N,https://doi.org/10.1021/jm800382h
+2vtr,1.5,CC(C)Nc1cc(nc2n1ncc2C#N)Cl,https://doi.org/10.1021/jm800382h
+2vtl,97,c1ccc(cc1)NC(=O)c2cc[nH]n2,https://doi.org/10.1021/jm800382h
+2vtn,0.85,CC(=O)Nc1c[nH]nc1C(=O)Nc2ccc(cc2)F,https://doi.org/10.1021/jm800382h
+1wcc,1000,c1c(nc(cn1)Cl)N,https://doi.org/10.1021/jm800382h
+

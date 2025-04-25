@@ -1,0 +1,153 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ r_pdb_PDB_EXPDTA_PH
+ i_m_ct_format
+ :::
+ fragment_2OHM 
+  0
+  1 
+  Structure9 
+  "X-RAY CRYSTAL STRUCTURE OF BETA SECRETASE COMPLEXED WITH N~3~- BENZYLPYRIDINE-2,3-DIAMINE" 
+  2OHM 
+  101.172
+  101.172
+  170.924
+  90
+  90
+  120
+  "P 61 2 2" 
+  12
+  HYDROLASE 
+  10-JAN-07 
+  3.30 
+  0.211
+  0.279
+  2.7
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Documents\rondror 
+  fragment_2OHM.mae 
+  1
+  6.6
+  2
+ m_atom[28] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 25 66.376803 49.156241 5.936015 389 A 38 "8AP " " N1 " 7 2E2EFF  "N1"  1 44.51 2974
+  2 2 66.985284 48.397050 6.935781 389 A 10 "8AP " " C2 " 6 1EE11E  "C2"  1 57.04 2975
+  3 25 66.754084 47.088774 6.985463 389 A 38 "8AP " " N3 " 7 2E2EFF  "N3"  1 61.55 2976
+  4 2 67.295534 46.292106 7.899214 389 A 10 "8AP " " C4 " 6 1EE11E  "C4"  1 62.09 2977
+  5 2 68.150279 46.807245 8.861371 389 A 10 "8AP " " C5 " 6 1EE11E  "C5"  1 62.12 2978
+  6 2 68.425080 48.168750 8.855845 389 A 10 "8AP " " C6 " 6 1EE11E  "C6"  1 58.82 2979
+  7 2 67.826118 48.984182 7.892588 389 A 10 "8AP " " C7 " 6 1EE11E  "C7"  1 58.45 2980
+  8 25 68.107732 50.356540 7.867908 389 A 38 "8AP " " N8 " 7 2E2EFF  "N8"  1 60.89 2981
+  9 3 69.301606 50.858182 8.567380 389 A 10 "8AP " " C9 " 6 1EE11E  "C9"  1 63.11 2982
+  10 2 70.582717 50.344229 7.931750 389 A 10 "8AP " " C10" 6 1EE11E  "C10"  1 63.37 2983
+  11 2 70.564374 49.561096 6.774219 389 A 10 "8AP " " C11" 6 1EE11E  "C11"  1 63.4 2984
+  12 2 71.744325 49.104809 6.205312 389 A 10 "8AP " " C12" 6 1EE11E  "C12"  1 62.72 2985
+  13 2 72.956614 49.434620 6.792761 389 A 10 "8AP " " C13" 6 1EE11E  "C13"  1 62.17 2986
+  14 2 72.979874 50.214694 7.943258 389 A 10 "8AP " " C14" 6 1EE11E  "C14"  1 62.71 2987
+  15 2 71.797948 50.667006 8.515215 389 A 10 "8AP " " C15" 6 1EE11E  "C15"  1 61.8 2988
+  16 43 66.543051 50.151194 5.885705 389 A 21 "8AP " "H1_1" 1 FFFFFF  ""  <> <> <>
+  17 43 65.770020 48.710936 5.262503 389 A 21 "8AP " "H1_2" 1 FFFFFF  ""  <> <> <>
+  18 41 67.070926 45.235725 7.895917 389 A 21 "8AP " " HC4" 1 FFFFFF  ""  <> <> <>
+  19 41 68.590366 46.152520 9.598974 389 A 21 "8AP " " HC5" 1 FFFFFF  ""  <> <> <>
+  20 41 69.096010 48.587212 9.591469 389 A 21 "8AP " " HC6" 1 FFFFFF  ""  <> <> <>
+  21 43 67.494524 50.989094 7.373994 389 A 21 "8AP " " HN8" 1 FFFFFF  ""  <> <> <>
+  22 41 69.266106 50.549820 9.612250 389 A 21 "8AP " "H9_1" 1 FFFFFF  ""  <> <> <>
+  23 41 69.300440 51.948056 8.550873 389 A 21 "8AP " "H9_2" 1 FFFFFF  ""  <> <> <>
+  24 41 69.623214 49.303863 6.311133 389 A 21 "8AP " "HC11" 1 FFFFFF  ""  <> <> <>
+  25 41 71.713988 48.498086 5.312358 389 A 21 "8AP " "HC12" 1 FFFFFF  ""  <> <> <>
+  26 41 73.880811 49.085526 6.356420 389 A 21 "8AP " "HC13" 1 FFFFFF  ""  <> <> <>
+  27 41 73.923152 50.474340 8.400654 389 A 21 "8AP " "HC14" 1 FFFFFF  ""  <> <> <>
+  28 41 71.823637 51.268499 9.411845 389 A 21 "8AP " "HC15" 1 FFFFFF  ""  <> <> <>
+  :::
+ } 
+ m_bond[29] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 16 1
+  3 1 17 1
+  4 2 3 2
+  5 2 7 1
+  6 3 4 1
+  7 4 5 2
+  8 4 18 1
+  9 5 6 1
+  10 5 19 1
+  11 6 7 2
+  12 6 20 1
+  13 7 8 1
+  14 8 9 1
+  15 8 21 1
+  16 9 10 1
+  17 9 22 1
+  18 9 23 1
+  19 10 11 1
+  20 10 15 2
+  21 11 12 2
+  22 11 24 1
+  23 12 13 1
+  24 12 25 1
+  25 13 14 2
+  26 13 26 1
+  27 14 15 1
+  28 14 27 1
+  29 15 28 1
+  :::
+ } 
+} 
+

@@ -6,7 +6,7 @@ import click
 import os
 from glob import glob
 from schrodinger.structure import StructureReader, StructureWriter
-
+import shutil
 from utils import *
 
 ###############################################################################
@@ -17,6 +17,30 @@ mcss_version = 'mcss16'
 shape_version = 'pharm_max'
 ifp_version = 'rd1'
 
+
+import os
+
+def is_running_in_vscode():
+    # Check for various VS Code environment variables
+    vscode_indicators = [
+        'VSCODE_CLI', 'VSCODE_CWD', 'VSCODE_IPC_HOOK', 
+        'VSCODE_NLS_CONFIG', 'VSCODE_PID', 'TERM_PROGRAM'
+    ]
+    
+    # for indicator in vscode_indicators:
+    #     if indicator in os.environ:
+    #         if indicator == 'TERM_PROGRAM' and os.environ[indicator] != 'vscode':
+    #             continue
+    #         breakpoint()
+    #         return True
+    
+    # Check for VS Code debugger
+    if 'DEBUGPY_LAUNCHER_PORT' in os.environ or 'PYDEVD_LOAD_VALUES_ASYNC' in os.environ:
+        return True
+    
+    return False
+
+
 @click.group()
 def main():
     pass
@@ -24,7 +48,8 @@ def main():
 @main.command()
 @click.argument('struct', default='')
 @click.option('--grid-struct')
-def structprep(struct, grid_struct):
+@click.option('--root', required=True)
+def structprep(struct, grid_struct, root):
     """
     Prepare structures and make a docking grid.
 
@@ -67,10 +92,16 @@ def structprep(struct, grid_struct):
     from dock.struct_process import struct_process
     from dock.grid import make_grid
 
-    assert os.path.exists('structures'), 'No structures directory.'
+    assert os.path.exists(f'{root}/structures'), 'No structures directory.'
 
-    structs = sorted(glob('structures/raw/*_prot.mae*'))
+    structs = sorted(glob(f'{root}/structures/raw/*_prot.mae*'))
     structs = [struct.split('/')[-1].split('_prot')[0] for struct in structs]
+    
+    #move root/structures to structures/raw_old
+    os.makedirs(f'structures/raw', exist_ok=False)
+    #copy all files in root/structures to structures/raw
+    for file in os.listdir(f'{root}/structures/raw'):
+        shutil.copy(f'{root}/structures/raw/{file}', f'structures/raw/{file}')
     
     if not struct:
         struct = structs[0]
@@ -85,6 +116,13 @@ def structprep(struct, grid_struct):
     struct_align(struct, structs)
     struct_sort(structs)
     make_grid(grid_struct)
+    
+    #copy all other folders in structures to root
+    for folder in os.listdir(f'structures'):
+        shutil.copytree(f'structures/{folder}', f'{root}/structures/{folder}', dirs_exist_ok=True)
+    #remove structures folder
+    shutil.rmtree(f'structures')
+    
 
 @main.command()
 @click.argument('smiles')
@@ -176,7 +214,6 @@ def dock(grid, root, ligands, screen, processes):
     ligands = [os.path.abspath(lig) for lig in ligands if 'nonames' not in lig]
     grid = os.path.abspath(grid)
     root = os.path.abspath(root)
-
     mkdir(root)
     unfinished = []
     for ligand in ligands:
@@ -202,7 +239,11 @@ def dock(grid, root, ligands, screen, processes):
 def featurize(root, poseviewers, native, ifp_version, mcss_version,
               shape_version, screen, no_mcss, no_shape, processes, max_poses):
     from features.features import Features
-
+    
+    #remove mcss and shape features for fragment based docking
+    no_mcss = True
+    no_shape = True
+    
     native_poses = {}
     for native_path in glob(native):
         name = native_path.split('/')[-1].split('_lig')[0]
@@ -210,10 +251,13 @@ def featurize(root, poseviewers, native, ifp_version, mcss_version,
             sts = list(sts)
         assert len(sts) == 1
         native_poses[name] = sts[0]
-
+    if is_running_in_vscode():
+        print("Running in VS Code")
+        # Handle wildcards manually with glob
+        poseviewers = glob(poseviewers[0])
     features = Features(root, ifp_version=ifp_version, shape_version=shape_version,
                         mcss_version=mcss_version, max_poses=max_poses)
-
+    
     features.compute_single_features(poseviewers, native_poses=native_poses)
 
     if screen:
@@ -245,6 +289,11 @@ def pose_prediction(root, out, ligands, alpha, stats_root,
     from score.statistics import read_stats
     from features.features import Features
 
+    #remove mcss and shape features for fragment based docking
+    features = 'hbond,saltbridge,contact'
+    
+    
+    
     features = features.split(',')
 
     protein = Features(root)
@@ -311,7 +360,7 @@ def extract_top_poses(scores, original_pvs):
         counts = {}
         written = []
         for pv in original_pvs:
-            with StructureReader(original_pvs[0]) as sts:
+            with StructureReader(pv) as sts:
                 prot = next(sts)
                 for st in sts:
                     name = st.title

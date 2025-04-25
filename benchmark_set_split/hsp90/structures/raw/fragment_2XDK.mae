@@ -1,0 +1,136 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_ct_format
+ :::
+ fragment_2XDK 
+  0
+  16 
+  Structure16 
+  "STRUCTURE OF HSP90 WITH SMALL MOLECULE INHIBITOR BOUND" 
+  2XDK 
+  53.591
+  44.211
+  54.298
+  90
+  115.89
+  90
+  "P 1 21 1" 
+  2
+  CHAPERONE 
+  04-MAY-10 
+  3.30 
+  0.171
+  0.24
+  1.97
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2xdk.pdb 
+  1
+  2
+ m_atom[21] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 2 -0.851636 33.401287 49.058686 1226 A 10 "XDK " " C7A" 6 1EE11E  1 20.35 1702
+  2 2 -1.555339 34.577246 49.244317 1226 A 10 "XDK " " C3A" 6 1EE11E  1 17.41 1703
+  3 25 -0.995309 35.673757 49.767890 1226 A 38 "XDK " " N2A" 7 2E2EFF  1 22.41 1704
+  4 2 0.303682 35.617433 50.100908 1226 A 10 "XDK " " C1A" 6 1EE11E  1 16.86 1705
+  5 2 1.089737 34.477528 49.939394 1226 A 10 "XDK " " C5A" 6 1EE11E  1 16.83 1706
+  6 2 2.528849 34.471540 50.325083 1226 A 10 "XDK " " C4 " 6 1EE11E  1 18.7 1707
+  7 25 3.385608 33.937004 49.440083 1226 A 38 "XDK " " N3 " 7 2E2EFF  1 14.14 1708
+  8 2 2.975640 34.997126 51.524089 1226 A 10 "XDK " " C5 " 6 1EE11E  1 17.41 1709
+  9 2 4.323571 34.969410 51.797660 1226 A 10 "XDK " " C6 " 6 1EE11E  1 14.55 1710
+  10 25 5.194564 34.445594 50.934106 1226 A 38 "XDK " " N1 " 7 2E2EFF  1 8.36 1711
+  11 2 4.697361 33.950755 49.775228 1226 A 10 "XDK " " C2 " 6 1EE11E  1 12.34 1712
+  12 25 5.587299 33.425832 48.867916 1226 A 38 "XDK " " N7 " 7 2E2EFF  1 10.31 1713
+  13 2 0.483397 33.349321 49.401104 1226 A 10 "XDK " " C9 " 6 1EE11E  1 11.55 1714
+  14 41 -1.347842 32.534007 48.648802 1226 A 21 "XDK " "HC7A" 1 FFFFFF  <> <> <>
+  15 41 -2.596505 34.633674 48.962911 1226 A 21 "XDK " "HC3A" 1 FFFFFF  <> <> <>
+  16 41 0.792317 36.485517 50.518119 1226 A 21 "XDK " "HC1A" 1 FFFFFF  <> <> <>
+  17 41 2.270461 35.418867 52.224985 1226 A 21 "XDK " " HC5" 1 FFFFFF  <> <> <>
+  18 41 4.694554 35.376861 52.726507 1226 A 21 "XDK " " HC6" 1 FFFFFF  <> <> <>
+  19 43 6.575293 33.415956 49.077370 1226 A 21 "XDK " "H7_1" 1 FFFFFF  <> <> <>
+  20 43 5.252984 33.050142 47.992022 1226 A 21 "XDK " "H7_2" 1 FFFFFF  <> <> <>
+  21 41 1.044643 32.439091 49.249826 1226 A 21 "XDK " " HC9" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[22] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 13 2
+  3 1 14 1
+  4 2 3 2
+  5 2 15 1
+  6 3 4 1
+  7 4 5 2
+  8 4 16 1
+  9 5 6 1
+  10 5 13 1
+  11 6 7 2
+  12 6 8 1
+  13 7 11 1
+  14 8 9 2
+  15 8 17 1
+  16 9 10 1
+  17 9 18 1
+  18 10 11 2
+  19 11 12 1
+  20 12 19 1
+  21 12 20 1
+  22 13 21 1
+  :::
+ } 
+} 
+

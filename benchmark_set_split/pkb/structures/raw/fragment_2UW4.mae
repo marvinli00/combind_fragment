@@ -1,0 +1,154 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_ct_format
+ :::
+ fragment_2UW4 
+  0
+  9 
+  Structure9 
+  "STRUCTURE OF PKA-PKB CHIMERA COMPLEXED WITH 2-(4-(5-METHYL- 1H-PYRAZOL-4-YL)-PHENYL)-ETHYLAMINE" 
+  2UW4 
+  72.341
+  75.074
+  79.961
+  90
+  90
+  90
+  "P 21 21 21" 
+  4
+  TRANSFERASE 
+  19-MAR-07 
+  3.15 
+  0.216
+  0.274
+  2
+  "X-RAY DIFFRACTION" 
+  100
+  "A, I" 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2uw4.pdb 
+  1
+  2
+ m_atom[30] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 3 4.565144 10.126441 0.782182 1351 A 10 "L15 " " C1 " 6 1EE11E  1 20.07 2933
+  2 2 4.245086 9.995982 2.229926 1351 A 10 "L15 " " C2 " 6 1EE11E  1 23.05 2934
+  3 25 2.953334 9.914394 2.670850 1351 A 38 "L15 " " N3 " 7 2E2EFF  1 22.4 2935
+  4 25 2.897390 9.805169 4.025310 1351 A 38 "L15 " " N4 " 7 2E2EFF  1 24.43 2936
+  5 2 4.178800 9.819528 4.439494 1351 A 10 "L15 " " C5 " 6 1EE11E  1 22.78 2937
+  6 2 5.058396 9.942422 3.360938 1351 A 10 "L15 " " C6 " 6 1EE11E  1 23.38 2938
+  7 2 6.526486 9.957893 3.410362 1351 A 10 "L15 " " C7 " 6 1EE11E  1 24.22 2939
+  8 2 7.193682 10.253487 4.592674 1351 A 10 "L15 " " C8 " 6 1EE11E  1 26.07 2940
+  9 2 8.575250 10.234163 4.641550 1351 A 10 "L15 " " C9 " 6 1EE11E  1 28.55 2941
+  10 2 9.316516 9.913869 3.510600 1351 A 10 "L15 " " C10" 6 1EE11E  1 29.16 2942
+  11 3 10.824192 9.892775 3.555744 1351 A 10 "L15 " " C11" 6 1EE11E  1 33.09 2943
+  12 3 11.390696 8.485566 3.561292 1351 A 10 "L15 " " C12" 6 1EE11E  1 34.24 2944
+  13 26 10.839240 7.603323 2.496248 1351 A 38 "L15 " " N13" 7 2E2EFF  1 37.25 2945
+  14 2 8.647178 9.613307 2.332252 1351 A 10 "L15 " " C14" 6 1EE11E  1 27.92 2946
+  15 2 7.270568 9.629561 2.283466 1351 A 10 "L15 " " C15" 6 1EE11E  1 27.44 2947
+  16 41 5.646185 10.175093 0.651481 1351 A 21 "L15 " "H1_1" 1 FFFFFF  <> <> <>
+  17 41 4.173043 9.263672 0.243679 1351 A 21 "L15 " "H1_2" 1 FFFFFF  <> <> <>
+  18 41 4.110920 11.036231 0.389674 1351 A 21 "L15 " "H1_3" 1 FFFFFF  <> <> <>
+  19 43 2.003259 9.735529 4.489832 1351 A 21 "L15 " " HN4" 1 FFFFFF  <> <> <>
+  20 41 4.406965 9.740890 5.492184 1351 A 21 "L15 " " HC5" 1 FFFFFF  <> <> <>
+  21 41 6.632858 10.500576 5.481956 1351 A 21 "L15 " " HC8" 1 FFFFFF  <> <> <>
+  22 41 9.086310 10.469103 5.563516 1351 A 21 "L15 " " HC9" 1 FFFFFF  <> <> <>
+  23 41 11.167483 10.424936 4.442906 1351 A 21 "L15 " "H111" 1 FFFFFF  <> <> <>
+  24 41 11.219882 10.439157 2.699592 1351 A 21 "L15 " "H112" 1 FFFFFF  <> <> <>
+  25 41 11.214958 8.029179 4.535421 1351 A 21 "L15 " "H121" 1 FFFFFF  <> <> <>
+  26 41 12.475500 8.532422 3.465872 1351 A 21 "L15 " "H122" 1 FFFFFF  <> <> <>
+  27 43 11.261873 6.688499 2.563911 1351 A 21 "L15 " "H131" 1 FFFFFF  <> <> <>
+  28 43 9.839164 7.520955 2.610982 1351 A 21 "L15 " "H132" 1 FFFFFF  <> <> <>
+  29 41 9.205958 9.363687 1.442390 1351 A 21 "L15 " "HC14" 1 FFFFFF  <> <> <>
+  30 41 6.769981 9.384098 1.358501 1351 A 21 "L15 " "HC15" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 16 1
+  3 1 17 1
+  4 1 18 1
+  5 2 3 2
+  6 2 6 1
+  7 3 4 1
+  8 4 5 1
+  9 4 19 1
+  10 5 6 2
+  11 5 20 1
+  12 6 7 1
+  13 7 8 1
+  14 7 15 2
+  15 8 9 2
+  16 8 21 1
+  17 9 10 1
+  18 9 22 1
+  19 10 11 1
+  20 10 14 2
+  21 11 12 1
+  22 11 23 1
+  23 11 24 1
+  24 12 13 1
+  25 12 25 1
+  26 12 26 1
+  27 13 27 1
+  28 13 28 1
+  29 14 15 1
+  30 14 29 1
+  31 15 30 1
+  :::
+ } 
+} 
+

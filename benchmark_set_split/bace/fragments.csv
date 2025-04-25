@@ -1,0 +1,6 @@
+ID,affinity_uM,SMILES,doi
+2ohk,2000,c1ccc2c(c1)ccnc2N,https://doi.org/10.1021/jm0611962
+2ohl,2000,c1ccc2c(c1)ccc(n2)N,https://doi.org/10.1021/jm0611962
+2ohm,310,c1ccc(cc1)CNc2cccnc2N,https://doi.org/10.1021/jm0611962
+2ohn,500,c1cc(ccc1CC2CCNCC2)F,https://doi.org/10.1021/jm0611962
+2va5,130,c1cc(cc2c1cc[nH]2)CCC3=CC(=O)NC(=N3)N,https://doi.org/10.1021/jm070829p

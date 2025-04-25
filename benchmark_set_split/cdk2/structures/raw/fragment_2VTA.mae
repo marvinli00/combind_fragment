@@ -1,0 +1,124 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_ct_format
+ :::
+ fragment_2VTA 
+  0
+  16 
+  Structure16 
+  "IDENTIFICATION OF N-(4-PIPERIDINYL)-4-(2,6-DICHLOROBENZOYLAMINO)-1H- PYRAZOLE-3-CARBOXAMIDE (AT7519), A NOVEL CYCLIN DEPENDENT KINASE INHIBITOR USING FRAGMENT-BASED X-RAY CRYSTALLOGRAPHY AND STRUCTURE BASED DRUG DESIGN." 
+  2VTA 
+  53.457
+  71.316
+  72.458
+  90
+  90
+  90
+  "P 21 21 21" 
+  4
+  TRANSFERASE 
+  13-MAY-08 
+  3.30 
+  0.233
+  0.28
+  2
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2vta.pdb 
+  1
+  2
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 2 26.577683 4.314778 64.248793 1301 A 10 "LZ1 " " C1 " 6 1EE11E  1 36.11 2258
+  2 2 27.252475 5.537974 64.369871 1301 A 10 "LZ1 " " C2 " 6 1EE11E  1 41.23 2259
+  3 2 26.780212 6.629064 63.644040 1301 A 10 "LZ1 " " C3 " 6 1EE11E  1 44.79 2260
+  4 2 25.678141 6.503068 62.817134 1301 A 10 "LZ1 " " C4 " 6 1EE11E  1 43.64 2261
+  5 2 25.026300 5.288970 62.701105 1301 A 10 "LZ1 " " C5 " 6 1EE11E  1 41.31 2262
+  6 2 25.475572 4.193862 63.411927 1301 A 10 "LZ1 " " C6 " 6 1EE11E  1 39.62 2263
+  7 25 27.244796 3.429224 65.056068 1301 A 38 "LZ1 " " N  " 7 2E2EFF  1 36.33 2264
+  8 2 28.309812 5.299984 65.281920 1301 A 10 "LZ1 " " C9 " 6 1EE11E  1 37.79 2265
+  9 25 28.297876 4.020600 65.679732 1301 A 38 "LZ1 " " N2 " 7 2E2EFF  1 41.4 2266
+  10 41 27.275267 7.585622 63.723529 1301 A 21 "LZ1 " " HC3" 1 FFFFFF  <> <> <>
+  11 41 25.322426 7.355713 62.257792 1301 A 21 "LZ1 " " HC4" 1 FFFFFF  <> <> <>
+  12 41 24.166025 5.197555 62.054599 1301 A 21 "LZ1 " " HC5" 1 FFFFFF  <> <> <>
+  13 41 24.970782 3.243758 63.317648 1301 A 21 "LZ1 " " HC6" 1 FFFFFF  <> <> <>
+  14 43 26.929599 2.472114 65.124563 1301 A 21 "LZ1 " " HN " 1 FFFFFF  <> <> <>
+  15 41 28.978354 6.102999 65.555083 1301 A 21 "LZ1 " " HC9" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 2
+  3 1 7 1
+  4 2 3 2
+  5 2 8 1
+  6 3 4 1
+  7 3 10 1
+  8 4 5 2
+  9 4 11 1
+  10 5 6 1
+  11 5 12 1
+  12 6 13 1
+  13 7 9 1
+  14 7 14 1
+  15 8 9 2
+  16 8 15 1
+  :::
+ } 
+} 
+

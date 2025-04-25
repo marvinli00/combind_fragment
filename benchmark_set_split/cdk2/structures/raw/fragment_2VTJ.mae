@@ -1,0 +1,150 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ r_pdb_PDB_EXPDTA_PH
+ i_m_ct_format
+ :::
+ fragment_2VTJ 
+  0
+  13 
+  Structure13 
+  "IDENTIFICATION OF N-(4-PIPERIDINYL)-4-(2,6-DICHLOROBENZOYLAMINO)-1H- PYRAZOLE-3-CARBOXAMIDE (AT7519), A NOVEL CYCLIN DEPENDENT KINASE INHIBITOR USING FRAGMENT-BASED X-RAY CRYSTALLOGRAPHY AND STRUCTURE BASED DRUG DESIGN" 
+  2VTJ 
+  53.643
+  72.107
+  72.332
+  90
+  90
+  90
+  "P 21 21 21" 
+  4
+  TRANSFERASE 
+  15-MAY-08 
+  3.30 
+  0.186
+  0.262
+  2.2
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2vtj.pdb 
+  1
+  6.7
+  2
+ m_atom[27] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 25 33.570697 11.040244 66.232438 1300 A 38 "LZ4 " " N1 " 7 2E2EFF  1 45.42 2236
+  2 113 33.218563 10.727050 64.701568 1300 A 143 "LZ4 " " S2 " 16 FFFF6B  1 49.36 2237
+  3 15 32.985987 11.983192 64.036910 1300 A 70 "LZ4 " " O3 " 8 FF2E2E  1 48.68 2238
+  4 15 34.243091 9.845866 64.193520 1300 A 70 "LZ4 " " O4 " 8 FF2E2E  1 48.71 2239
+  5 2 31.701164 9.823796 64.672868 1300 A 10 "LZ4 " " C5 " 6 1EE11E  1 40.92 2240
+  6 2 30.499482 10.499883 64.523199 1300 A 10 "LZ4 " " C6 " 6 1EE11E  1 41.24 2241
+  7 2 29.318304 9.790335 64.491759 1300 A 10 "LZ4 " " C7 " 6 1EE11E  1 42.3 2242
+  8 2 29.323885 8.400841 64.619179 1300 A 10 "LZ4 " " C8 " 6 1EE11E  1 38.86 2243
+  9 25 28.118778 7.681443 64.597095 1300 A 38 "LZ4 " " N9 " 7 2E2EFF  1 36.98 2244
+  10 2 27.859461 6.313340 64.735606 1300 A 10 "LZ4 " " C10" 6 1EE11E  1 36.99 2245
+  11 2 28.595040 5.478161 65.565889 1300 A 10 "LZ4 " " C11" 6 1EE11E  1 38.97 2246
+  12 25 28.325609 4.175788 65.683566 1300 A 38 "LZ4 " " N12" 7 2E2EFF  1 35.59 2247
+  13 2 27.301538 3.710515 64.964103 1300 A 10 "LZ4 " " C13" 6 1EE11E  1 31.16 2248
+  14 2 26.575130 4.554937 64.151613 1300 A 10 "LZ4 " " C14" 6 1EE11E  1 31.56 2249
+  15 57 25.251971 3.924965 63.223091 1300 A 9 "LZ4 " "CL1 " 17 008C00  1 36.4 2250
+  16 25 26.827327 5.856963 64.008089 1300 A 38 "LZ4 " " N16" 7 2E2EFF  1 37.03 2251
+  17 2 30.536686 7.735911 64.780595 1300 A 10 "LZ4 " " C17" 6 1EE11E  1 40.31 2252
+  18 2 31.717837 8.445417 64.809035 1300 A 10 "LZ4 " " C18" 6 1EE11E  1 34.7 2253
+  19 43 33.768283 10.282562 66.870386 1300 A 21 "LZ4 " "H1_1" 1 FFFFFF  <> <> <>
+  20 43 33.595151 11.995412 66.559786 1300 A 21 "LZ4 " "H1_2" 1 FFFFFF  <> <> <>
+  21 41 30.493039 11.576016 64.432110 1300 A 21 "LZ4 " " HC6" 1 FFFFFF  <> <> <>
+  22 41 28.379522 10.309680 64.367786 1300 A 21 "LZ4 " " HC7" 1 FFFFFF  <> <> <>
+  23 43 27.243353 8.166720 64.462046 1300 A 21 "LZ4 " " HN9" 1 FFFFFF  <> <> <>
+  24 41 29.415841 5.877305 66.143270 1300 A 21 "LZ4 " "HC11" 1 FFFFFF  <> <> <>
+  25 41 27.036262 2.664875 65.015736 1300 A 21 "LZ4 " "HC13" 1 FFFFFF  <> <> <>
+  26 41 30.553613 6.661002 64.883958 1300 A 21 "LZ4 " "HC17" 1 FFFFFF  <> <> <>
+  27 41 32.656415 7.926791 64.937480 1300 A 21 "LZ4 " "HC18" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[28] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 19 1
+  3 1 20 1
+  4 2 3 2
+  5 2 4 2
+  6 2 5 1
+  7 5 6 1
+  8 5 18 2
+  9 6 7 2
+  10 6 21 1
+  11 7 8 1
+  12 7 22 1
+  13 8 9 1
+  14 8 17 2
+  15 9 10 1
+  16 9 23 1
+  17 10 11 1
+  18 10 16 2
+  19 11 12 2
+  20 11 24 1
+  21 12 13 1
+  22 13 14 2
+  23 13 25 1
+  24 14 15 1
+  25 14 16 1
+  26 17 18 1
+  27 17 26 1
+  28 18 27 1
+  :::
+ } 
+} 
+

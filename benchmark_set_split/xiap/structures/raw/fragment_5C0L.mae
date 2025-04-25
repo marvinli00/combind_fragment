@@ -1,0 +1,147 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ r_pdb_PDB_EXPDTA_PH
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_ct_format
+ :::
+ fragment_5C0L 
+  0
+  8 
+  Structure8 
+  "FRAGMENT-BASED DRUG DISCOVERY TARGETING INHIBITOR OF APOPTOSIS PROTEINS: COMPOUND 2" 
+  5C0L 
+  71.571
+  71.571
+  105.666
+  90
+  90
+  90
+  "P 41 2 2" 
+  8
+  LIGASE 
+  12-JUN-15 
+  3.30 
+  0.2
+  0.232
+  2.6
+  "X-RAY DIFFRACTION" 
+  100
+  7.5
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  5c0l.pdb 
+  1
+  2
+ m_atom[25] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 2 -15.848262 -19.218318 -6.436819 402 A 10 "4WJ " " C2 " 6 0 1EE11E  0.77 37.75 869
+  2 2 -14.538063 -19.301114 -6.034911 402 A 10 "4WJ " " C3 " 6 0 1EE11E  0.77 34.87 870
+  3 25 -14.464668 -19.295670 -4.713511 402 A 38 "4WJ " " N4 " 7 0 2E2EFF  0.77 34.29 871
+  4 2 -16.595800 -19.161458 -5.354745 402 A 10 "4WJ " " C6 " 6 0 1EE11E  0.77 33.31 872
+  5 3 -16.114059 -19.173626 -2.891183 402 A 10 "4WJ " " C7 " 6 0 1EE11E  0.77 34.34 873
+  6 3 -15.717857 -20.481096 -2.199954 402 A 10 "4WJ " " C8 " 6 0 1EE11E  0.77 33.93 874
+  7 3 -15.797387 -17.975206 -0.704289 402 A 10 "4WJ " " C11" 6 0 1EE11E  0.77 36.62 875
+  8 3 -15.515968 -17.952638 -2.198031 402 A 10 "4WJ " " C12" 6 0 1EE11E  0.77 36.15 876
+  9 58 -16.522578 -19.188692 -8.192386 402 A 22 "4WJ " "BR1 " 35 0 8C0000  0.77 47.52 877
+  10 25 -15.758891 -19.207618 -4.311327 402 A 38 "4WJ " " N5 " 7 0 2E2EFF  0.77 34.33 878
+  11 3 -15.966449 -20.429578 -0.701343 402 A 10 "4WJ " " C9 " 6 0 1EE11E  0.77 34.43 879
+  12 32 -15.296795 -19.242844 -0.106700 402 A 38 "4WJ " " N10" 7 1 2E2EFF  0.77 36.62 880
+  13 41 -13.786097 -19.354904 -6.602954 402 A 21 "4WJ " " H13" 1 0 FFFFFF  0.77 35.68 881
+  14 41 -17.519181 -19.100100 -5.308612 402 A 21 "4WJ " " H14" 1 0 FFFFFF  0.77 33.4 882
+  15 41 -17.096511 -19.094358 -2.838417 402 A 21 "4WJ " " H15" 1 0 FFFFFF  0.77 34.53 883
+  16 41 -16.232455 -21.214684 -2.587620 402 A 21 "4WJ " " H17" 1 0 FFFFFF  0.77 33.67 884
+  17 41 -14.774655 -20.655892 -2.364540 402 A 21 "4WJ " " H16" 1 0 FFFFFF  0.77 34.09 885
+  18 41 -16.760344 -17.900486 -0.548403 402 A 21 "4WJ " " H23" 1 0 FFFFFF  0.77 36.52 886
+  19 41 -15.356061 -17.215588 -0.273092 402 A 21 "4WJ " " H22" 1 0 FFFFFF  0.77 36.52 887
+  20 41 -15.897671 -17.140942 -2.588197 402 A 21 "4WJ " " H25" 1 0 FFFFFF  0.77 35.83 888
+  21 41 -14.553233 -17.936326 -2.346281 402 A 21 "4WJ " " H24" 1 0 FFFFFF  0.77 35.75 889
+  22 41 -16.924439 -20.380780 -0.528328 402 A 21 "4WJ " " H19" 1 0 FFFFFF  0.77 34.48 890
+  23 41 -15.620889 -21.242230 -0.282353 402 A 21 "4WJ " " H18" 1 0 FFFFFF  0.77 34.73 891
+  24 44 -14.395929 -19.304636 -0.249948 402 A 21 "4WJ " " H20" 1 0 FFFFFF  0.77 35.77 892
+  25 44 -15.441258 -19.230568 0.781564 402 A 21 "4WJ " " H21" 1 0 FFFFFF  0.77 36.14 893
+  :::
+ } 
+ m_bond[26] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 4 2
+  3 1 9 1
+  4 2 3 2
+  5 2 13 1
+  6 3 10 1
+  7 4 10 1
+  8 4 14 1
+  9 5 6 1
+  10 5 8 1
+  11 5 10 1
+  12 5 15 1
+  13 6 11 1
+  14 6 16 1
+  15 6 17 1
+  16 7 8 1
+  17 7 12 1
+  18 7 18 1
+  19 7 19 1
+  20 8 20 1
+  21 8 21 1
+  22 11 12 1
+  23 11 22 1
+  24 11 23 1
+  25 12 24 1
+  26 12 25 1
+  :::
+ } 
+} 
+

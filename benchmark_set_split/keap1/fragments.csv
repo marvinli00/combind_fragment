@@ -1,0 +1,5 @@
+ID,affinity_uM,SMILES,doi
+5fnq,1000,c1cc(ccc1CCC(=O)O)Cl,https://doi.org/10.1021/acs.jmedchem.6b00228
+5fzj,1000,Cc1nc2c(o1)C=C(OC2=O)C,https://doi.org/10.1021/acs.jmedchem.6b00228
+5fzn,1000,c1ccc(cc1)S(=O)(=O)N,https://doi.org/10.1021/acs.jmedchem.6b00228
+

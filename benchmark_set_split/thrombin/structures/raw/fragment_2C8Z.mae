@@ -1,0 +1,129 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ r_pdb_PDB_EXPDTA_PH
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ i_m_ct_format
+ :::
+ fragment_2C8Z 
+  0
+  6 
+  Structure6 
+  "THROMBIN INHIBITORS" 
+  2C8Z 
+  68.938
+  71.657
+  71.839
+  90
+  100.1
+  90
+  "C 1 2 1" 
+  4
+  "HYDROLASE/HYDROLASE INHIBITOR" 
+  08-DEC-05 
+  3.30 
+  0.176
+  0.246
+  2.14
+  "X-RAY DIFFRACTION" 
+  100
+  7.3
+  "A, B, I" 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2c8z.pdb 
+  1
+  2
+ m_atom[17] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 26 7.643292 21.841072 50.671036 1250 B 38 "C2A " " N  " 7 2E2EFF  1 44.74 2371
+  2 3 8.694648 22.863884 50.792942 1250 B 10 "C2A " " C  " 6 1EE11E  1 40.76 2372
+  3 2 9.470472 22.958772 49.507386 1250 B 10 "C2A " " C1 " 6 1EE11E  1 35.69 2373
+  4 2 10.339694 21.942276 49.142638 1250 B 10 "C2A " " C2 " 6 1EE11E  1 38.41 2374
+  5 2 11.054758 22.048408 47.955204 1250 B 10 "C2A " " C3 " 6 1EE11E  1 36.14 2375
+  6 2 10.896580 23.164052 47.136526 1250 B 10 "C2A " " C4 " 6 1EE11E  1 34.19 2376
+  7 2 10.028394 24.187544 47.505272 1250 B 10 "C2A " " C5 " 6 1EE11E  1 33 2377
+  8 2 9.324288 24.069368 48.695684 1250 B 10 "C2A " " C6 " 6 1EE11E  1 30.36 2378
+  9 57 9.843042 25.610300 46.485650 1250 B 9 "C2A " "CL8 " 17 008C00  1 34.36 2379
+  10 43 7.127153 21.783211 51.537265 1250 B 21 "C2A " "H__1" 1 FFFFFF  <> <> <>
+  11 43 7.014666 22.091451 49.921210 1250 B 21 "C2A " "H__2" 1 FFFFFF  <> <> <>
+  12 41 9.369810 22.595486 51.605481 1250 B 21 "C2A " "1HXT" 1 FFFFFF  <> <> <>
+  13 41 8.238492 23.828899 51.013778 1250 B 21 "C2A " "2HXT" 1 FFFFFF  <> <> <>
+  14 41 10.456702 21.077535 49.778981 1250 B 21 "C2A " " HC2" 1 FFFFFF  <> <> <>
+  15 41 11.736904 21.263510 47.663636 1250 B 21 "C2A " " HC3" 1 FFFFFF  <> <> <>
+  16 41 11.448782 23.237541 46.211284 1250 B 21 "C2A " " HC4" 1 FFFFFF  <> <> <>
+  17 41 8.652755 24.864474 48.984215 1250 B 21 "C2A " " HC6" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[17] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 10 1
+  3 1 11 1
+  4 2 3 1
+  5 2 12 1
+  6 2 13 1
+  7 3 4 2
+  8 3 8 1
+  9 4 5 1
+  10 4 14 1
+  11 5 6 2
+  12 5 15 1
+  13 6 7 1
+  14 6 16 1
+  15 7 8 2
+  16 7 9 1
+  17 8 17 1
+  :::
+ } 
+} 
+

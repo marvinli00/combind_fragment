@@ -1,0 +1,144 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ r_pdb_PDB_EXPDTA_PH
+ i_m_ct_format
+ :::
+ fragment_2VTH 
+  0
+  15 
+  Structure15 
+  "IDENTIFICATION OF N-(4-PIPERIDINYL)-4-(2,6-DICHLOROBENZOYLAMINO)-1H- PYRAZOLE-3-CARBOXAMIDE (AT7519), A NOVEL CYCLIN DEPENDENT KINASE INHIBITOR USING FRAGMENT-BASED X-RAY CRYSTALLOGRAPHY AND STRUCTURE BASED DRUG DESIGN" 
+  2VTH 
+  53.481
+  71.648
+  72.181
+  90
+  90
+  90
+  "P 21 21 21" 
+  4
+  TRANSFERASE 
+  15-MAY-08 
+  3.30 
+  0.198
+  0.241
+  1.9
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Downloads 
+  2vth.pdb 
+  1
+  6.7
+  2
+ m_atom[24] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 25 26.381964 7.742190 60.325292 1300 A 38 "LZ2 " " N1 " 7 2E2EFF  1 37.7 2252
+  2 113 26.244102 8.552290 61.702761 1300 A 143 "LZ2 " " S2 " 16 FFFF6B  1 54.89 2253
+  3 15 26.967338 9.787594 61.552075 1300 A 70 "LZ2 " " O3 " 8 FF2E2E  1 62.08 2254
+  4 15 24.849692 8.591837 62.042509 1300 A 70 "LZ2 " " O4 " 8 FF2E2E  1 54.28 2255
+  5 2 27.064478 7.628183 62.963056 1300 A 10 "LZ2 " " C5 " 6 1EE11E  1 47.85 2256
+  6 2 28.075652 8.260922 63.677404 1300 A 10 "LZ2 " " C6 " 6 1EE11E  1 40.88 2257
+  7 2 28.762974 7.582270 64.656717 1300 A 10 "LZ2 " " C7 " 6 1EE11E  1 46.63 2258
+  8 2 28.450178 6.263922 64.942667 1300 A 10 "LZ2 " " C8 " 6 1EE11E  1 45.84 2259
+  9 2 27.436112 5.595195 64.246361 1300 A 10 "LZ2 " " C9 " 6 1EE11E  1 39.92 2260
+  10 2 27.106326 4.252794 64.513369 1300 A 10 "LZ2 " " C10" 6 1EE11E  1 33.3 2261
+  11 16 27.795578 3.594131 65.477658 1300 A 70 "LZ2 " " O11" 8 FF2E2E  1 30.61 2262
+  12 2 26.096160 3.622063 63.805017 1300 A 10 "LZ2 " " C12" 6 1EE11E  1 35.09 2263
+  13 2 25.410816 4.303711 62.817697 1300 A 10 "LZ2 " " C13" 6 1EE11E  1 31.98 2264
+  14 2 25.726614 5.618062 62.528745 1300 A 10 "LZ2 " " C14" 6 1EE11E  1 33.57 2265
+  15 2 26.734684 6.290783 63.231059 1300 A 10 "LZ2 " " C15" 6 1EE11E  1 37.28 2266
+  16 43 25.940913 6.839225 60.224156 1300 A 21 "LZ2 " "H1_1" 1 FFFFFF  <> <> <>
+  17 43 26.909825 8.135042 59.559048 1300 A 21 "LZ2 " "H1_2" 1 FFFFFF  <> <> <>
+  18 41 28.324662 9.290016 63.464425 1300 A 21 "LZ2 " " HC6" 1 FFFFFF  <> <> <>
+  19 41 29.549999 8.077512 65.206014 1300 A 21 "LZ2 " " HC7" 1 FFFFFF  <> <> <>
+  20 41 28.991675 5.735370 65.713260 1300 A 21 "LZ2 " " HC8" 1 FFFFFF  <> <> <>
+  21 42 27.466026 2.695371 65.549943 1300 A 21 "LZ2 " "HO11" 1 FFFFFF  <> <> <>
+  22 41 25.842892 2.595298 64.024125 1300 A 21 "LZ2 " "HC12" 1 FFFFFF  <> <> <>
+  23 41 24.623848 3.809712 62.267200 1300 A 21 "LZ2 " "HC13" 1 FFFFFF  <> <> <>
+  24 41 25.192823 6.143122 61.750427 1300 A 21 "LZ2 " "HC14" 1 FFFFFF  <> <> <>
+  :::
+ } 
+ m_bond[25] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 16 1
+  3 1 17 1
+  4 2 3 2
+  5 2 4 2
+  6 2 5 1
+  7 5 6 1
+  8 5 15 2
+  9 6 7 2
+  10 6 18 1
+  11 7 8 1
+  12 7 19 1
+  13 8 9 2
+  14 8 20 1
+  15 9 10 1
+  16 9 15 1
+  17 10 11 1
+  18 10 12 2
+  19 11 21 1
+  20 12 13 1
+  21 12 22 1
+  22 13 14 2
+  23 13 23 1
+  24 14 15 1
+  25 14 24 1
+  :::
+ } 
+} 
+

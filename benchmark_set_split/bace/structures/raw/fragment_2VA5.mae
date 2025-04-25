@@ -1,0 +1,164 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_m_stars
+ s_m_entry_id
+ s_m_entry_name
+ s_pdb_PDB_TITLE
+ s_pdb_PDB_ID
+ r_pdb_PDB_CRYST1_a
+ r_pdb_PDB_CRYST1_b
+ r_pdb_PDB_CRYST1_c
+ r_pdb_PDB_CRYST1_alpha
+ r_pdb_PDB_CRYST1_beta
+ r_pdb_PDB_CRYST1_gamma
+ s_pdb_PDB_CRYST1_Space_Group
+ i_pdb_PDB_CRYST1_z
+ s_pdb_PDB_CLASSIFICATION
+ s_pdb_PDB_DEPOSITION_DATE
+ s_pdb_PDB_format_version
+ r_pdb_PDB_R
+ r_pdb_PDB_Rfree
+ r_pdb_PDB_RESOLUTION
+ s_pdb_PDB_EXPDTA
+ r_pdb_PDB_EXPDTA_TEMPERATURE
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_2
+ i_m_ct_format
+ :::
+ fragment_2VA5 
+  0
+  2 
+  Structure8 
+  "X-RAY CRYSTAL STRUCTURE OF BETA SECRETASE COMPLEXED WITH COMPOUND 8C" 
+  2VA5 
+  102.138
+  102.138
+  168.258
+  90
+  90
+  120
+  "P 61 2 2" 
+  12
+  HYDROLASE 
+  30-AUG-07 
+  3.30 
+  0.228
+  0.319
+  2.75
+  "X-RAY DIFFRACTION" 
+  100
+  A 
+  "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+  C:\Users\salbe\Documents\rondror 
+  fragment_2VA5.mae 
+  1
+  "0.500000 0.866025 0.000000   0.000000;0.866025 -0.500000 0.000000   0.000000;0.000000 0.000000 -1.000000   28.043000" 
+  2
+ m_atom[33] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  :::
+  1 25 66.815000 49.086000 5.617000 1389 A 38 "C8C " " N1 " 7 2E2EFF  "N1"  1 45.46 2970
+  2 2 67.618000 48.938000 6.693000 1389 A 10 "C8C " " C2 " 6 1EE11E  "C2"  1 48.63 2971
+  3 2 68.170000 47.709000 8.535000 1389 A 10 "C8C " " C4 " 6 1EE11E  "C3"  1 51.39 2972
+  4 2 69.185000 48.606000 8.814000 1389 A 10 "C8C " " C5 " 6 1EE11E  "C4"  1 51.39 2973
+  5 2 69.365000 49.682000 7.965000 1389 A 10 "C8C " " C6 " 6 1EE11E  "C5"  1 52.25 2974
+  6 3 70.449000 50.696000 8.223000 1389 A 10 "C8C " " C7 " 6 1EE11E  "C6"  1 54.05 2975
+  7 3 71.395000 50.869000 7.053000 1389 A 10 "C8C " " C8 " 6 1EE11E  "C7"  1 56.31 2976
+  8 2 72.201000 49.638000 6.719000 1389 A 10 "C8C " " C9 " 6 1EE11E  "C8"  1 55.94 2977
+  9 2 73.170000 49.170000 7.601000 1389 A 10 "C8C " " C10" 6 1EE11E  "C9"  1 56.48 2978
+  10 2 73.939000 48.061000 7.297000 1389 A 10 "C8C " " C11" 6 1EE11E  "C10"  1 57.61 2979
+  11 2 73.753000 47.427000 6.076000 1389 A 10 "C8C " " C12" 6 1EE11E  "C11"  1 59.96 2980
+  12 2 74.340000 46.310000 5.460000 1389 A 10 "C8C " " C13" 6 1EE11E  "C12"  1 61.33 2981
+  13 2 73.731000 46.138000 4.219000 1389 A 10 "C8C " " C14" 6 1EE11E  "C13"  1 58.54 2982
+  14 25 72.811000 47.101000 4.062000 1389 A 38 "C8C " " N15" 7 2E2EFF  "N14"  1 58.12 2983
+  15 2 72.803000 47.903000 5.182000 1389 A 10 "C8C " " C16" 6 1EE11E  "C15"  1 60.63 2984
+  16 2 72.026000 49.009000 5.491000 1389 A 10 "C8C " " C17" 6 1EE11E  "C16"  1 59.27 2985
+  17 25 68.578000 49.870000 6.895000 1389 A 38 "C8C " " N18" 7 2E2EFF  "N17"  1 50.39 2986
+  18 25 67.378000 47.866000 7.468000 1389 A 38 "C8C " " N3 " 7 2E2EFF  "N18"  1 49.4 2987
+  19 15 67.959000 46.640000 9.349000 1389 A 70 "C8C " " O5 " 8 FF2E2E  "O19"  1 52.43 2988
+  20 43 66.087035 48.410384 5.433397 1389 A 21 "C8C " "H1_1" 1 FFFFFF  ""  <> <> <>
+  21 43 66.942529 49.872282 4.996035 1389 A 21 "C8C " "H1_2" 1 FFFFFF  ""  <> <> <>
+  22 41 69.814836 48.456966 9.678578 1389 A 21 "C8C " " HC5" 1 FFFFFF  ""  <> <> <>
+  23 41 71.015963 50.402844 9.106580 1389 A 21 "C8C " "H7_1" 1 FFFFFF  ""  <> <> <>
+  24 41 69.995376 51.656674 8.466782 1389 A 21 "C8C " "H7_2" 1 FFFFFF  ""  <> <> <>
+  25 41 72.071256 51.699625 7.255091 1389 A 21 "C8C " "H8_1" 1 FFFFFF  ""  <> <> <>
+  26 41 70.829740 51.179950 6.174427 1389 A 21 "C8C " "H8_2" 1 FFFFFF  ""  <> <> <>
+  27 41 73.332389 49.674378 8.542081 1389 A 21 "C8C " "HC10" 1 FFFFFF  ""  <> <> <>
+  28 41 74.670739 47.700752 8.004940 1389 A 21 "C8C " "HC11" 1 FFFFFF  ""  <> <> <>
+  29 41 75.121074 45.762373 5.966387 1389 A 21 "C8C " "HC13" 1 FFFFFF  ""  <> <> <>
+  30 41 74.035149 45.325124 3.576252 1389 A 21 "C8C " "HC14" 1 FFFFFF  ""  <> <> <>
+  31 43 72.262391 47.142047 3.214980 1389 A 21 "C8C " "HN15" 1 FFFFFF  ""  <> <> <>
+  32 41 71.292301 49.383126 4.792347 1389 A 21 "C8C " "HC17" 1 FFFFFF  ""  <> <> <>
+  33 43 66.630737 47.229001 7.231504 1389 A 21 "C8C " " HN3" 1 FFFFFF  ""  <> <> <>
+  :::
+ } 
+ m_bond[35] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 20 1
+  3 1 21 1
+  4 2 17 2
+  5 2 18 1
+  6 3 4 1
+  7 3 18 1
+  8 3 19 2
+  9 4 5 2
+  10 4 22 1
+  11 5 6 1
+  12 5 17 1
+  13 6 7 1
+  14 6 23 1
+  15 6 24 1
+  16 7 8 1
+  17 7 25 1
+  18 7 26 1
+  19 8 9 1
+  20 8 16 2
+  21 9 10 2
+  22 9 27 1
+  23 10 11 1
+  24 10 28 1
+  25 11 12 1
+  26 11 15 2
+  27 12 13 2
+  28 12 29 1
+  29 13 14 1
+  30 13 30 1
+  31 14 15 1
+  32 14 31 1
+  33 15 16 1
+  34 16 32 1
+  35 18 33 1
+  :::
+ } 
+} 
+
