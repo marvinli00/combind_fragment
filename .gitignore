@@ -8,3 +8,5 @@ fragment_dataset.tar.gz
 fragment_fullBinders_dataset/
 fragment_fullBinders_dataset.tar.gz
 benchmark_set_split/
+pose_true.pdb
+structure_fragment.pdb

@@ -98,10 +98,10 @@ def structprep(struct, grid_struct, root):
     structs = [struct.split('/')[-1].split('_prot')[0] for struct in structs]
     
     #move root/structures to structures/raw_old
-    os.makedirs(f'structures/raw', exist_ok=False)
+    # os.makedirs(f'structures/raw', exist_ok=False)
     #copy all files in root/structures to structures/raw
-    for file in os.listdir(f'{root}/structures/raw'):
-        shutil.copy(f'{root}/structures/raw/{file}', f'structures/raw/{file}')
+    # for file in os.listdir(f'{root}/structures/raw'):
+    #     shutil.copy(f'{root}/structures/raw/{file}', f'structures/raw/{file}')
     
     if not struct:
         struct = structs[0]
@@ -111,15 +111,27 @@ def structprep(struct, grid_struct, root):
 
     print(f'Processing {structs}, aligning to {struct}, and creating a docking'
           f' grid for {grid_struct}')
-
-    struct_process(structs)
-    struct_align(struct, structs)
-    struct_sort(structs)
-    make_grid(grid_struct)
     
-    #copy all other folders in structures to root
-    for folder in os.listdir(f'structures'):
-        shutil.copytree(f'structures/{folder}', f'{root}/structures/{folder}', dirs_exist_ok=True)
+    
+    
+    struct_process(structs,
+                   protein_in = f"{root}/structures/raw/{{pdb}}_prot.mae",
+                   ligand_in = f"{root}/structures/raw/{{pdb}}_lig.mae",
+                   processed_in = f"{root}/structures/processed/{{pdb}}/{{pdb}}_in.mae",
+                   processed_out = f"{root}/structures/processed/{{pdb}}/{{pdb}}_out.mae",
+                   processed_sh = f"{root}/structures/processed/{{pdb}}/process.sh")
+    struct_align(struct, structs,
+                 processed_out = f'{root}/structures/processed/{{pdb}}/{{pdb}}_out.mae',
+                 align_dir = f"{root}/structures/aligned")
+    struct_sort(structs, root=root)
+    make_grid(grid_struct,
+              PROTFILE = f"{root}/structures/proteins/{{pdb}}_prot.mae",
+              LIGFILE=f'{root}/structures/ligands/{{pdb}}_lig.mae',
+              CWD=f"{root}/structures/grids/{{pdb}}")
+    
+    # #copy all other folders in structures to root
+    # for folder in os.listdir(f'structures'):
+    #     shutil.copytree(f'structures/{folder}', f'{root}/structures/{folder}', dirs_exist_ok=True)
     #remove structures folder
     #shutil.rmtree(f'structures')
     
