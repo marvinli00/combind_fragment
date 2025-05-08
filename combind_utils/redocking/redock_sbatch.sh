@@ -27,6 +27,6 @@ combind ligprep $PROTEIN_DIR/ligand_resmiles.csv --root $PROTEIN_DIR/ligands --p
 echo "Running dock"
 combind dock $PROTEIN_DIR/ligands/*/*.maegz --root $PROTEIN_DIR/docking --processes=$(nproc)
 echo "Running featurize"
-combind featurize --root $PROTEIN_DIR/features --native $PROTEIN_DIR/structures/ligands/*_lig.mae --processes $(nproc)
+combind featurize $PROTEIN_DIR/features --native $PROTEIN_DIR/structures/ligands/*_lig.mae --processes $(nproc)
 echo "Running pose-prediction"
 combind pose-prediction $PROTEIN_DIR/features $PROTEIN_DIR/features/poses.csv

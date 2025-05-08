@@ -10,3 +10,6 @@ fragment_fullBinders_dataset.tar.gz
 benchmark_set_split/
 pose_true.pdb
 structure_fragment.pdb
+benchmark_set_split/
+fragment_dataset_redocking/
+fragment_dataset_redocking.tar.gz

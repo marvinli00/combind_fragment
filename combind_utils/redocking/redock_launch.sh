@@ -8,8 +8,8 @@ function check_dataset_path() {
     fi
 }
 
-DATASET_PATH=$1
-COMBINDWORKING_DIR=$2
+DATASET_PATH=$2
+COMBINDWORKING_DIR=$1
 #read all subdirectories in the dataset path
 SUBDIRS=$(ls -l $DATASET_PATH | grep ^d | awk '{print $9}')
 
@@ -21,7 +21,7 @@ for SUBDIR in $SUBDIRS; do
     echo "Running redocking for $REDOCK_SCRIPT_PATH"
     #run the redocking script
 
-    sbatch --output=sbatch_logs/${PROTEIN_DIR}_%j.out --error=sbatch_logs/${PROTEIN_DIR}_%j.err --job-name=${PROTEIN_DIR} redock_sbatch.sh $PROTEIN_DIR $COMBINDWORKING_DIR
+    sbatch --output=sbatch_logs/${PROTEIN_DIR}_%j.out --error=sbatch_logs/${PROTEIN_DIR}_%j.err --job-name=${SUBDIR} redock_sbatch.sh $PROTEIN_DIR $COMBINDWORKING_DIR
     
 done
 
