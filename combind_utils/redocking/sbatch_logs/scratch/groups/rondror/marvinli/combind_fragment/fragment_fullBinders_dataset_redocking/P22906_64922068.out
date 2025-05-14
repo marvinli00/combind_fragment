@@ -1,0 +1,54 @@
+no change     /home/groups/emmalu/marvinli/anaconda3/condabin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda-env
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/activate
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/deactivate
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.sh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/Conda.psm1
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/groups/emmalu/marvinli/anaconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.csh
+no change     /home/users/mli89/.bashrc
+No action taken.
+Note: The Schrodinger virtualenv is tied to a specific SCHRODINGER value.
+This virtualenv is tied to SCHRODINGER=/share/software/user/restricted/schrodinger/2021-1.
+
+If you change your SCHRODINGER environment variable, it will break the ability
+to use the unadorned python command.
+
+Running structprep
+JobId: sh02-13n01-0-681d34b4
+
+JobId: sh02-13n01-0-681d34f7
+
+JobId: sh02-13n01-0-681d353a
+
+JobId: sh02-13n01-0-681d357d
+
+JobId: sh02-13n01-0-681d35c0
+
+JobId: sh02-13n01-0-681d360e
+
+ExitStatus: finished
+Processing ['1ia3', '1ia4', '3qlr', '3qls', '4h97'], aligning to 1ia3, and creating a docking grid for 1ia3
+processing 1ia3
+processing 1ia4
+processing 3qlr
+processing 3qls
+processing 4h97
+align 1ia3 1ia3
+align 1ia4 1ia3
+align 3qlr 1ia3
+align 3qls 1ia3
+align 4h97 1ia3
+making grid 1ia3
+Running ligprep
+Running dock
+No grids in default location (structures/grids), please specify path.
+Running featurize
+Extracting glide scores.
+Extracting names.
+Computing RMSDs to native poses
+Computing interaction fingerprints.
+Running pose-prediction

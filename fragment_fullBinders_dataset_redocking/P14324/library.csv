@@ -1,0 +1,9 @@
+ID,SMILES
+2F94_lig,CCCCCN(C)CCC(O)(P(=O)(O)O)P(=O)(O)O
+3B7L_lig,O=P(O)(O)C(O)(Cc1cnc2ccccn12)P(=O)(O)O
+4LFV_lig,CC(C)Oc1ccc(-c2ccnc(NC(P(=O)(O)O)P(=O)(O)O)c2)cc1
+4PVX_lig,O=P(O)(O)C(Nc1cc(-c2ccc(OC3CC3)cc2)ccn1)P(=O)(O)O
+4PVY_lig,CC(C)Oc1ccc(-c2cncc(NC(P(=O)(O)O)P(=O)(O)O)c2)cc1
+4NFI_lig,O=P(O)(O)C(Nc1cncc(-c2ccc(OC3CC3)cc2)c1)P(=O)(O)O
+4LPG_lig,Cc1ccc(-c2cc3c(NC(P(=O)(O)O)P(=O)(O)O)ncnc3s2)cc1
+6N83_lig,Cc1ccc(-c2cc3c(N[C@@H](Cc4cccc(F)c4)P(=O)(O)O)ncnc3s2)cc1Cl

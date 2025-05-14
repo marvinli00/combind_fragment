@@ -1,0 +1,14 @@
+ID,SMILES
+8QVH_lig,O=C(NC12CC3CC(CC(C3)C1)C2)N[C@H]1CC[C@H](Oc2ccc(C(=O)O)cc2)CC1
+5AM1_lig,O=C1CC2(CCN(C(=O)N[C@H]3C[C@@H]3c3ccccc3)CC2)Oc2ccccc21
+3I1Y_lig,O=C(NCCC(c1ccccc1)c1ccccc1)c1cccnc1
+3I28_lig,CS(=O)(=O)c1ccc([C@@H](CCNC(=O)c2ccc(C#N)cc2)c2ccc(F)cc2)cc1
+8QVF_lig,CS(=O)(=O)N1CCC(NC(=O)NC23CC4CC(CC(C4)C2)C3)CC1
+3ANT_lig,CC(C)c1noc(C2CCN(C(=O)N[C@H]3C[C@@H]3c3ccccc3)CC2)n1
+4JNC_lig,CNc1nc(C)nc(N2CCC(C(=O)NCc3ccccc3C(F)(F)F)CC2)n1
+4X6Y_lig,O=C(N[C@H]1C[C@@H]1c1ccccc1)N1CCC(Oc2ccccc2)CC1
+4X6X_lig,O=C(O)CCc1ccc(OC2CCN(C(=O)N[C@@H]3[C@@H](c4ccccc4)[C@H]3c3ccccc3)CC2)cc1
+1VJ5_lig,O=C(Nc1ccc(I)cc1)NC1CCCCC1
+8QVK_lig,O=C(Nc1ccc2c(c1)-c1ccccc1S2(=O)=O)N1CCC(F)(F)CC1
+7A7G_lig,CC[C@H](Cc1ccc(C(=O)NCc2ccc(OC)cc2C(F)(F)F)cc1)C(=O)O
+7P4K_lig,O=C(NCc1ccc(NS(=O)(=O)C2CC2)cc1C(F)(F)F)c1ccc2c(ccn2Cc2cccc(F)c2)c1

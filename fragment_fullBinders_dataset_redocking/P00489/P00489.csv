@@ -1,0 +1,7 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL4696,Ki,350.0,CHEMBL983534,glycogen phosphorylase  muscle form,376.37,O=C(NC(=O)c1ccc2ccccc2c1)N[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,CHEMBL490001,P00489,VMP,3ZCT
+CHEMBL4696,Ki,460.0,CHEMBL2339564,glycogen phosphorylase  muscle form,456.4,O=C(O)C[C@H](OC(=O)/C=C/c1ccc(O)cc1)[C@@H](OC(=O)/C=C/c1ccc(O)cc1)C(=O)O,CHEMBL1234956,P00489,OFF,2OFF
+CHEMBL4696,Ki,410.0,CHEMBL2409979,glycogen phosphorylase  muscle form,357.37,OC[C@H]1O[C@@H](c2nc(-c3ccc4ccccc4c3)n[nH]2)[C@H](O)[C@@H](O)[C@@H]1O,CHEMBL2408225,P00489,KS3,5LRF
+CHEMBL4696,Ki,700.0,CHEMBL3378176,glycogen phosphorylase  muscle form,382.41,CC(C)(C)c1ccc(C(=O)NC(=O)N[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc1,CHEMBL3322301,P00489,F85,3ZCR
+CHEMBL4696,Ki,125.0,CHEMBL4020037,glycogen phosphorylase  muscle form,355.39,N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1c1nc(-c2ccc3ccccc3c2)c[nH]1,CHEMBL4101331,P00489,9LE,5O52
+CHEMBL4696,Ki,780.0,CHEMBL4148751,glycogen phosphorylase  muscle form,401.38,O=C(O)c1ccc2cc(-c3n[nH]c([C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)n3)ccc2c1,CHEMBL4161353,P00489,CJW,6F3L

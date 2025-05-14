@@ -1,0 +1,5 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL3922,IC50,50.0,CHEMBL4397057,methionine aminopeptidase 2,330.41,O=C(NCCc1cccs1)[C@@]1(O)CCN(c2ccccc2)C1=O,CHEMBL4566670,P50579,K4K,6QEG
+CHEMBL3922,IC50,60.0,CHEMBL4397057,methionine aminopeptidase 2,362.79,O=C(NCc1cc(F)cc(Cl)c1)[C@@]1(O)CCN(c2ccccc2)C1=O,CHEMBL4552396,P50579,HZW,6QEF
+CHEMBL3922,IC50,74.0,CHEMBL4397057,methionine aminopeptidase 2,431.85,O=C1CCc2cc(N3CC[C@](O)(C(=O)NCc4cc(F)cc(Cl)c4)C3=O)ccc2N1,CHEMBL4475680,P50579,HZK,6QED
+CHEMBL3922,Ki,2.0,CHEMBL894022,methionine aminopeptidase 2,330.48,CC(C)c1ccccc1Nc1nc(SCc2cccs2)n[nH]1,CHEMBL230641,P50579,I96,2OAZ

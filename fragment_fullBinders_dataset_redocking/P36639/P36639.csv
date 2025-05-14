@@ -1,0 +1,8 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL3708265,IC50,9.0,CHEMBL3796259,7 8-dihydro-8-oxoguanine triphosphatase,306.37,CN(C)C(=O)Cc1ccc(-c2nc(N)nc3ccccc23)cc1,CHEMBL3794132,P36639,9CQ,5ANW
+CHEMBL3708265,IC50,0.5,CHEMBL3796259,7 8-dihydro-8-oxoguanine triphosphatase,357.37,CNc1nc2nc3c1[nH]c(=O)n3Cc1cccc(c1)OCCOCCO2,CHEMBL3794167,P36639,58T,5ANU
+CHEMBL3708265,IC50,330.0,CHEMBL3796329,7 8-dihydro-8-oxoguanine triphosphatase,450.35,C[C@H](Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1c(Cl)ccc(F)c1Cl,CHEMBL1825141,P36639,VHS,4C9X
+CHEMBL3708265,IC50,52.0,CHEMBL4339319,7 8-dihydro-8-oxoguanine triphosphatase,410.47,COc1c(O)cc2oc3cc4c(c(O)c3c(=O)c2c1CC=C(C)C)CCC(C)(C)O4,CHEMBL464119,P36639,MKU,6AA5
+CHEMBL3708265,IC50,470.0,CHEMBL4339319,7 8-dihydro-8-oxoguanine triphosphatase,410.47,COc1c(O)cc2oc3cc(O)c(CC=C(C)C)c(O)c3c(=O)c2c1CC=C(C)C,CHEMBL323197,P36639,MKS,6AA4
+CHEMBL3708265,IC50,0.9,CHEMBL4673830,7 8-dihydro-8-oxoguanine triphosphatase,389.81,CNC(=O)c1cnc2cc(OC)c(OC)cc2c1Nc1ccc(Cl)cc1F,CHEMBL4783492,P36639,RGJ,5ANV
+CHEMBL3708265,IC50,536.0,CHEMBL4673830,7 8-dihydro-8-oxoguanine triphosphatase,329.36,CNc1nc(OCCOC)nc2c1[nH]c(=O)n2Cc1ccccc1,CHEMBL4763327,P36639,RJE,5ANT

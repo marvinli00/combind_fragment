@@ -1,0 +1,69 @@
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+Traceback (most recent call last):
+  File "/scratch/groups/rondror/marvinli/combind_fragment/combind", line 417, in <module>
+    main()
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/scratch/groups/rondror/marvinli/combind_fragment/combind", line 167, in ligprep
+    ligands = pd.read_csv(smiles, sep=delim)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/groups/rondror/marvinli/combind_fragment/fragment_fullBinders_dataset_redocking/Q07343/ligand_resmiles.csv'
+Traceback (most recent call last):
+  File "/scratch/groups/rondror/marvinli/combind_fragment/combind", line 417, in <module>
+    main()
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/scratch/groups/rondror/marvinli/combind_fragment/combind", line 281, in featurize
+    features.compute_pair_features(poseviewers,
+  File "/scratch/groups/rondror/marvinli/combind_fragment/features/features.py", line 163, in compute_pair_features
+    rmsds1, gscores1, poses1, names1, ifps1 = self.load_single_features(pvs)
+  File "/scratch/groups/rondror/marvinli/combind_fragment/features/features.py", line 101, in load_single_features
+    _rmsds = np.load(self.path('rmsd', pv=pv))
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/numpy/lib/npyio.py", line 444, in load
+    raise ValueError("Cannot load file containing pickled data "
+ValueError: Cannot load file containing pickled data when allow_pickle=False
+Traceback (most recent call last):
+  File "/scratch/groups/rondror/marvinli/combind_fragment/combind", line 417, in <module>
+    main()
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/share/software/user/restricted/schrodinger/2021-1/internal/lib/python3.8/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/scratch/groups/rondror/marvinli/combind_fragment/combind", line 315, in pose_prediction
+    ligands = set(protein.raw['name1'])
+KeyError: 'name1'

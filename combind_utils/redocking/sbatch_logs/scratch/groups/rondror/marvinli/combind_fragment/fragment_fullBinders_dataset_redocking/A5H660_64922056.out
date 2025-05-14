@@ -1,0 +1,74 @@
+no change     /home/groups/emmalu/marvinli/anaconda3/condabin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda-env
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/activate
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/deactivate
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.sh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/Conda.psm1
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/groups/emmalu/marvinli/anaconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.csh
+no change     /home/users/mli89/.bashrc
+No action taken.
+Note: The Schrodinger virtualenv is tied to a specific SCHRODINGER value.
+This virtualenv is tied to SCHRODINGER=/share/software/user/restricted/schrodinger/2021-1.
+
+If you change your SCHRODINGER environment variable, it will break the ability
+to use the unadorned python command.
+
+Running structprep
+JobId: sh03-15n06-0-681d34a8
+
+JobId: sh03-15n06-0-681d3525
+
+JobId: sh03-15n06-0-681d35a4
+
+JobId: sh03-15n06-0-681d3622
+
+JobId: sh03-15n06-0-681d36a0
+
+JobId: sh03-15n06-0-681d3724
+
+JobId: sh03-15n06-0-681d37a2
+
+JobId: sh03-15n06-0-681d3820
+
+JobId: sh03-15n06-0-681d38a1
+
+JobId: sh03-15n06-0-681d391f
+
+JobId: sh03-15n06-0-681d39b4
+
+ExitStatus: finished
+Processing ['6gxu', '6hrq', '6hsh', '6hth', '6hti', '6htz', '6hu0', '6hu1', '6hu3', '7p3s'], aligning to 6gxu, and creating a docking grid for 6gxu
+processing 6gxu
+processing 6hrq
+processing 6hsh
+processing 6hth
+processing 6hti
+processing 6htz
+processing 6hu0
+processing 6hu1
+processing 6hu3
+processing 7p3s
+align 6gxu 6gxu
+align 6hrq 6gxu
+align 6hsh 6gxu
+align 6hth 6gxu
+align 6hti 6gxu
+align 6htz 6gxu
+align 6hu0 6gxu
+align 6hu1 6gxu
+align 6hu3 6gxu
+align 7p3s 6gxu
+making grid 6gxu
+Running ligprep
+Running dock
+No grids in default location (structures/grids), please specify path.
+Running featurize
+Extracting glide scores.
+Extracting names.
+Computing RMSDs to native poses
+Computing interaction fingerprints.
+Running pose-prediction

@@ -1,0 +1,6 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL2329,IC50,8.0,CHEMBL668099,dihydrofolate reductase,324.45,CC(C)(C)c1ccc(Sc2cccc3nc(N)nc(N)c23)cc1,CHEMBL329985,P22906,TQ5,1IA3
+CHEMBL2329,IC50,130.0,CHEMBL668099,dihydrofolate reductase,353.45,Nc1nc(N)c2c(Sc3ccc(N4CCOCC4)cc3)cccc2n1,CHEMBL328827,P22906,TQ6,1IA4
+CHEMBL2329,IC50,22.0,CHEMBL1044821,dihydrofolate reductase,372.47,COc1cc(-c2ccc(C)cc2)cc([C@@H](C)C#Cc2c(C)nc(N)nc2N)c1,CHEMBL575218,P22906,53S,4H97
+CHEMBL2329,IC50,45.0,CHEMBL1044821,dihydrofolate reductase,356.43,CC[C@@H](C#Cc1c(C)nc(N)nc1N)c1cc(OC)c(OC)c(OC)c1,CHEMBL574741,P22906,QLR,3QLR
+CHEMBL2329,IC50,33.0,CHEMBL2340620,dihydrofolate reductase,356.43,COc1cc(C(C)(C)C#Cc2c(C)nc(N)nc2N)cc(OC)c1OC,CHEMBL1230365,P22906,55V,3QLS

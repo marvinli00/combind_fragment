@@ -1,0 +1,5 @@
+ID,SMILES
+4Y30_lig,CNCCN(C)Cc1c[nH]nc1-c1ccc(O[C@H]2C[C@H](OCCC3CCOCC3)C2)cc1
+6P7I_lig,CCC(=O)Nc1cccc(-c2c[nH]cc2CN(C)CCN)c1
+6W6D_lig,Cc1cc(C)cc([C@@H]2c3cc(C)ccc3NC(=O)CN2C(=O)c2ccc(Br)s2)c1
+5WCF_lig,Cc1ccc2c(c1)[C@@H](c1ccc(F)cc1)N(C(=O)c1ccc(Br)o1)CC(=O)N2

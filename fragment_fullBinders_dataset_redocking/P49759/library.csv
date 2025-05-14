@@ -1,0 +1,5 @@
+ID,SMILES
+6QTY_lig,CCOC(=O)c1c(/C(C#N)=C\N)c2ccc(Cl)c(Cl)c2n1C
+5X8I_lig,C[C@@H](c1ccc(F)cc1)n1nnc2cnc3ccc(-c4ccc5ocnc5c4)cc3c21
+6YTI_lig,COC(=N)c1nc2ccc3ncnc(Nc4ccc(OC)cc4F)c3c2s1
+6RAA_lig,CN1CCN(C(=O)C(C)(C)c2ccc(C(=O)Nc3cn4cc(-c5ccncc5)ccc4n3)cc2)CC1

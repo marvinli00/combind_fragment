@@ -1,0 +1,11 @@
+ID,SMILES
+6HU1_lig,O=C(NO)c1ccc(Cl)c(NC(=O)c2ccc(Cl)cc2Cl)c1
+6HU0_lig,COc1ccc(C(=O)NO)cc1NC(=O)c1ccc(Cl)cc1Cl
+6HTH_lig,COc1ccc(C(=O)NO)cc1NC(=O)c1ccc(-c2ccccc2)cc1
+6HTZ_lig,COc1ccc(C(=O)NO)cc1NC(=O)Cc1ccccc1
+6HRQ_lig,O=C(NO)c1cccc(-c2cn(CSc3ccccc3)nn2)c1
+6HSH_lig,Cn1cc(CNCC2CCN(c3ncc(C(=O)NO)cn3)CC2)c2ccccc21
+6HTI_lig,O=C(NO)c1ccc(Cl)c(NC(=O)c2cccc3ccsc23)c1
+6HU3_lig,O=C(NO)c1cn(-c2cc(Cl)ccc2Oc2ccc(F)cc2)nn1
+6GXU_lig,O=C(/C=C/c1ccccc1Sc1ccc(Cl)cc1)NO
+7P3S_lig,COc1ccc(C(=O)NO)cc1NC(=O)c1cccc2c1oc1ccccc12

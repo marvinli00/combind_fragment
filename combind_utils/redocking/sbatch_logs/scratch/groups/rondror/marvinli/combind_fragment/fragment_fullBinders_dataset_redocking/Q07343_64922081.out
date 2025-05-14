@@ -1,0 +1,78 @@
+no change     /home/groups/emmalu/marvinli/anaconda3/condabin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda-env
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/activate
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/deactivate
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.sh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/Conda.psm1
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/groups/emmalu/marvinli/anaconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.csh
+no change     /home/users/mli89/.bashrc
+No action taken.
+Note: The Schrodinger virtualenv is tied to a specific SCHRODINGER value.
+This virtualenv is tied to SCHRODINGER=/share/software/user/restricted/schrodinger/2021-1.
+
+If you change your SCHRODINGER environment variable, it will break the ability
+to use the unadorned python command.
+
+Running structprep
+JobId: sh03-08n08-1-681d34eb
+
+JobId: sh03-08n08-0-681d352b
+
+JobId: sh03-08n08-0-681d356c
+
+JobId: sh03-08n08-0-681d35ad
+
+JobId: sh03-08n08-0-681d35ed
+
+JobId: sh03-08n08-0-681d362e
+
+JobId: sh03-08n08-0-681d366f
+
+JobId: sh03-08n08-0-681d36b0
+
+JobId: sh03-08n08-0-681d36f0
+
+JobId: sh03-08n08-0-681d3731
+
+JobId: sh03-08n08-0-681d3771
+
+JobId: sh03-08n08-0-681d37c0
+
+ExitStatus: finished
+Processing ['1xlx', '1xm4', '1xmu', '2qyl', '3d3p', '3frg', '3w5e', '3wd9', '4myq', '4nw7', '5laq'], aligning to 1xlx, and creating a docking grid for 1xlx
+processing 1xlx
+processing 1xm4
+processing 1xmu
+processing 2qyl
+processing 3d3p
+processing 3frg
+processing 3w5e
+processing 3wd9
+processing 4myq
+processing 4nw7
+processing 5laq
+align 1xlx 1xlx
+align 1xm4 1xlx
+align 1xmu 1xlx
+align 2qyl 1xlx
+align 3d3p 1xlx
+align 3frg 1xlx
+align 3w5e 1xlx
+align 3wd9 1xlx
+align 4myq 1xlx
+align 4nw7 1xlx
+align 5laq 1xlx
+making grid 1xlx
+Running ligprep
+Running dock
+No grids in default location (structures/grids), please specify path.
+Running featurize
+Extracting glide scores.
+Extracting names.
+Computing RMSDs to native poses
+Computing interaction fingerprints.
+Running pose-prediction

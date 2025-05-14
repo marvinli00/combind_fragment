@@ -1,0 +1,17 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL262,IC50,56.0,CHEMBL833508,glycogen synthase kinase-3 beta,466.54,CN[C@@H]1C[C@H]2O[C@@](C)([C@@H]1OC)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)C(=O)NC4,CHEMBL388978,P49841,STU,1Q3D
+CHEMBL262,IC50,41.8,CHEMBL963374,glycogen synthase kinase-3 beta,308.32,COc1ccc(CNC(=O)Nc2ncc([N+](=O)[O-])s2)cc1,CHEMBL259850,P49841,TMU,1Q5K
+CHEMBL262,IC50,65.0,CHEMBL1031513,glycogen synthase kinase-3 beta,360.37,COc1ccc(CSc2nnc(-c3ccc4c(c3)OCO4)o2)cc1F,CHEMBL456218,P49841,34O,3F7Z
+CHEMBL262,IC50,80.0,CHEMBL1109955,glycogen synthase kinase-3 beta,461.53,CCn1c(-c2nonc2N)nc2c(C#CC(C)(C)O)nc(OC[C@H](N)Cc3ccccc3)cc21,CHEMBL1098938,P49841,G96,3E88
+CHEMBL262,IC50,125.89,CHEMBL1809805,glycogen synthase kinase-3 beta,320.37,O=c1[nH]cc(-c2ccc(O)cc2)c2sc(-c3ccncc3)cc12,CHEMBL1738953,P49841,ZRM,3ZRM
+CHEMBL262,IC50,158.49,CHEMBL1810765,glycogen synthase kinase-3 beta,307.17,O=c1[nH]cc(Br)c2sc(-c3ccncc3)cc12,CHEMBL1738952,P49841,ZRL,3ZRL
+CHEMBL262,IC50,5.9,CHEMBL3413879,glycogen synthase kinase-3 beta,313.32,COc1nc(-c2ccnc(NC(=O)C3CC3)c2)ncc1C(N)=O,CHEMBL3410110,P49841,2WG,4PTG
+CHEMBL262,IC50,18.0,CHEMBL3736787,glycogen synthase kinase-3 beta,428.48,COCCN1CCC(CNC(=O)c2n[nH]c3ccc(-c4cccc(F)c4F)cc23)CC1,CHEMBL3735506,P49841,N1Q,6TCU
+CHEMBL262,IC50,515.0,CHEMBL4334910,glycogen synthase kinase-3 beta,321.42,CC[C@@]1(c2ccccc2)C2=C(CC(C)(C)CC2=O)Nc2n[nH]cc21,CHEMBL4438334,P49841,6VL,7SXJ
+CHEMBL262,IC50,489.0,CHEMBL5046564,glycogen synthase kinase-3 beta,368.87,CN(c1ncnc2[nH]c3cc(Cl)ccc3c12)[C@H]1CCCN(CCC#N)C1,CHEMBL5081917,P49841,SZW,7B6F
+CHEMBL262,IC50,9.0,CHEMBL5150309,glycogen synthase kinase-3 beta,361.79,COc1ccc(-c2ocnc2C(=O)NCCCn2cncn2)cc1Cl,CHEMBL5173945,P49841,6QH,5K5N
+CHEMBL262,IC50,0.2,CHEMBL5237495,glycogen synthase kinase-3 beta,414.47,CC1CN(c2ccncc2NC(=O)c2ccnn3cc(-c4ccccc4)nc23)CCO1,CHEMBL5270781,P49841,UAU,8DJC
+CHEMBL262,IC50,9.0,CHEMBL5241008,glycogen synthase kinase-3 beta,358.4,O=C(Nc1cncc(-c2ccccc2)c1)c1ccnc(NC(=O)C2CC2)c1,CHEMBL5284249,P49841,U3E,8DJD
+CHEMBL262,Ki,12.0,CHEMBL2182637,glycogen synthase kinase-3 beta,482.57,COc1ccccc1NC(=O)c1nc(-c2ccc(S(=O)(=O)N3CCN(C)CC3)cc2)cnc1N,CHEMBL2177175,P49841,G8B,6HK3
+CHEMBL262,Ki,20.0,CHEMBL2182637,glycogen synthase kinase-3 beta,441.52,CN(C)CCNS(=O)(=O)c1ccc(-c2cnc(N)c(C(=O)Nc3cccnc3)n2)cc1,CHEMBL2177166,P49841,7YG,4ACC
+CHEMBL262,Ki,0.67,CHEMBL2182637,glycogen synthase kinase-3 beta,440.49,Nc1ncc(-c2ccc(S(=O)(=O)N3CCOCC3)cc2)nc1C(=O)Nc1cccnc1,CHEMBL2177165,P49841,G8E,6HK4

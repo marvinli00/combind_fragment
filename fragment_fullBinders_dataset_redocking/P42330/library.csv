@@ -1,0 +1,11 @@
+ID,SMILES
+1ZQ5_lig,CC1(C)CC[C@@]2(CC[C@H]3[C@@H]4CCc5cc(C(N)=O)ccc5[C@H]4CC[C@@]32C)OC1=O
+3UG8_lig,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1
+4FAL_lig,CNC(=O)c1cccc(S(=O)(=O)N2CCc3ccccc3C2)c1
+4FA3_lig,O=C(O)[C@@H]1CCCN(S(=O)(=O)c2ccc3ccccc3c2)C1
+4FAM_lig,O=C(O)c1cccc(S(=O)(=O)N2CCc3ccccc3C2)c1
+4DBW_lig,COc1ccc2c(c1)c(CC(=O)O)cn2C(=O)c1ccc(Cl)cc1
+4HMN_lig,O=C(N1CCOCC1)N1CCN(c2ccc(Cl)cc2)CC1
+6F2U_lig,COc1ccc(Cn2nnc(O)c2C(=O)Nc2cccc(C(F)(F)F)c2)cc1
+7C7H_lig,CCc1cccc(NC(=O)c2cc3cccc(O)c3oc2=N)c1
+4DBS_lig,O=C(O)c1cccc(Nc2ccc([N+](=O)[O-])c3ccccc23)c1

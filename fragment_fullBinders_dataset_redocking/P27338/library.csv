@@ -1,0 +1,4 @@
+ID,SMILES
+7P4F_lig,CN(Cc1ccccc1)Cc1ccc(COc2ccc3c(CO)cc(=O)oc3c2)cc1
+2V60_lig,O=Cc1cc(=O)oc2cc(OCc3cccc(Cl)c3)ccc12
+2V61_lig,CNCc1cc(=O)oc2cc(OCc3cccc(Cl)c3)ccc12

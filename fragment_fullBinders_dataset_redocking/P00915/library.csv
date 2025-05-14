@@ -1,0 +1,12 @@
+ID,SMILES
+4WR7_lig,CCCSc1c(F)c(F)c(S(N)(=O)=O)c(F)c1F
+5E2M_lig,NS(=O)(=O)c1c(F)c(F)c(S(=O)(=O)CCO)c(NC2CCCCCCC2)c1F
+4WUQ_lig,NS(=O)(=O)c1c(F)c(F)c(N2CCCCC2)c(F)c1F
+6EVR_lig,CC(=O)N1CCN(C(=O)c2ccc(S(N)(=O)=O)cc2)C[C@@H]1Cc1ccccc1
+6EX1_lig,NS(=O)(=O)c1ccc(C(=O)N2CCN[C@H](Cc3ccccc3)C2)cc1
+6F3B_lig,Cc1ccc(CNC(=O)Nc2cc(S(N)(=O)=O)ccc2O)cc1
+6FAF_lig,Cc1ccc(C)c(NC(=O)Nc2cc(S(N)(=O)=O)ccc2O)c1
+6FAG_lig,COc1ccccc1NC(=O)Nc1cc(S(N)(=O)=O)ccc1O
+6I0L_lig,NS(=O)(=O)c1ccc(CCNC(=O)Nc2ccc(Cl)c(C(F)(F)F)c2)cc1
+6I0J_lig,NS(=O)(=O)Oc1ccc(NC(=O)Nc2ccc(Cl)c(C(F)(F)F)c2)cc1
+3LXE_lig,CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1

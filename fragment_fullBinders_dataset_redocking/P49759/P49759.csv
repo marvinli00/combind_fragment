@@ -1,0 +1,5 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL4224,IC50,20.0,CHEMBL2394352,dual specificty protein kinase clk1,338.19,CCOC(=O)c1c(/C(C#N)=C\N)c2ccc(Cl)c(Cl)c2n1C,CHEMBL1236620,P49759,V25,6QTY
+CHEMBL4224,IC50,2.0,CHEMBL4014111,dual specificty protein kinase clk1,409.42,C[C@@H](c1ccc(F)cc1)n1nnc2cnc3ccc(-c4ccc5ocnc5c4)cc3c21,CHEMBL4083249,P49759,SQZ,5X8I
+CHEMBL4224,IC50,11.0,CHEMBL4719516,dual specificty protein kinase clk1,383.41,COC(=N)c1nc2ccc3ncnc(Nc4ccc(OC)cc4F)c3c2s1,CHEMBL3894571,P49759,7A7,6YTI
+CHEMBL4224,IC50,4.0,CHEMBL5210147,dual specificty protein kinase clk1,482.59,CN1CCN(C(=O)C(C)(C)c2ccc(C(=O)Nc3cn4cc(-c5ccncc5)ccc4n3)cc2)CC1,CHEMBL4531334,P49759,JWN,6RAA

@@ -1,0 +1,9 @@
+ID,SMILES
+3M0I_lig,O=C(O)Cc1nn(Cc2nc3cc(C(F)(F)F)ccc3s2)c(=O)c2ccccc12
+1Z89_lig,Cc1c(S(=O)(=O)c2ccc(=O)[nH]n2)oc2ccc(Cl)cc12
+1Z3N_lig,O=C(O)Cn1cc(Cc2nc3c(F)c(F)cc(F)c3s2)c2ccccc21
+2PDL_lig,COc1ccc2c(C(=S)N(C)CC(=O)O)cccc2c1C(F)(F)F
+1IEI_lig,O=C(O)Cn1c(=O)n(Cc2ccc(Br)cc2F)c(=O)c2ccc(Cl)cc21
+4LAU_lig,O=C(O)COc1cc(Cl)ccc1C(=O)NCc1ccc(Br)cc1
+3LEP_lig,O=C(O)COc1cc(Cl)ccc1C(=O)NCc1ccc(Br)cc1F
+4LB3_lig,O=C(O)COc1cc(Cl)ccc1C(=O)NCc1ccc(I)cc1F

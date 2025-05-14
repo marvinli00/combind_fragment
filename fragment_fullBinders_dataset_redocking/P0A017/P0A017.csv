@@ -1,0 +1,14 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL1681620,Ki,0.9,CHEMBL1677364,dihydrofolate reductase,486.58,CCC[C@H]1c2ccccc2C=NN1C(=O)/C=C/c1cc(Cc2cnc(N)nc2N)cc(OC)c1OC,CHEMBL1235617,P0A017,RAR,3M08
+CHEMBL1681620,Ki,0.35,CHEMBL1821390,dihydrofolate reductase,310.36,COc1ccc(-c2cc3nc(N)nc(N)c3cc2C)cc1OC,CHEMBL1818114,P0A017,Q12,3SR5
+CHEMBL1681620,Ki,0.24,CHEMBL1821390,dihydrofolate reductase,322.37,CCOc1ccc(C=O)cc1-c1cc2nc(N)nc(N)c2cc1C,CHEMBL1818121,P0A017,Q20,3SRR
+CHEMBL1681620,Ki,0.76,CHEMBL1821390,dihydrofolate reductase,373.25,CCOc1ccc(Br)cc1-c1cc2nc(N)nc(N)c2cc1C,CHEMBL1818124,P0A017,M23,3SRS
+CHEMBL1681620,Ki,0.02,CHEMBL1821390,dihydrofolate reductase,449.54,CCOc1ccc(-c2cccc(NS(C)(=O)=O)c2)cc1-c1ccc2c(N)nc(N)nc2c1,CHEMBL1818127,P0A017,Q26,3SRU
+CHEMBL1681620,Ki,0.026,CHEMBL1821390,dihydrofolate reductase,344.42,CCOc1ccc2ccccc2c1-c1cc2nc(N)nc(N)c2cc1C,CHEMBL1818128,P0A017,Q27,3SRW
+CHEMBL1681620,Ki,0.16,CHEMBL3130226,dihydrofolate reductase,419.47,COc1cc2nc(-c3nccs3)n(-c3ccc4c(N)nc(N)nc4c3)c2cc1OC,CHEMBL3128016,P0A017,1DN,4LEK
+CHEMBL1681620,Ki,0.011,CHEMBL3130226,dihydrofolate reductase,421.92,Cc1cc2nc(-c3nccs3)n(-c3cc4nc(N)nc(N)c4cc3Cl)c2cc1C,CHEMBL3128014,P0A017,1VN,4LAG
+CHEMBL1681620,Ki,0.096,CHEMBL3130226,dihydrofolate reductase,387.47,Cc1cc2nc(-c3cscn3)n(-c3ccc4c(N)nc(N)nc4c3)c2cc1C,CHEMBL3128022,P0A017,1VO,4LAH
+CHEMBL1681620,Ki,4.77,CHEMBL3829093,dihydrofolate reductase,402.45,CCc1nc(N)nc(N)c1C#CCc1cc(-c2ccc(C(=O)O)cc2)ccc1OC,CHEMBL3827532,P0A017,U06,5ISP
+CHEMBL1681620,Ki,1.0,CHEMBL3829124,dihydrofolate reductase,454.45,CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1,CHEMBL34259,P0A017,MTX,6P9Z
+CHEMBL1681620,Ki,1.64,CHEMBL4478710,dihydrofolate reductase,402.45,CCc1nc(N)nc(N)c1C#CCc1cc(OC)cc(-c2ccc(C(=O)O)cc2)c1,CHEMBL3828771,P0A017,U75,5HF2
+CHEMBL1681620,Ki,2.68,CHEMBL4478710,dihydrofolate reductase,373.46,CCc1nc(N)nc(N)c1C#C[C@H](C)c1cc(OC)cc(-c2ccncc2)c1,CHEMBL4483572,P0A017,06U,7T7Q

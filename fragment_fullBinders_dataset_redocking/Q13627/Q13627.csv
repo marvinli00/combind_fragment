@@ -1,0 +1,17 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL2292,IC50,180.0,CHEMBL3591177,dual-specificity tyrosine-phosphorylation regulated kinase 1a,422.61,O=C(O)c1nc2ccc(I)cc2c2[nH]c3c(Cl)cccc3c12,CHEMBL3589671,Q13627,4E2,4YLK
+CHEMBL2292,IC50,120.0,CHEMBL3591177,dual-specificity tyrosine-phosphorylation regulated kinase 1a,467.06,O=C(O)c1nc2ccc(I)cc2c2[nH]c3c(Br)cccc3c12,CHEMBL3589672,Q13627,4E3,4YLL
+CHEMBL2292,IC50,216.0,CHEMBL4151857,dual-specificity tyrosine-phosphorylation regulated kinase 1a,350.4,NS(=O)(=O)c1ccc(-c2cnc3[nH]cc(-c4cccnc4)c3c2)cc1,CHEMBL4164814,Q13627,B5T,6EIF
+CHEMBL2292,IC50,532.0,CHEMBL4151857,dual-specificity tyrosine-phosphorylation regulated kinase 1a,424.36,O=c1ccc2cnc3ccc(-c4cn[nH]c4)cc3c2n1-c1ccc(F)cc1C(F)(F)F,CHEMBL1765714,Q13627,B6N,6EIS
+CHEMBL2292,IC50,800.0,CHEMBL4151857,dual-specificity tyrosine-phosphorylation regulated kinase 1a,423.54,COc1cc(N2CCN(C)CC2)ccc1Nc1nc(N)c(C(=O)c2ccccc2)s1,CHEMBL4171089,Q13627,B6Z,6EIQ
+CHEMBL2292,IC50,8.0,CHEMBL4415166,dual-specificity tyrosine-phosphorylation regulated kinase 1a,374.45,Cc1nc2ccc(-c3cc(N)nc(N)c3)nc2n1C[C@@H](C)Oc1ccccc1,CHEMBL4575900,Q13627,RKZ,7AJY
+CHEMBL2292,IC50,186.0,CHEMBL4622607,dual-specificity tyrosine-phosphorylation regulated kinase 1a,302.34,CN(c1ccccc1)c1nccc(-c2cnn3ncccc23)n1,CHEMBL360866,Q13627,KR8,6S1I
+CHEMBL2292,IC50,54.0,CHEMBL4674732,dual-specificity tyrosine-phosphorylation regulated kinase 1a,334.47,C=C(c1ccc2c(c1)CC(C)(C)c1c(N)ncnc1-2)C1CCNCC1,CHEMBL4755730,Q13627,9OL,6A1G
+CHEMBL2292,IC50,20.0,CHEMBL5034562,dual-specificity tyrosine-phosphorylation regulated kinase 1a,366.38,Cc1nc(NCc2c(F)cccc2F)c2c(-c3ccnc(N)c3)c[nH]c2n1,CHEMBL5093650,Q13627,R05,7A5N
+CHEMBL2292,IC50,6.0,CHEMBL5034566,dual-specificity tyrosine-phosphorylation regulated kinase 1a,337.41,Cc1nc(OCc2ccsc2)c2c(-c3ccnc(N)c3)c[nH]c2n1,CHEMBL5091510,Q13627,QZW,7A5L
+CHEMBL2292,IC50,8.0,CHEMBL5042806,dual-specificity tyrosine-phosphorylation regulated kinase 1a,338.46,CCCCc1nc2ccc(-c3cc(N)nc(N)c3)nc2n1CCCC,CHEMBL5091644,Q13627,RKK,7AJV
+CHEMBL2292,IC50,6.0,CHEMBL5042806,dual-specificity tyrosine-phosphorylation regulated kinase 1a,361.41,Cc1nc2ccc(-c3cc(N)nc(N)c3)nc2n1CCOc1ccccn1,CHEMBL5077422,Q13627,RHH,7AK2
+CHEMBL2292,IC50,7.0,CHEMBL5042806,dual-specificity tyrosine-phosphorylation regulated kinase 1a,375.44,Cc1nc2ccc(-c3cc(N)nc(N)c3)nc2n1C[C@@H](C)Oc1ccccn1,CHEMBL5092833,Q13627,RK2,7AKA
+CHEMBL2292,IC50,70.0,CHEMBL5138112,dual-specificity tyrosine-phosphorylation regulated kinase 1a,336.18,N#Cc1c(C2CCCC2)[nH]c2c(I)cccc12,CHEMBL5198172,Q13627,YOX,8R8E
+CHEMBL2292,IC50,153.0,CHEMBL5148195,dual-specificity tyrosine-phosphorylation regulated kinase 1a,429.53,COc1cc(N2CCN(C)CC2)ccc1Nc1nccc(-c2cn(C)c3cnccc23)n1,CHEMBL3421968,Q13627,QS0,8C3G
+CHEMBL2292,IC50,16.3,CHEMBL5251369,dual-specificity tyrosine-phosphorylation regulated kinase 1a,506.61,CCN1CCN(Cc2ccc(Nc3ncc(F)c(-c4cc(F)c5nc(C)n(C(C)C)c5c4)n3)nc2)CC1,CHEMBL3301610,Q13627,6ZV,7O7K

@@ -1,0 +1,9 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL1782,IC50,25.4,CHEMBL924794,farnesyl diphosphate synthase,319.23,CCCCCN(C)CCC(O)(P(=O)(O)O)P(=O)(O)O,CHEMBL997,P14324,BFQ,2F94
+CHEMBL1782,IC50,3.0,CHEMBL1109110,farnesyl diphosphate synthase,322.15,O=P(O)(O)C(O)(Cc1cnc2ccccn12)P(=O)(O)O,CHEMBL319144,P14324,M0N,3B7L
+CHEMBL1782,IC50,28.0,CHEMBL2049638,farnesyl diphosphate synthase,402.28,CC(C)Oc1ccc(-c2ccnc(NC(P(=O)(O)O)P(=O)(O)O)c2)cc1,CHEMBL2048241,P14324,YS4,4LFV
+CHEMBL1782,IC50,12.0,CHEMBL2092208,farnesyl diphosphate synthase,400.26,O=P(O)(O)C(Nc1cc(-c2ccc(OC3CC3)cc2)ccn1)P(=O)(O)O,CHEMBL2088336,P14324,YS1,4PVX
+CHEMBL1782,IC50,60.0,CHEMBL2092208,farnesyl diphosphate synthase,402.28,CC(C)Oc1ccc(-c2cncc(NC(P(=O)(O)O)P(=O)(O)O)c2)cc1,CHEMBL2088338,P14324,JD1,4PVY
+CHEMBL1782,IC50,16.0,CHEMBL2092208,farnesyl diphosphate synthase,400.26,O=P(O)(O)C(Nc1cncc(-c2ccc(OC3CC3)cc2)c1)P(=O)(O)O,CHEMBL2088339,P14324,JD5,4NFI
+CHEMBL1782,IC50,390.0,CHEMBL2351269,farnesyl diphosphate synthase,415.3,Cc1ccc(-c2cc3c(NC(P(=O)(O)O)P(=O)(O)O)ncnc3s2)cc1,CHEMBL2347862,P14324,1MV,4LPG
+CHEMBL1782,IC50,540.0,CHEMBL4337921,farnesyl diphosphate synthase,477.89,Cc1ccc(-c2cc3c(N[C@@H](Cc4cccc(F)c4)P(=O)(O)O)ncnc3s2)cc1Cl,CHEMBL4515661,P14324,YL6,6N83

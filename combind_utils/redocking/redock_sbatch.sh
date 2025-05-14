@@ -25,8 +25,8 @@ combind structprep --root $PROTEIN_DIR
 echo "Running ligprep"
 combind ligprep $PROTEIN_DIR/ligand_resmiles.csv --root $PROTEIN_DIR/ligands --processes=$(nproc)
 echo "Running dock"
-combind dock $PROTEIN_DIR/ligands/*/*.maegz --root $PROTEIN_DIR/docking --processes=$(nproc)
+combind dock $PROTEIN_DIR/ligands/*/*.maegz --root $PROTEIN_DIR/docking --processes=$(nproc) --grid $PROTEIN_DIR/structures/grids/*/*.zip
 echo "Running featurize"
-combind featurize $PROTEIN_DIR/features --native $PROTEIN_DIR/structures/ligands/*_lig.mae --processes $(nproc)
+combind featurize $PROTEIN_DIR/features $PROTEIN_DIR/docking/*/*_pv.maegz --native $PROTEIN_DIR/structures/ligands/*_lig.mae --processes $(nproc)
 echo "Running pose-prediction"
 combind pose-prediction $PROTEIN_DIR/features $PROTEIN_DIR/features/poses.csv

@@ -1,0 +1,74 @@
+no change     /home/groups/emmalu/marvinli/anaconda3/condabin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda-env
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/activate
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/deactivate
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.sh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/Conda.psm1
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/groups/emmalu/marvinli/anaconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.csh
+no change     /home/users/mli89/.bashrc
+No action taken.
+Note: The Schrodinger virtualenv is tied to a specific SCHRODINGER value.
+This virtualenv is tied to SCHRODINGER=/share/software/user/restricted/schrodinger/2021-1.
+
+If you change your SCHRODINGER environment variable, it will break the ability
+to use the unadorned python command.
+
+Running structprep
+JobId: sh03-15n08-1-681d34ae
+
+JobId: sh03-15n08-0-681d35a5
+
+JobId: sh03-15n08-0-681d369b
+
+JobId: sh03-15n08-0-681d3792
+
+JobId: sh03-15n08-0-681d3888
+
+JobId: sh03-15n08-0-681d3982
+
+JobId: sh03-15n08-0-681d3a91
+
+ExitStatus: finished
+Processing ['2off', '3zcr', '3zct', '5lrf', '5o52', '6f3l'], aligning to 2off, and creating a docking grid for 2off
+processing 2off
+processing 3zcr
+processing 3zct
+processing 5lrf
+processing 5o52
+processing 6f3l
+align 2off 2off
+align 3zcr 2off
+-- Alignment warning! 3zcr 0.937
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 3zcr 0.937
+align 3zcr 2off
+align 3zct 2off
+-- Alignment warning! 3zct 0.936
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 3zct 0.936
+align 3zct 2off
+align 5lrf 2off
+-- Alignment warning! 5lrf 1.086
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 5lrf 1.086
+align 5lrf 2off
+align 5o52 2off
+align 6f3l 2off
+-- Alignment warning! 6f3l 0.89
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 6f3l 0.89
+align 6f3l 2off
+making grid 2off
+Running ligprep
+Running dock
+No grids in default location (structures/grids), please specify path.
+Running featurize
+Extracting glide scores.
+Extracting names.
+Computing RMSDs to native poses
+Computing interaction fingerprints.
+Running pose-prediction

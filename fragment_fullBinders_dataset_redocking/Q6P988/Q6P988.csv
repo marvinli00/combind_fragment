@@ -1,0 +1,4 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL3714531,IC50,4.0,CHEMBL5041229,palmitoleoyl-protein carboxylesterase notum,328.28,O=c1[nH]nc2ccc(Sc3cccc(OC(F)(F)F)c3)nn12,CHEMBL5078659,Q6P988,SSW,7B3H
+CHEMBL3714531,IC50,5.0,CHEMBL5041229,palmitoleoyl-protein carboxylesterase notum,313.17,O=c1[nH]nc2ccc(Sc3ccc(Cl)c(Cl)c3)nn12,CHEMBL5070478,Q6P988,SXQ,7B50
+CHEMBL3714531,IC50,1.0,CHEMBL5151003,palmitoleoyl-protein carboxylesterase notum,300.79,O=C(O)CSc1ncnc2c(C3CC3)c(Cl)sc12,CHEMBL3774760,Q6P988,M9K,6T2K

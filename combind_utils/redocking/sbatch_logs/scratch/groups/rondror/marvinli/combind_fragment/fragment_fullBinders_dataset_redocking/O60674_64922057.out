@@ -1,0 +1,274 @@
+no change     /home/groups/emmalu/marvinli/anaconda3/condabin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda-env
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/activate
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/deactivate
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.sh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/Conda.psm1
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/groups/emmalu/marvinli/anaconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.csh
+no change     /home/users/mli89/.bashrc
+No action taken.
+Note: The Schrodinger virtualenv is tied to a specific SCHRODINGER value.
+This virtualenv is tied to SCHRODINGER=/share/software/user/restricted/schrodinger/2021-1.
+
+If you change your SCHRODINGER environment variable, it will break the ability
+to use the unadorned python command.
+
+Running structprep
+JobId: sh03-15n07-0-681d34a5
+
+JobId: sh03-15n07-0-681d34e8
+
+JobId: sh03-15n07-0-681d352a
+
+JobId: sh03-15n07-0-681d356b
+
+JobId: sh03-15n07-0-681d35b0
+
+JobId: sh03-15n07-0-681d35f2
+
+JobId: sh03-15n07-0-681d3634
+
+JobId: sh03-15n07-0-681d3676
+
+JobId: sh03-15n07-0-681d36b8
+
+JobId: sh03-15n07-0-681d36fe
+
+JobId: sh03-15n07-0-681d3741
+
+JobId: sh03-15n07-0-681d3783
+
+JobId: sh03-15n07-0-681d37c5
+
+JobId: sh03-15n07-0-681d3807
+
+JobId: sh03-15n07-0-681d3885
+
+JobId: sh03-15n07-0-681d38c7
+
+JobId: sh03-15n07-0-681d3909
+
+JobId: sh03-15n07-0-681d394b
+
+JobId: sh03-15n07-0-681d398e
+
+JobId: sh03-15n07-0-681d3a0c
+
+JobId: sh03-15n07-0-681d3a4f
+
+JobId: sh03-15n07-0-681d3a91
+
+JobId: sh03-15n07-0-681d3ad3
+
+JobId: sh03-15n07-0-681d3b15
+
+JobId: sh03-15n07-0-681d3b93
+
+JobId: sh03-15n07-0-681d3bd9
+
+JobId: sh03-15n07-0-681d3c1b
+
+JobId: sh03-15n07-0-681d3c5d
+
+JobId: sh03-15n07-0-681d3c9f
+
+JobId: sh03-15n07-0-681d3ce1
+
+JobId: sh03-15n07-0-681d3d27
+
+JobId: sh03-15n07-0-681d3d69
+
+JobId: sh03-15n07-0-681d3dab
+
+JobId: sh03-15n07-0-681d3e29
+
+JobId: sh03-15n07-0-681d3e6b
+
+JobId: sh03-15n07-0-681d3ead
+
+JobId: sh03-15n07-0-681d3ef0
+
+JobId: sh03-15n07-0-681d3f32
+
+JobId: sh03-15n07-0-681d3f74
+
+JobId: sh03-15n07-0-681d3ff2
+
+JobId: sh03-15n07-0-681d4034
+
+JobId: sh03-15n07-0-681d4076
+
+JobId: sh03-15n07-0-681d40b9
+
+JobId: sh03-15n07-0-681d4106
+
+JobId: sh03-15n07-0-681d4148
+
+JobId: sh03-15n07-0-681d418a
+
+JobId: sh03-15n07-0-681d41cc
+
+JobId: sh03-15n07-0-681d420e
+
+JobId: sh03-15n07-0-681d4251
+
+JobId: sh03-15n07-0-681d4293
+
+JobId: sh03-15n07-0-681d4311
+
+JobId: sh03-15n07-0-681d4390
+
+JobId: sh03-15n07-0-681d4481
+
+ExitStatus: finished
+Processing ['2b7a', '2xa4', '3fup', '3tjc', '4aqc', '4bbe', '4bbf', '4c61', '4d0w', '4d0x', '4d1s', '4gmy', '4ji9', '4jia', '5aep', '5cf4', '5cf5', '5cf6', '5cf8', '5tq5', '5tq6', '5ut4', '5ut5', '6bbv', '6obf', '6obl', '6occ', '6vnb', '6vnc', '6vne', '6vnf', '6vng', '6vnh', '6vnl', '6vnm', '6vsn', '6wtn', '6wto', '6x8e', '7f7w', '7q7l', '7q7w', '7szw', '7t0p', '7t1t', '8b99', '8bm2', '8bpw', '8bx6', '8bx9', '8bxc', '8bxh'], aligning to 2b7a, and creating a docking grid for 2b7a
+processing 2b7a
+processing 2xa4
+processing 3fup
+processing 3tjc
+processing 4aqc
+processing 4bbe
+processing 4bbf
+processing 4c61
+processing 4d0w
+processing 4d0x
+processing 4d1s
+processing 4gmy
+processing 4ji9
+processing 4jia
+processing 5aep
+processing 5cf4
+processing 5cf5
+processing 5cf6
+processing 5cf8
+processing 5tq5
+processing 5tq6
+processing 5ut4
+processing 5ut5
+processing 6bbv
+processing 6obf
+processing 6obl
+processing 6occ
+processing 6vnb
+processing 6vnc
+processing 6vne
+processing 6vnf
+processing 6vng
+processing 6vnh
+processing 6vnl
+processing 6vnm
+processing 6vsn
+processing 6wtn
+processing 6wto
+processing 6x8e
+processing 7f7w
+processing 7q7l
+processing 7q7w
+processing 7szw
+processing 7t0p
+processing 7t1t
+processing 8b99
+processing 8bm2
+processing 8bpw
+processing 8bx6
+processing 8bx9
+processing 8bxc
+processing 8bxh
+align 2b7a 2b7a
+align 2xa4 2b7a
+align 3fup 2b7a
+-- Alignment warning! 3fup 0.724
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 3fup 0.724
+align 3fup 2b7a
+align 3tjc 2b7a
+align 4aqc 2b7a
+align 4bbe 2b7a
+-- Alignment warning! 4bbe 0.465
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 4bbe 0.465
+align 4bbe 2b7a
+align 4bbf 2b7a
+align 4c61 2b7a
+align 4d0w 2b7a
+align 4d0x 2b7a
+align 4d1s 2b7a
+align 4gmy 2b7a
+-- Alignment warning! 4gmy 0.423
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 4gmy 0.423
+align 4gmy 2b7a
+align 4ji9 2b7a
+-- Alignment warning! 4ji9 0.432
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 4ji9 0.432
+align 4ji9 2b7a
+align 4jia 2b7a
+-- Alignment warning! 4jia 0.456
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 4jia 0.456
+align 4jia 2b7a
+align 5aep 2b7a
+align 5cf4 2b7a
+align 5cf5 2b7a
+align 5cf6 2b7a
+align 5cf8 2b7a
+align 5tq5 2b7a
+align 5tq6 2b7a
+align 5ut4 2b7a
+align 5ut5 2b7a
+align 6bbv 2b7a
+align 6obf 2b7a
+align 6obl 2b7a
+align 6occ 2b7a
+align 6vnb 2b7a
+align 6vnc 2b7a
+align 6vne 2b7a
+align 6vnf 2b7a
+align 6vng 2b7a
+align 6vnh 2b7a
+align 6vnl 2b7a
+align 6vnm 2b7a
+-- Alignment warning! 6vnm 1.328
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 6vnm 1.328
+align 6vnm 2b7a
+align 6vsn 2b7a
+align 6wtn 2b7a
+align 6wto 2b7a
+align 6x8e 2b7a
+align 7f7w 2b7a
+align 7q7l 2b7a
+align 7q7w 2b7a
+align 7szw 2b7a
+align 7t0p 2b7a
+align 7t1t 2b7a
+align 8b99 2b7a
+align 8bm2 2b7a
+align 8bpw 2b7a
+align 8bx6 2b7a
+align 8bx9 2b7a
+-- Alignment warning! 8bx9 0.414
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 8bx9 0.414
+align 8bx9 2b7a
+align 8bxc 2b7a
+align 8bxh 2b7a
+-- Alignment warning! 8bxh 0.468
+Alignment failed. Trying again with a larger radius.
+-- Alignment warning! 8bxh 0.468
+align 8bxh 2b7a
+making grid 2b7a
+Running ligprep
+Running dock
+No grids in default location (structures/grids), please specify path.
+Running featurize
+Extracting glide scores.
+Extracting names.
+Computing RMSDs to native poses
+Computing interaction fingerprints.
+Running pose-prediction

@@ -1,0 +1,13 @@
+ID,SMILES
+6ENM_lig,COc1ccc(-c2ccc(S(=O)(=O)c3ccccc3CC(=O)NO)cc2)cc1
+6EOX_lig,COc1ccc(-c2ccc(S(=O)(=O)c3ccccc3CC(=O)O)cc2)cc1
+4EFS_lig,NC(=O)[C@H](CCC(=O)O)NC(=O)c1ccc(-c2cc(-c3ccccc3)cs2)cc1
+5L79_lig,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](Cc1cc(-c2ccc(-c3cccc(Cl)c3)cc2)no1)CP(=O)(O)c1ccc(Br)cc1
+4GR8_lig,C[C@H](NC(=O)[C@H](C)NC(=O)[C@H](Cc1cc(-c2ccccc2)no1)CP(=O)(O)c1ccc(Br)cc1)C(N)=O
+4GR0_lig,C[C@H](NC(=O)[C@H](C)NC(=O)[C@H](Cc1cc(-c2ccc(-c3cccc(Cl)c3)cc2)no1)CP(=O)(O)c1ccc(Br)cc1)C(N)=O
+4GR3_lig,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](Cc1cc(-c2ccccc2)no1)CP(=O)(O)c1ccc(Br)cc1
+3F17_lig,O=C(CNS(=O)(=O)c1ccc(-c2ccccc2)cc1)NO
+3TSK_lig,NC(=O)CC[C@H](NC(=O)CCc1ccc(-c2cc(-c3ccccc3)cs2)cc1)C(=O)N[C@@H](CCC(=O)O)C(N)=O
+3TS4_lig,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)CCc1ccc(-c2cc(-c3ccccc3)cs2)cc1
+3LIL_lig,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)CCc1cc(-c2ccc(-c3cccc(Cl)c3)cc2)no1
+3LIR_lig,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)CCc1cc(-c2ccccc2)no1

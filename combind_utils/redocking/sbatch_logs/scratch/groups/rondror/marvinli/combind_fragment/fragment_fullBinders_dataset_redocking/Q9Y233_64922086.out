@@ -1,0 +1,210 @@
+no change     /home/groups/emmalu/marvinli/anaconda3/condabin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda-env
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/activate
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/deactivate
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.sh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/Conda.psm1
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/groups/emmalu/marvinli/anaconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.csh
+no change     /home/users/mli89/.bashrc
+No action taken.
+Note: The Schrodinger virtualenv is tied to a specific SCHRODINGER value.
+This virtualenv is tied to SCHRODINGER=/share/software/user/restricted/schrodinger/2021-1.
+
+If you change your SCHRODINGER environment variable, it will break the ability
+to use the unadorned python command.
+
+Running structprep
+JobId: sh03-08n08-0-681d3558
+
+JobId: sh03-08n08-0-681d3598
+
+JobId: sh03-08n08-0-681d35d9
+
+JobId: sh03-08n08-0-681d361a
+
+JobId: sh03-08n08-0-681d365d
+
+JobId: sh03-08n08-0-681d369e
+
+JobId: sh03-08n08-0-681d36df
+
+JobId: sh03-08n08-0-681d3720
+
+JobId: sh03-08n08-0-681d3761
+
+JobId: sh03-08n08-0-681d37a1
+
+JobId: sh03-08n08-0-681d37e2
+
+JobId: sh03-08n08-0-681d3823
+
+JobId: sh03-08n08-0-681d3864
+
+JobId: sh03-08n08-0-681d38a4
+
+JobId: sh03-08n08-0-681d38e5
+
+JobId: sh03-08n08-0-681d3926
+
+JobId: sh03-08n08-0-681d3967
+
+JobId: sh03-08n08-0-681d39a8
+
+JobId: sh03-08n08-0-681d39e9
+
+JobId: sh03-08n08-0-681d3a2a
+
+JobId: sh03-08n08-0-681d3a6b
+
+JobId: sh03-08n08-0-681d3aab
+
+JobId: sh03-08n08-0-681d3aec
+
+JobId: sh03-08n08-0-681d3b30
+
+JobId: sh03-08n08-0-681d3b71
+
+JobId: sh03-08n08-0-681d3bb2
+
+JobId: sh03-08n08-0-681d3bf3
+
+JobId: sh03-08n08-0-681d3c34
+
+JobId: sh03-08n08-0-681d3c75
+
+JobId: sh03-08n08-0-681d3cb6
+
+JobId: sh03-08n08-0-681d3cf7
+
+JobId: sh03-08n08-0-681d3d38
+
+JobId: sh03-08n08-0-681d3d7a
+
+JobId: sh03-08n08-0-681d3dbc
+
+JobId: sh03-08n08-0-681d3dfd
+
+JobId: sh03-08n08-0-681d3e3e
+
+JobId: sh03-08n08-0-681d3e80
+
+JobId: sh03-08n08-0-681d3ec1
+
+JobId: sh03-08n08-0-681d3f02
+
+JobId: sh03-08n08-0-681d3f44
+
+JobId: sh03-08n08-0-681d3f85
+
+JobId: sh03-08n08-0-681d3fc7
+
+JobId: sh03-08n08-0-681d400b
+
+JobId: sh03-08n08-0-681d404c
+
+JobId: sh03-08n08-0-681d40d7
+
+ExitStatus: finished
+Processing ['2y0j', '3sn7', '3sni', '3snl', '3ui7', '3uuo', '3wi2', '4ael', '4dff', '4heu', '4mvh', '4p0n', '4p1r', '4phw', '4zo5', '5axp', '5axq', '5b4l', '5c2a', '5c2e', '5dh5', '5edi', '5i2r', '5se0', '5se1', '5se5', '5set', '5sew', '5sf4', '5sf8', '5sfl', '5sfn', '5sfu', '5si5', '5sjr', '5sjx', '5skk', '6kdx', '6msc', '7qpf', '7qpm', '7qpq', '7qpv', '7qq4'], aligning to 2y0j, and creating a docking grid for 2y0j
+processing 2y0j
+processing 3sn7
+processing 3sni
+processing 3snl
+processing 3ui7
+processing 3uuo
+processing 3wi2
+processing 4ael
+processing 4dff
+processing 4heu
+processing 4mvh
+processing 4p0n
+processing 4p1r
+processing 4phw
+processing 4zo5
+processing 5axp
+processing 5axq
+processing 5b4l
+processing 5c2a
+processing 5c2e
+processing 5dh5
+processing 5edi
+processing 5i2r
+processing 5se0
+processing 5se1
+processing 5se5
+processing 5set
+processing 5sew
+processing 5sf4
+processing 5sf8
+processing 5sfl
+processing 5sfn
+processing 5sfu
+processing 5si5
+processing 5sjr
+processing 5sjx
+processing 5skk
+processing 6kdx
+processing 6msc
+processing 7qpf
+processing 7qpm
+processing 7qpq
+processing 7qpv
+processing 7qq4
+align 2y0j 2y0j
+align 3sn7 2y0j
+align 3sni 2y0j
+align 3snl 2y0j
+align 3ui7 2y0j
+align 3uuo 2y0j
+align 3wi2 2y0j
+align 4ael 2y0j
+align 4dff 2y0j
+align 4heu 2y0j
+align 4mvh 2y0j
+align 4p0n 2y0j
+align 4p1r 2y0j
+align 4phw 2y0j
+align 4zo5 2y0j
+align 5axp 2y0j
+align 5axq 2y0j
+align 5b4l 2y0j
+align 5c2a 2y0j
+align 5c2e 2y0j
+align 5dh5 2y0j
+align 5edi 2y0j
+align 5i2r 2y0j
+align 5se0 2y0j
+align 5se1 2y0j
+align 5se5 2y0j
+align 5set 2y0j
+align 5sew 2y0j
+align 5sf4 2y0j
+align 5sf8 2y0j
+align 5sfl 2y0j
+align 5sfn 2y0j
+align 5sfu 2y0j
+align 5si5 2y0j
+align 5sjr 2y0j
+align 5sjx 2y0j
+align 5skk 2y0j
+align 6kdx 2y0j
+align 6msc 2y0j
+align 7qpf 2y0j
+align 7qpm 2y0j
+align 7qpq 2y0j
+align 7qpv 2y0j
+align 7qq4 2y0j
+making grid 2y0j
+Running ligprep
+Running dock
+No grids in default location (structures/grids), please specify path.
+Running featurize
+Extracting glide scores.
+Extracting names.
+Computing RMSDs to native poses
+Computing interaction fingerprints.
+Running pose-prediction

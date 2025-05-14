@@ -1,0 +1,14 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL5896,IC50,900.0,CHEMBL3778805,lysine-specific demethylase 4a,378.41,CN(CCc1cnn(-c2nccc3c(=O)[nH]cnc23)c1)Cc1ccc(F)cc1,CHEMBL3774747,O75164,5U8,5F3C
+CHEMBL5896,IC50,126.0,CHEMBL3778805,lysine-specific demethylase 4a,448.96,O=c1[nH]cnc2c(-n3cc(CCN4CCC(Cc5ccc(Cl)cc5)CC4)cn3)nccc12,CHEMBL3775899,O75164,5UL,5F3G
+CHEMBL5896,IC50,138.0,CHEMBL3778805,lysine-specific demethylase 4a,434.93,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5ccc(Cl)cc5)CC4)cn3)nccc12,CHEMBL3775977,O75164,5UO,5F3E
+CHEMBL5896,IC50,80.0,CHEMBL3778805,lysine-specific demethylase 4a,469.38,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5cc(Cl)cc(Cl)c5)CC4)cn3)nccc12,CHEMBL3775894,O75164,5UJ,5F3I
+CHEMBL5896,IC50,102.0,CHEMBL3778805,lysine-specific demethylase 4a,434.93,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5cccc(Cl)c5)CC4)cn3)nccc12,CHEMBL3774537,O75164,FQ5,6H4P
+CHEMBL5896,IC50,128.0,CHEMBL3778805,lysine-specific demethylase 4a,468.48,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5cccc(C(F)(F)F)c5)CC4)cn3)nccc12,CHEMBL3775548,O75164,FQH,6H4O
+CHEMBL5896,IC50,104.0,CHEMBL4193853,lysine-specific demethylase 4a,387.48,CN(c1ccccc1)c1ccc2c(c1)CCC[C@H]2CNc1cnccc1C(=O)O,CHEMBL4216044,O75164,9DJ,5VGI
+CHEMBL5896,IC50,613.0,CHEMBL4353688,lysine-specific demethylase 4a,364.45,O=c1[nH]cnc2c(-n3cc(C4CCN(C5CCCC5)CC4)cn3)nccc12,CHEMBL4529932,O75164,FQN,6H4V
+CHEMBL5896,IC50,100.0,CHEMBL4353688,lysine-specific demethylase 4a,426.52,O=c1[nH]cnc2c(-n3cc(CCN4CCC5(CCc6ccccc65)CC4)cn3)nccc12,CHEMBL4449500,O75164,FOW,6H4T
+CHEMBL5896,IC50,93.0,CHEMBL4353688,lysine-specific demethylase 4a,471.61,CN(C)CCc1ccc(C2CCN(CCc3cnn(-c4nccc5c(=O)[nH]cnc45)c3)CC2)cc1,CHEMBL4585876,O75164,FQB,6H4R
+CHEMBL5896,IC50,77.0,CHEMBL4353688,lysine-specific demethylase 4a,513.65,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5ccc(CCN6CCOCC6)cc5)CC4)cn3)nccc12,CHEMBL4466130,O75164,FO8,6H4Y
+CHEMBL5896,IC50,131.0,CHEMBL4353688,lysine-specific demethylase 4a,477.57,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5ccc(-c6cccnc6)cc5)CC4)cn3)nccc12,CHEMBL4559561,O75164,FNQ,6H4X
+CHEMBL5896,IC50,38.0,CHEMBL4353688,lysine-specific demethylase 4a,471.61,CN(C)CCc1cccc(C2CCN(CCc3cnn(-c4nccc5c(=O)[nH]cnc45)c3)CC2)c1,CHEMBL4438830,O75164,FQE,6H4S

@@ -1,0 +1,6 @@
+ID,SMILES
+1IA3_lig,CC(C)(C)c1ccc(Sc2cccc3nc(N)nc(N)c23)cc1
+1IA4_lig,Nc1nc(N)c2c(Sc3ccc(N4CCOCC4)cc3)cccc2n1
+4H97_lig,COc1cc(-c2ccc(C)cc2)cc([C@@H](C)C#Cc2c(C)nc(N)nc2N)c1
+3QLR_lig,CC[C@@H](C#Cc1c(C)nc(N)nc1N)c1cc(OC)c(OC)c(OC)c1
+3QLS_lig,COc1cc(C(C)(C)C#Cc2c(C)nc(N)nc2N)cc(OC)c1OC

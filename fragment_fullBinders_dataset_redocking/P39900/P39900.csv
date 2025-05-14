@@ -1,0 +1,13 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL4393,IC50,4.8,CHEMBL1042351,matrix metalloproteinase 12,397.45,COc1ccc(-c2ccc(S(=O)(=O)c3ccccc3CC(=O)NO)cc2)cc1,CHEMBL584365,P39900,LPW,6ENM
+CHEMBL4393,IC50,140.0,CHEMBL1042351,matrix metalloproteinase 12,382.44,COc1ccc(-c2ccc(S(=O)(=O)c3ccccc3CC(=O)O)cc2)cc1,CHEMBL573936,P39900,BKW,6EOX
+CHEMBL4393,IC50,2.5,CHEMBL4668444,matrix metalloproteinase 12,408.48,NC(=O)[C@H](CCC(=O)O)NC(=O)c1ccc(-c2cc(-c3ccccc3)cs2)cc1,CHEMBL4761188,P39900,E37,4EFS
+CHEMBL4393,Ki,0.24,CHEMBL2317576,matrix metalloproteinase 12,818.01,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](Cc1cc(-c2ccc(-c3cccc(Cl)c3)cc2)no1)CP(=O)(O)c1ccc(Br)cc1,CHEMBL507420,P39900,R47,5L79
+CHEMBL4393,Ki,14.7,CHEMBL2317585,matrix metalloproteinase 12,591.4,C[C@H](NC(=O)[C@H](C)NC(=O)[C@H](Cc1cc(-c2ccccc2)no1)CP(=O)(O)c1ccc(Br)cc1)C(N)=O,CHEMBL2316258,P39900,R4C,4GR8
+CHEMBL4393,Ki,0.28,CHEMBL2317585,matrix metalloproteinase 12,701.94,C[C@H](NC(=O)[C@H](C)NC(=O)[C@H](Cc1cc(-c2ccc(-c3cccc(Cl)c3)cc2)no1)CP(=O)(O)c1ccc(Br)cc1)C(N)=O,CHEMBL2316257,P39900,R4B,4GR0
+CHEMBL4393,Ki,15.5,CHEMBL2317585,matrix metalloproteinase 12,707.47,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](Cc1cc(-c2ccccc2)no1)CP(=O)(O)c1ccc(Br)cc1,CHEMBL2316256,P39900,R45,4GR3
+CHEMBL4393,Ki,2.0,CHEMBL2388547,matrix metalloproteinase 12,306.34,O=C(CNS(=O)(=O)c1ccc(-c2ccccc2)cc1)NO,CHEMBL550148,P39900,HS4,3F17
+CHEMBL4393,Ki,317.0,CHEMBL3707909,matrix metalloproteinase 12,564.66,NC(=O)CC[C@H](NC(=O)CCc1ccc(-c2cc(-c3ccccc3)cs2)cc1)C(=O)N[C@@H](CCC(=O)O)C(N)=O,CHEMBL3675596,P39900,QEG,3TSK
+CHEMBL4393,Ki,1.92,CHEMBL3707909,matrix metalloproteinase 12,565.65,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)CCc1ccc(-c2cc(-c3ccccc3)cs2)cc1,CHEMBL1232492,P39900,EEG,3TS4
+CHEMBL4393,Ki,8.3,CHEMBL3707909,matrix metalloproteinase 12,585.01,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)CCc1cc(-c2ccc(-c3cccc(Cl)c3)cc2)no1,CHEMBL1232487,P39900,EEA,3LIL
+CHEMBL4393,Ki,119.0,CHEMBL3707909,matrix metalloproteinase 12,474.47,NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)CCc1cc(-c2ccccc2)no1,CHEMBL1232489,P39900,EEC,3LIR

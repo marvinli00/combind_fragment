@@ -47,7 +47,6 @@ class Features:
                 pv = pv.replace(self.pv_root), self.root+'/single'
             if pv2 is not None:
                 pv2 = pv2.replace(self.pv_root), self.root+'/single'
-
         # single features
         if name == 'rmsd':
             return pv.replace('_pv.maegz', '_rmsd.npy')
@@ -133,7 +132,7 @@ class Features:
             pvs = [pv for _pvs in pvs for pv in _pvs]
 
         pvs = [os.path.abspath(pv) for pv in pvs]
-
+        
         print('Extracting glide scores.')
         for pv in pvs:
             out = self.path('gscore', pv=pv)

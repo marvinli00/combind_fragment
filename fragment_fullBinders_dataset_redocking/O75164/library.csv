@@ -1,0 +1,14 @@
+ID,SMILES
+5F3C_lig,CN(CCc1cnn(-c2nccc3c(=O)[nH]cnc23)c1)Cc1ccc(F)cc1
+5F3G_lig,O=c1[nH]cnc2c(-n3cc(CCN4CCC(Cc5ccc(Cl)cc5)CC4)cn3)nccc12
+5F3E_lig,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5ccc(Cl)cc5)CC4)cn3)nccc12
+5F3I_lig,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5cc(Cl)cc(Cl)c5)CC4)cn3)nccc12
+6H4P_lig,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5cccc(Cl)c5)CC4)cn3)nccc12
+6H4O_lig,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5cccc(C(F)(F)F)c5)CC4)cn3)nccc12
+5VGI_lig,CN(c1ccccc1)c1ccc2c(c1)CCC[C@H]2CNc1cnccc1C(=O)O
+6H4V_lig,O=c1[nH]cnc2c(-n3cc(C4CCN(C5CCCC5)CC4)cn3)nccc12
+6H4T_lig,O=c1[nH]cnc2c(-n3cc(CCN4CCC5(CCc6ccccc65)CC4)cn3)nccc12
+6H4R_lig,CN(C)CCc1ccc(C2CCN(CCc3cnn(-c4nccc5c(=O)[nH]cnc45)c3)CC2)cc1
+6H4Y_lig,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5ccc(CCN6CCOCC6)cc5)CC4)cn3)nccc12
+6H4X_lig,O=c1[nH]cnc2c(-n3cc(CCN4CCC(c5ccc(-c6cccnc6)cc5)CC4)cn3)nccc12
+6H4S_lig,CN(C)CCc1cccc(C2CCN(CCc3cnn(-c4nccc5c(=O)[nH]cnc45)c3)CC2)c1

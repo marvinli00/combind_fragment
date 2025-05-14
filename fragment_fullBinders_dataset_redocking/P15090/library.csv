@@ -1,0 +1,15 @@
+ID,SMILES
+3FR5_lig,NC(=O)c1cccc(Cn2c3c(c4cccc(C(=O)O)c42)CCCCC3)c1
+3FR2_lig,O=C(O)c1cccc2c3c(n(Cc4ccccc4)c12)CCCC3
+2NNQ_lig,CCc1c(-c2ccccc2)c(-c2ccccc2)nn1-c1ccccc1-c1cccc(OCC(=O)O)c1
+7FZY_lig,Clc1ccc2nc(N3CCCCC3)c(-c3nnn[nH]3)c(-c3ccccc3)c2c1
+6LJV_lig,O=C(O)c1ccccc1Nc1cccc(Cl)c1-c1ccc2c(c1)CCO2
+5D45_lig,O=C(O)CCn1c(-c2ccccc2)c(-c2ccccc2)c2cc(C3CC3)ccc21
+5D47_lig,COc1cnccc1-c1c(-c2ccccc2)n(CCC(=O)O)c2ccc(C3CC3)cc12
+5D48_lig,Cc1n[nH]c(C)c1-c1c(-c2cccc(OC(C)C)c2)n(CCC(=O)O)c2ccc(C3CC3)cc12
+5HZ8_lig,O=C(O)c1c(N2CCCCC2)nc2c(Cl)cc(Cl)cc2c1-c1ccccc1
+7G0A_lig,O=c1[nH]nc(-c2c(N3CCCCC3)nc3ccc(Cl)cc3c2-c2ccccc2)o1
+5Y12_lig,COc1ccc(S(=O)(=O)NCCCCC(=O)O)c2ccccc12
+5Y0F_lig,COc1ccc(S(=O)(=O)Nc2ccc(F)c(C(=O)O)c2)c2ccccc12
+5Y0G_lig,COc1ccc(S(=O)(=O)Nc2cc(C(=O)O)ccc2F)c2ccccc12
+5EDC_lig,O=C(O)c1c(N2CCCCC2)nc2ccc(Cl)cc2c1-c1ccccc1

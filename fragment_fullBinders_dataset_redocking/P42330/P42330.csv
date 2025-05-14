@@ -1,0 +1,11 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL4681,IC50,3.2,CHEMBL1004013,aldo-keto-reductase family 1 member c3,395.54,CC1(C)CC[C@@]2(CC[C@H]3[C@@H]4CCc5cc(C(N)=O)ccc5[C@H]4CC[C@@]32C)OC1=O,CHEMBL521703,P42330,E04,1ZQ5
+CHEMBL4681,IC50,730.0,CHEMBL2174992,aldo-keto-reductase family 1 member c3,357.79,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,CHEMBL6,P42330,IMN,3UG8
+CHEMBL4681,IC50,50.0,CHEMBL2174992,aldo-keto-reductase family 1 member c3,330.41,CNC(=O)c1cccc(S(=O)(=O)N2CCc3ccccc3C2)c1,CHEMBL2172072,P42330,0T0,4FAL
+CHEMBL4681,IC50,32.0,CHEMBL2174992,aldo-keto-reductase family 1 member c3,319.38,O=C(O)[C@@H]1CCCN(S(=O)(=O)c2ccc3ccccc3c2)C1,CHEMBL2172078,P42330,0SL,4FA3
+CHEMBL4681,IC50,27.0,CHEMBL2174987,aldo-keto-reductase family 1 member c3,317.37,O=C(O)c1cccc(S(=O)(=O)N2CCc3ccccc3C2)c1,CHEMBL1566492,P42330,0SZ,4FAM
+CHEMBL4681,IC50,960.0,CHEMBL2329815,aldo-keto-reductase family 1 member c3,343.77,COc1ccc2c(c1)c(CC(=O)O)cn2C(=O)c1ccc(Cl)cc1,CHEMBL503179,P42330,511,4DBW
+CHEMBL4681,IC50,18.0,CHEMBL3108467,aldo-keto-reductase family 1 member c3,309.8,O=C(N1CCOCC1)N1CCN(c2ccc(Cl)cc2)CC1,CHEMBL3103347,P42330,16J,4HMN
+CHEMBL4681,IC50,310.0,CHEMBL4133559,aldo-keto-reductase family 1 member c3,392.34,COc1ccc(Cn2nnc(O)c2C(=O)Nc2cccc(C(F)(F)F)c2)cc1,CHEMBL4174786,P42330,CJ2,6F2U
+CHEMBL4681,IC50,34.0,CHEMBL4622627,aldo-keto-reductase family 1 member c3,308.34,CCc1cccc(NC(=O)c2cc3cccc(O)c3oc2=N)c1,CHEMBL4646593,P42330,FJU,7C7H
+CHEMBL4681,IC50,86.0,CHEMBL4668506,aldo-keto-reductase family 1 member c3,308.29,O=C(O)c1cccc(Nc2ccc([N+](=O)[O-])c3ccccc23)c1,CHEMBL2023820,P42330,0HV,4DBS

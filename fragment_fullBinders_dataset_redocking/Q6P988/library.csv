@@ -1,0 +1,4 @@
+ID,SMILES
+7B3H_lig,O=c1[nH]nc2ccc(Sc3cccc(OC(F)(F)F)c3)nn12
+7B50_lig,O=c1[nH]nc2ccc(Sc3ccc(Cl)c(Cl)c3)nn12
+6T2K_lig,O=C(O)CSc1ncnc2c(C3CC3)c(Cl)sc12

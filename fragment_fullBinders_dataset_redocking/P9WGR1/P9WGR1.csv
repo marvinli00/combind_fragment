@@ -1,0 +1,11 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL1849,IC50,180.0,CHEMBL936672,enoyl-[acyl-carrier-protein] reductase,315.37,CCCCCCc1ccc(Oc2ccccc2[N+](=O)[O-])c(O)c1,CHEMBL264415,P9WGR1,1TN,4OXY
+CHEMBL1849,IC50,3.0,CHEMBL3089491,enoyl-[acyl-carrier-protein] reductase,434.5,Cc1csc([C@](C)(O)c2nnc(Nc3ccn(Cc4c(F)cccc4F)n3)s2)n1,CHEMBL3088172,P9WGR1,VMY,4BQP
+CHEMBL1849,IC50,34.0,CHEMBL3132000,enoyl-[acyl-carrier-protein] reductase,437.5,CCNC(=O)[C@@H]1C[C@@H](NC(=O)c2cc(CC)nn2C)CN1C(=O)c1coc2ccccc12,CHEMBL3125272,P9WGR1,KV1,4COD
+CHEMBL1849,IC50,40.0,CHEMBL4132748,enoyl-[acyl-carrier-protein] reductase,371.84,Cc1cc(C)n(Cc2ccc(C(=O)NCc3ccc(F)cc3Cl)cc2)n1,CHEMBL4166541,P9WGR1,713,4QXM
+CHEMBL1849,IC50,51.0,CHEMBL4147581,enoyl-[acyl-carrier-protein] reductase,345.23,Oc1cc(Cc2ccccc2)ccc1Oc1ccc(Cl)cc1Cl,CHEMBL405973,P9WGR1,JPM,3FNF
+CHEMBL1849,IC50,110.0,CHEMBL4147581,enoyl-[acyl-carrier-protein] reductase,351.27,Oc1cc(CC2CCCCC2)ccc1Oc1ccc(Cl)cc1Cl,CHEMBL428260,P9WGR1,JPL,3FNG
+CHEMBL1849,IC50,10.0,CHEMBL4147581,enoyl-[acyl-carrier-protein] reductase,349.27,CCCCCCc1ccc(Oc2ccccc2Br)c(O)c1,CHEMBL4177124,P9WGR1,2TK,4OHU
+CHEMBL1849,IC50,49.0,CHEMBL4147581,enoyl-[acyl-carrier-protein] reductase,304.82,CCCCCCc1ccc(Oc2ccccc2Cl)c(O)c1,CHEMBL4162007,P9WGR1,1US,4OYR
+CHEMBL1849,IC50,297.0,CHEMBL4147603,enoyl-[acyl-carrier-protein] reductase,526.62,CNC(=O)c1cnc(NC2CCN(c3ccccn3)CC2)c(NCc2ccc(F)c(Oc3ccccc3)c2)c1,CHEMBL4163172,P9WGR1,9CV,5G0U
+CHEMBL1849,IC50,310.0,CHEMBL4405868,enoyl-[acyl-carrier-protein] reductase,366.9,Cc1c(S(=O)(=O)Nc2cccc(CN)c2)sc2ccc(Cl)cc12,CHEMBL4435863,P9WGR1,LTK,6SQL

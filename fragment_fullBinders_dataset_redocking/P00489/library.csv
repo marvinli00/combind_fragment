@@ -1,0 +1,7 @@
+ID,SMILES
+3ZCT_lig,O=C(NC(=O)c1ccc2ccccc2c1)N[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O
+2OFF_lig,O=C(O)C[C@H](OC(=O)/C=C/c1ccc(O)cc1)[C@@H](OC(=O)/C=C/c1ccc(O)cc1)C(=O)O
+5LRF_lig,OC[C@H]1O[C@@H](c2nc(-c3ccc4ccccc4c3)n[nH]2)[C@H](O)[C@@H](O)[C@@H]1O
+3ZCR_lig,CC(C)(C)c1ccc(C(=O)NC(=O)N[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc1
+5O52_lig,N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1c1nc(-c2ccc3ccccc3c2)c[nH]1
+6F3L_lig,O=C(O)c1ccc2cc(-c3n[nH]c([C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)n3)ccc2c1

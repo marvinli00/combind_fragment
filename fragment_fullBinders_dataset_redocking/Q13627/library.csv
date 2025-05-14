@@ -1,0 +1,17 @@
+ID,SMILES
+4YLK_lig,O=C(O)c1nc2ccc(I)cc2c2[nH]c3c(Cl)cccc3c12
+4YLL_lig,O=C(O)c1nc2ccc(I)cc2c2[nH]c3c(Br)cccc3c12
+6EIF_lig,NS(=O)(=O)c1ccc(-c2cnc3[nH]cc(-c4cccnc4)c3c2)cc1
+6EIS_lig,O=c1ccc2cnc3ccc(-c4cn[nH]c4)cc3c2n1-c1ccc(F)cc1C(F)(F)F
+6EIQ_lig,COc1cc(N2CCN(C)CC2)ccc1Nc1nc(N)c(C(=O)c2ccccc2)s1
+7AJY_lig,Cc1nc2ccc(-c3cc(N)nc(N)c3)nc2n1C[C@@H](C)Oc1ccccc1
+6S1I_lig,CN(c1ccccc1)c1nccc(-c2cnn3ncccc23)n1
+6A1G_lig,C=C(c1ccc2c(c1)CC(C)(C)c1c(N)ncnc1-2)C1CCNCC1
+7A5N_lig,Cc1nc(NCc2c(F)cccc2F)c2c(-c3ccnc(N)c3)c[nH]c2n1
+7A5L_lig,Cc1nc(OCc2ccsc2)c2c(-c3ccnc(N)c3)c[nH]c2n1
+7AJV_lig,CCCCc1nc2ccc(-c3cc(N)nc(N)c3)nc2n1CCCC
+7AK2_lig,Cc1nc2ccc(-c3cc(N)nc(N)c3)nc2n1CCOc1ccccn1
+7AKA_lig,Cc1nc2ccc(-c3cc(N)nc(N)c3)nc2n1C[C@@H](C)Oc1ccccn1
+8R8E_lig,N#Cc1c(C2CCCC2)[nH]c2c(I)cccc12
+8C3G_lig,COc1cc(N2CCN(C)CC2)ccc1Nc1nccc(-c2cn(C)c3cnccc23)n1
+7O7K_lig,CCN1CCN(Cc2ccc(Nc3ncc(F)c(-c4cc(F)c5nc(C)n(C(C)C)c5c4)n3)nc2)CC1

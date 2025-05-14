@@ -1,0 +1,12 @@
+ID,SMILES
+1XLX_lig,COc1ccc([C@]2(C#N)CC[C@@H](C(=O)O)CC2)cc1OC1CCCC1
+2QYL_lig,O=C(O)c1ccc(-c2cc3cccnc3c(-c3cccc([N+](=O)[O-])c3)n2)cc1
+1XM4_lig,COc1ccc(C(=O)Nc2c(Cl)cncc2Cl)cc1OC1CCCC1
+3FRG_lig,COc1cccc(Nc2c(C(N)=O)cnc3ccc(S(C)(=O)=O)cc23)c1
+1XMU_lig,O=C(Nc1c(Cl)cncc1Cl)c1ccc(OC(F)F)c(OCC2CC2)c1
+3D3P_lig,CCn1ncc2c(NC3CCOCC3)c(C(=O)NCc3ccccc3)cnc21
+4MYQ_lig,CCc1c(C)nc(-c2ccc(Cl)s2)nc1Nc1ccc(CC(=O)O)cc1
+3W5E_lig,CC(C)(C)NC(=O)Cc1ccc(Nc2nc(-c3ccccc3)nc3c2S(=O)(=O)CCC3)cc1
+3WD9_lig,CC(C)(C)CNC(=O)Cc1ccc(Nc2nc(-c3ccccc3)ncc2C(N)=O)cc1
+4NW7_lig,O=C(O)Cc1ccc(Nc2nc(-c3cccc(Cl)c3)nc(C3CC3)n2)cc1
+5LAQ_lig,COc1ccc(C2=NN(C3CCCCCC3)C(=O)[C@@H]3CC=CC[C@H]23)cc1OCCCCOc1ccc(-c2nnn[nH]2)cc1

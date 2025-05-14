@@ -1,0 +1,4 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL2039,IC50,10.0,CHEMBL5049166,monoamine oxidase b,415.49,CN(Cc1ccccc1)Cc1ccc(COc2ccc3c(CO)cc(=O)oc3c2)cc1,CHEMBL3586771,P27338,5IK,7P4F
+CHEMBL2039,Ki,400.0,CHEMBL900719,monoamine oxidase b,314.72,O=Cc1cc(=O)oc2cc(OCc3cccc(Cl)c3)ccc12,CHEMBL239508,P27338,C17,2V60
+CHEMBL2039,Ki,100.0,CHEMBL900719,monoamine oxidase b,329.78,CNCc1cc(=O)oc2cc(OCc3cccc(Cl)c3)ccc12,CHEMBL239507,P27338,C18,2V61

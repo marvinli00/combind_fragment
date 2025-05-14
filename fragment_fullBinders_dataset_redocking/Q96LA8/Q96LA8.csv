@@ -1,0 +1,5 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL1275221,IC50,10.0,CHEMBL3591482,protein arginine n-methyltransferase 6,442.6,CNCCN(C)Cc1c[nH]nc1-c1ccc(O[C@H]2C[C@H](OCCC3CCOCC3)C2)cc1,CHEMBL3589039,Q96LA8,49L,4Y30
+CHEMBL1275221,IC50,28.0,CHEMBL4346578,protein arginine n-methyltransferase 6,300.41,CCC(=O)Nc1cccc(-c2c[nH]cc2CN(C)CCN)c1,CHEMBL4544587,Q96LA8,O3S,6P7I
+CHEMBL1275221,IC50,77.0,CHEMBL5030802,protein arginine n-methyltransferase 6,469.4,Cc1cc(C)cc([C@@H]2c3cc(C)ccc3NC(=O)CN2C(=O)c2ccc(Br)s2)c1,CHEMBL5070897,Q96LA8,T9A,6W6D
+CHEMBL1275221,IC50,388.0,CHEMBL5030802,protein arginine n-methyltransferase 6,443.27,Cc1ccc2c(c1)[C@@H](c1ccc(F)cc1)N(C(=O)c1ccc(Br)o1)CC(=O)N2,CHEMBL5084397,Q96LA8,A0S,5WCF

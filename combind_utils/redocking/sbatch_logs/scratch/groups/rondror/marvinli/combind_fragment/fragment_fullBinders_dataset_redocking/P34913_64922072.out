@@ -1,0 +1,86 @@
+no change     /home/groups/emmalu/marvinli/anaconda3/condabin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda-env
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/activate
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/deactivate
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.sh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/Conda.psm1
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/groups/emmalu/marvinli/anaconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.csh
+no change     /home/users/mli89/.bashrc
+No action taken.
+Note: The Schrodinger virtualenv is tied to a specific SCHRODINGER value.
+This virtualenv is tied to SCHRODINGER=/share/software/user/restricted/schrodinger/2021-1.
+
+If you change your SCHRODINGER environment variable, it will break the ability
+to use the unadorned python command.
+
+Running structprep
+JobId: sh03-08n05-3-681d34eb
+
+JobId: sh03-08n05-1-681d3568
+
+JobId: sh03-08n05-0-681d35a9
+
+JobId: sh03-08n05-1-681d3625
+
+JobId: sh03-08n05-0-681d36a2
+
+JobId: sh03-08n05-0-681d36e3
+
+JobId: sh03-08n05-0-681d3723
+
+JobId: sh03-08n05-0-681d3764
+
+JobId: sh03-08n05-0-681d37e1
+
+JobId: sh03-08n05-0-681d3822
+
+JobId: sh03-08n05-0-681d3862
+
+JobId: sh03-08n05-0-681d38df
+
+JobId: sh03-08n05-0-681d395d
+
+JobId: sh03-08n05-0-681d39ed
+
+ExitStatus: finished
+Processing ['1vj5', '3ant', '3i1y', '3i28', '4jnc', '4x6x', '4x6y', '5am1', '7a7g', '7p4k', '8qvf', '8qvh', '8qvk'], aligning to 1vj5, and creating a docking grid for 1vj5
+processing 1vj5
+processing 3ant
+processing 3i1y
+processing 3i28
+processing 4jnc
+processing 4x6x
+processing 4x6y
+processing 5am1
+processing 7a7g
+processing 7p4k
+processing 8qvf
+processing 8qvh
+processing 8qvk
+align 1vj5 1vj5
+align 3ant 1vj5
+align 3i1y 1vj5
+align 3i28 1vj5
+align 4jnc 1vj5
+align 4x6x 1vj5
+align 4x6y 1vj5
+align 5am1 1vj5
+align 7a7g 1vj5
+align 7p4k 1vj5
+align 8qvf 1vj5
+align 8qvh 1vj5
+align 8qvk 1vj5
+making grid 1vj5
+Running ligprep
+Running dock
+No grids in default location (structures/grids), please specify path.
+Running featurize
+Extracting glide scores.
+Extracting names.
+Computing RMSDs to native poses
+Computing interaction fingerprints.
+Running pose-prediction

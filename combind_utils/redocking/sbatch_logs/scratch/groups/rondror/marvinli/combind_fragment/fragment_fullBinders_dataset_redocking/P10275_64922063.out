@@ -1,0 +1,58 @@
+no change     /home/groups/emmalu/marvinli/anaconda3/condabin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/conda-env
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/activate
+no change     /home/groups/emmalu/marvinli/anaconda3/bin/deactivate
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.sh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/Conda.psm1
+no change     /home/groups/emmalu/marvinli/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/groups/emmalu/marvinli/anaconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/groups/emmalu/marvinli/anaconda3/etc/profile.d/conda.csh
+no change     /home/users/mli89/.bashrc
+No action taken.
+Note: The Schrodinger virtualenv is tied to a specific SCHRODINGER value.
+This virtualenv is tied to SCHRODINGER=/share/software/user/restricted/schrodinger/2021-1.
+
+If you change your SCHRODINGER environment variable, it will break the ability
+to use the unadorned python command.
+
+Running structprep
+JobId: sh03-15n13-1-681d34a6
+
+JobId: sh03-15n13-0-681d34e8
+
+JobId: sh03-15n13-1-681d352a
+
+JobId: sh03-15n13-0-681d356c
+
+JobId: sh03-15n13-1-681d35b1
+
+JobId: sh03-15n13-1-681d35f3
+
+JobId: sh03-15n13-0-681d363f
+
+ExitStatus: finished
+Processing ['2ax9', '2hvc', '2oz7', '3rlj', '4ojb', '4ql8'], aligning to 2ax9, and creating a docking grid for 2ax9
+processing 2ax9
+processing 2hvc
+processing 2oz7
+processing 3rlj
+processing 4ojb
+processing 4ql8
+align 2ax9 2ax9
+align 2hvc 2ax9
+align 2oz7 2ax9
+align 3rlj 2ax9
+align 4ojb 2ax9
+align 4ql8 2ax9
+making grid 2ax9
+Running ligprep
+Running dock
+No grids in default location (structures/grids), please specify path.
+Running featurize
+Extracting glide scores.
+Extracting names.
+Computing RMSDs to native poses
+Computing interaction fingerprints.
+Running pose-prediction

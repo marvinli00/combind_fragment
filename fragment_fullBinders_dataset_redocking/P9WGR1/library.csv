@@ -1,0 +1,11 @@
+ID,SMILES
+4OXY_lig,CCCCCCc1ccc(Oc2ccccc2[N+](=O)[O-])c(O)c1
+4BQP_lig,Cc1csc([C@](C)(O)c2nnc(Nc3ccn(Cc4c(F)cccc4F)n3)s2)n1
+4COD_lig,CCNC(=O)[C@@H]1C[C@@H](NC(=O)c2cc(CC)nn2C)CN1C(=O)c1coc2ccccc12
+4QXM_lig,Cc1cc(C)n(Cc2ccc(C(=O)NCc3ccc(F)cc3Cl)cc2)n1
+3FNF_lig,Oc1cc(Cc2ccccc2)ccc1Oc1ccc(Cl)cc1Cl
+3FNG_lig,Oc1cc(CC2CCCCC2)ccc1Oc1ccc(Cl)cc1Cl
+4OHU_lig,CCCCCCc1ccc(Oc2ccccc2Br)c(O)c1
+4OYR_lig,CCCCCCc1ccc(Oc2ccccc2Cl)c(O)c1
+5G0U_lig,CNC(=O)c1cnc(NC2CCN(c3ccccn3)CC2)c(NCc2ccc(F)c(Oc3ccccc3)c2)c1
+6SQL_lig,Cc1c(S(=O)(=O)Nc2cccc(CN)c2)sc2ccc(Cl)cc12

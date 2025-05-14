@@ -1,0 +1,15 @@
+target_chembl_id,standard_type,standard_value,assay_chembl_id,target_name,mw_freebase,smiles,ligand_chembl_id,uniprot_id,ccd,pdb_list
+CHEMBL2083,IC50,450.0,CHEMBL964125,fatty acid binding protein adipocyte,362.43,NC(=O)c1cccc(Cn2c3c(c4cccc(C(=O)O)c42)CCCCC3)c1,CHEMBL516023,P15090,I4A,3FR5
+CHEMBL2083,IC50,590.0,CHEMBL964125,fatty acid binding protein adipocyte,305.38,O=C(O)c1cccc2c3c(n(Cc4ccccc4)c12)CCCC3,CHEMBL452596,P15090,8CA,3FR2
+CHEMBL2083,IC50,221.0,CHEMBL2339128,fatty acid binding protein adipocyte,474.56,CCc1c(-c2ccccc2)c(-c2ccccc2)nn1-c1ccccc1-c1cccc(OCC(=O)O)c1,CHEMBL247920,P15090,T4B,2NNQ
+CHEMBL2083,IC50,710.0,CHEMBL4271662,fatty acid binding protein adipocyte,390.88,Clc1ccc2nc(N3CCCCC3)c(-c3nnn[nH]3)c(-c3ccccc3)c2c1,CHEMBL3959018,P15090,65X,7FZY
+CHEMBL2083,IC50,37.0,CHEMBL5127363,fatty acid binding protein adipocyte,365.82,O=C(O)c1ccccc1Nc1cccc(Cl)c1-c1ccc2c(c1)CCO2,CHEMBL4632369,P15090,EHC,6LJV
+CHEMBL2083,Ki,120.0,CHEMBL3816121,fatty acid binding protein adipocyte,381.47,O=C(O)CCn1c(-c2ccccc2)c(-c2ccccc2)c2cc(C3CC3)ccc21,CHEMBL3814575,P15090,57P,5D45
+CHEMBL2083,Ki,100.0,CHEMBL3816121,fatty acid binding protein adipocyte,412.49,COc1cnccc1-c1c(-c2ccccc2)n(CCC(=O)O)c2ccc(C3CC3)cc12,CHEMBL3813892,P15090,L19,5D47
+CHEMBL2083,Ki,30.0,CHEMBL3816121,fatty acid binding protein adipocyte,457.57,Cc1n[nH]c(C)c1-c1c(-c2cccc(OC(C)C)c2)n(CCC(=O)O)c2ccc(C3CC3)cc12,CHEMBL3814634,P15090,L96,5D48
+CHEMBL2083,Ki,16.0,CHEMBL3861355,fatty acid binding protein adipocyte,401.29,O=C(O)c1c(N2CCCCC2)nc2c(Cl)cc(Cl)cc2c1-c1ccccc1,CHEMBL3971182,P15090,65Z,5HZ8
+CHEMBL2083,Ki,20.0,CHEMBL3861355,fatty acid binding protein adipocyte,406.87,O=c1[nH]nc(-c2c(N3CCCCC3)nc3ccc(Cl)cc3c2-c2ccccc2)o1,CHEMBL3889982,P15090,WJU,7G0A
+CHEMBL2083,Ki,590.0,CHEMBL4271662,fatty acid binding protein adipocyte,337.4,COc1ccc(S(=O)(=O)NCCCCC(=O)O)c2ccccc12,CHEMBL4292481,P15090,8JX,5Y12
+CHEMBL2083,Ki,210.0,CHEMBL4271662,fatty acid binding protein adipocyte,375.38,COc1ccc(S(=O)(=O)Nc2ccc(F)c(C(=O)O)c2)c2ccccc12,CHEMBL4283424,P15090,8JO,5Y0F
+CHEMBL2083,Ki,200.0,CHEMBL4271662,fatty acid binding protein adipocyte,375.38,COc1ccc(S(=O)(=O)Nc2cc(C(=O)O)ccc2F)c2ccccc12,CHEMBL4295114,P15090,8JL,5Y0G
+CHEMBL2083,Ki,22.0,CHEMBL5253218,fatty acid binding protein adipocyte,366.85,O=C(O)c1c(N2CCCCC2)nc2ccc(Cl)cc2c1-c1ccccc1,CHEMBL3941588,P15090,5M7,5EDC

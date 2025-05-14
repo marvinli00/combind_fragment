@@ -1,0 +1,5 @@
+ID,SMILES
+6QEG_lig,O=C(NCCc1cccs1)[C@@]1(O)CCN(c2ccccc2)C1=O
+6QEF_lig,O=C(NCc1cc(F)cc(Cl)c1)[C@@]1(O)CCN(c2ccccc2)C1=O
+6QED_lig,O=C1CCc2cc(N3CC[C@](O)(C(=O)NCc4cc(F)cc(Cl)c4)C3=O)ccc2N1
+2OAZ_lig,CC(C)c1ccccc1Nc1nc(SCc2cccs2)n[nH]1
