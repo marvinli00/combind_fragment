@@ -221,6 +221,7 @@ class Features:
             protein = next(sts)
             for st in sts:
                 name = st.property['s_m_title']
+                name = name.replace('_lig', '').lower()
                 if name in native_poses:
                     native = native_poses[name]
                     try:

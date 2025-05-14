@@ -258,7 +258,7 @@ def featurize(root, poseviewers, native, ifp_version, mcss_version,
     
     native_poses = {}
     for native_path in glob(native):
-        name = native_path.split('/')[-1].split('_lig')[0]
+        name = native_path.split('/')[-1].split('_lig')[0].lower()
         with StructureReader(native_path) as sts:
             sts = list(sts)
         assert len(sts) == 1

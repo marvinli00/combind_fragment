@@ -24,12 +24,15 @@
             "program": "combind",
             "console": "integratedTerminal",
             "args": ["featurize",
-                    "features",
-                    "docking/*/*_pv.maegz"],
+                    "fragment_dataset_redocking/A5H660/features",
+                    "fragment_dataset_redocking/A5H660/docking/*/*_pv.maegz",
+                    "--native","fragment_dataset_redocking/A5H660/structures/ligands/*_lig.mae",],
             "cwd": "${workspaceFolder}",
             "env": {
                 "COMBINDHOME":"`pwd`",
                 "SCHRODINGER_ALLOW_UNSAFE_MULTIPROCESSING":"1",
+                "PROTEIN_DIR":"fragment_dataset_redocking/A5H660",
+                "DEBUGPY_LAUNCHER_PORT":"12315",
             }
         },
         {
