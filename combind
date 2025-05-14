@@ -267,9 +267,9 @@ def featurize(root, poseviewers, native, ifp_version, mcss_version,
         print("Running in VS Code")
         # Handle wildcards manually with glob
         poseviewers = glob(poseviewers[0])
+
     features = Features(root, ifp_version=ifp_version, shape_version=shape_version,
                         mcss_version=mcss_version, max_poses=max_poses)
-    
     features.compute_single_features(poseviewers, native_poses=native_poses)
 
     if screen:
