@@ -49,6 +49,23 @@
                 "COMBINDHOME":"${workspaceFolder}",
                 "SCHRODINGER_ALLOW_UNSAFE_MULTIPROCESSING":"1",
             }
-        }
+        },
+        {
+            "name": "combind_pose_prediction_1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "combind",
+            "console": "integratedTerminal",
+            "args": ["pose-prediction",
+                    "fragment_dataset_redocking/A5H660/features",
+                    "fragment_dataset_redocking/A5H660/features/poses.csv"],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "COMBINDHOME":"${workspaceFolder}",
+                "SCHRODINGER_ALLOW_UNSAFE_MULTIPROCESSING":"1",
+                "PROTEIN_DIR":"fragment_dataset_redocking/A5H660",
+                "DEBUGPY_LAUNCHER_PORT":"12315",
+            }
+        },
     ]
 }

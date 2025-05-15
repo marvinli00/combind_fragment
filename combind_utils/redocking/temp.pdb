@@ -1,83 +1,105 @@
-TITLE     7b0z_lig
+TITLE     4jsg_lig
 REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
 REMARK 888
 REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
-HETATM    1  CAA SK5 L 602      50.720 158.315  30.027  1.00 29.79           C  
-HETATM    2  CAB SK5 L 602      49.729 157.329  30.239  1.00 30.58           C  
-HETATM    3  CAC SK5 L 602      48.556 157.681  30.943  1.00 29.83           C  
-HETATM    4  CAD SK5 L 602      48.375 158.988  31.434  1.00 31.55           C  
-HETATM    5  CAE SK5 L 602      49.371 159.960  31.225  1.00 29.96           C  
-HETATM    6  CAF SK5 L 602      50.543 159.621  30.522  1.00 32.89           C  
-HETATM    7  CAG SK5 L 602      49.873 155.940  29.769  1.00 29.14           C  
-HETATM    8  CAH SK5 L 602      50.906 155.412  29.086  1.00 29.67           C  
-HETATM    9  CAI SK5 L 602      50.906 153.982  28.715  1.00 32.17           C  
-HETATM   10  CAJ SK5 L 602      51.676 153.568  27.503  1.00 29.97           C  
-HETATM   11  CAK SK5 L 602      52.211 154.506  26.586  1.00 30.93           C  
-HETATM   12  CAL SK5 L 602      52.968 154.075  25.480  1.00 30.24           C  
-HETATM   13  CAM SK5 L 602      53.211 152.701  25.270  1.00 31.06           C  
-HETATM   14  CAN SK5 L 602      52.636 151.761  26.149  1.00 30.42           C  
-HETATM   15  CAO SK5 L 602      51.882 152.191  27.257  1.00 31.64           C  
-HETATM   16  CAQ SK5 L 602      54.107 152.240  24.130  1.00 36.68           C  
-HETATM   17  OAP SK5 L 602      50.305 153.154  29.402  1.00 35.20           O  
-HETATM   18  FAR SK5 L 602      55.002 153.181  23.833  1.00 38.07           F  
-HETATM   19  FAS SK5 L 602      53.379 151.993  23.046  1.00 46.39           F  
-HETATM   20  FAT SK5 L 602      54.765 151.130  24.465  1.00 41.09           F  
-HETATM   21 HCAA SK5 L 602      51.631 158.084  29.496  1.00 29.79           H  
-HETATM   22 HCAC SK5 L 602      47.786 156.943  31.119  1.00 29.83           H  
-HETATM   23 HCAD SK5 L 602      47.476 159.242  31.975  1.00 31.55           H  
-HETATM   24 HCAE SK5 L 602      49.236 160.961  31.605  1.00 29.96           H  
-HETATM   25 HCAF SK5 L 602      51.311 160.364  30.364  1.00 32.89           H  
-HETATM   26 HCAG SK5 L 602      49.045 155.293  30.012  1.00 29.14           H  
-HETATM   27 HCAH SK5 L 602      51.752 156.018  28.803  1.00 29.67           H  
-HETATM   28 HCAK SK5 L 602      52.060 155.568  26.710  1.00 30.93           H  
-HETATM   29 HCAL SK5 L 602      53.386 154.810  24.809  1.00 30.24           H  
-HETATM   30 HCAN SK5 L 602      52.795 150.704  25.991  1.00 30.42           H  
-HETATM   31 HCAO SK5 L 602      51.476 151.447  27.927  1.00 31.64           H  
-CONECT    1    6    2   21
+HETATM    1  N01 Q10 L 803      13.592   3.555  60.389  1.00 32.34           N1+
+HETATM    2  C02 Q10 L 803      12.809   2.764  61.150  1.00 31.67           C  
+HETATM    3  N02 Q10 L 803      12.879   1.389  60.956  1.00 29.51           N  
+HETATM    4  C03 Q10 L 803      11.951   3.336  62.109  1.00 31.34           C  
+HETATM    5  C04 Q10 L 803      11.912   4.740  62.237  1.00 33.23           C  
+HETATM    6  C05 Q10 L 803      12.730   5.530  61.401  1.00 35.10           C  
+HETATM    7  C06 Q10 L 803      13.594   4.904  60.474  1.00 40.00           C  
+HETATM    8  C07 Q10 L 803      11.003   5.395  63.254  1.00 30.97           C  
+HETATM    9  C08 Q10 L 803      14.566   5.674  59.591  1.00 47.63           C  
+HETATM   10  O09 Q10 L 803      14.233   7.055  59.493  1.00 59.65           O  
+HETATM   11  O10 Q10 L 803      18.374   8.002  57.141  1.00 76.50           O  
+HETATM   12  C11 Q10 L 803      19.354   8.917  56.662  1.00 82.49           C  
+HETATM   13  C12 Q10 L 803      20.326   9.329  57.783  1.00 79.21           C  
+HETATM   14  C13 Q10 L 803      21.295  10.436  57.342  1.00 82.27           C  
+HETATM   15  N14 Q10 L 803      22.199  10.832  58.436  1.00 80.72           N1+
+HETATM   16  C21 Q10 L 803      15.181   7.927  58.999  1.00 64.57           C  
+HETATM   17  C22 Q10 L 803      14.959   9.300  59.221  1.00 77.28           C  
+HETATM   18  C23 Q10 L 803      15.893  10.260  58.796  1.00 74.04           C  
+HETATM   19  C24 Q10 L 803      17.050   9.856  58.107  1.00 77.78           C  
+HETATM   20  C25 Q10 L 803      17.283   8.483  57.838  1.00 79.90           C  
+HETATM   21  C26 Q10 L 803      16.346   7.531  58.296  1.00 65.02           C  
+HETATM   22 HN01 Q10 L 803      14.222   3.107  59.711  1.00 32.34           H  
+HETATM   23 H021 Q10 L 803      12.287   0.746  61.465  1.00 29.51           H  
+HETATM   24 H022 Q10 L 803      13.446   0.992  60.213  1.00 29.51           H  
+HETATM   25 HC03 Q10 L 803      11.329   2.709  62.732  1.00 31.34           H  
+HETATM   26 HC05 Q10 L 803      12.693   6.604  61.480  1.00 35.10           H  
+HETATM   27 H071 Q10 L 803      11.565   6.097  63.873  1.00 30.97           H  
+HETATM   28 H072 Q10 L 803      10.204   5.937  62.748  1.00 30.97           H  
+HETATM   29 H073 Q10 L 803      10.545   4.656  63.909  1.00 30.97           H  
+HETATM   30 H081 Q10 L 803      14.572   5.231  58.594  1.00 47.63           H  
+HETATM   31 H082 Q10 L 803      15.562   5.550  60.019  1.00 47.63           H  
+HETATM   32 H111 Q10 L 803      18.896   9.777  56.173  1.00 82.49           H  
+HETATM   33 H112 Q10 L 803      19.917   8.409  55.878  1.00 82.49           H  
+HETATM   34 H121 Q10 L 803      20.885   8.452  58.112  1.00 79.21           H  
+HETATM   35 H122 Q10 L 803      19.768   9.676  58.653  1.00 79.21           H  
+HETATM   36 H131 Q10 L 803      20.739  11.316  57.015  1.00 82.27           H  
+HETATM   37 H132 Q10 L 803      21.893  10.102  56.493  1.00 82.27           H  
+HETATM   38 H141 Q10 L 803      22.798  11.583  58.122  1.00 80.72           H  
+HETATM   39 H142 Q10 L 803      21.657  11.146  59.228  1.00 80.72           H  
+HETATM   40 H143 Q10 L 803      22.768  10.044  58.705  1.00 80.72           H  
+HETATM   41 HC22 Q10 L 803      14.066   9.625  59.735  1.00 77.28           H  
+HETATM   42 HC23 Q10 L 803      15.715  11.307  58.991  1.00 74.04           H  
+HETATM   43 HC24 Q10 L 803      17.734  10.626  57.788  1.00 77.78           H  
+HETATM   44 HC26 Q10 L 803      16.536   6.490  58.082  1.00 65.02           H  
+CONECT    1    2    7   22
 CONECT    1    2
-CONECT    2    1    3    7
+CONECT    2    1    3    4
 CONECT    2    1
-CONECT    3    2    4   22
-CONECT    3    4
-CONECT    4    3    5   23
-CONECT    4    3
-CONECT    5    4    6   24
-CONECT    5    6
-CONECT    6    1    5   25
-CONECT    6    5
-CONECT    7    2    8   26
-CONECT    7    8
-CONECT    8    7    9   27
-CONECT    8    7
-CONECT    9    8   17   10
-CONECT    9   17
-CONECT   10    9   11   15
-CONECT   10   11
-CONECT   11   10   12   28
-CONECT   11   10
-CONECT   12   11   13   29
-CONECT   12   13
-CONECT   13   12   14   16
-CONECT   13   12
-CONECT   14   13   15   30
-CONECT   14   15
-CONECT   15   10   14   31
-CONECT   15   14
-CONECT   16   13   18   19   20
-CONECT   17    9
-CONECT   17    9
-CONECT   18   16
-CONECT   19   16
-CONECT   20   16
-CONECT   21    1
-CONECT   22    3
-CONECT   23    4
-CONECT   24    5
-CONECT   25    6
-CONECT   26    7
+CONECT    3    2   23   24
+CONECT    4    2    5   25
+CONECT    4    5
+CONECT    5    4    6    8
+CONECT    5    4
+CONECT    6    5    7   26
+CONECT    6    7
+CONECT    7    1    6    9
+CONECT    7    6
+CONECT    8    5   27   28   29
+CONECT    9    7   10   30   31
+CONECT   10    9   16
+CONECT   11   20   12
+CONECT   12   11   13   32   33
+CONECT   13   12   14   34   35
+CONECT   14   13   15   36   37
+CONECT   15   14   38   39   40
+CONECT   16   10   17   21
+CONECT   16   17
+CONECT   17   16   18   41
+CONECT   17   16
+CONECT   18   17   19   42
+CONECT   18   19
+CONECT   19   18   20   43
+CONECT   19   18
+CONECT   20   11   19   21
+CONECT   20   21
+CONECT   21   16   20   44
+CONECT   21   20
+CONECT   22    1
+CONECT   23    3
+CONECT   24    3
+CONECT   25    4
+CONECT   26    6
 CONECT   27    8
-CONECT   28   11
-CONECT   29   12
-CONECT   30   14
-CONECT   31   15
+CONECT   28    8
+CONECT   29    8
+CONECT   30    9
+CONECT   31    9
+CONECT   32   12
+CONECT   33   12
+CONECT   34   13
+CONECT   35   13
+CONECT   36   14
+CONECT   37   14
+CONECT   38   15
+CONECT   39   15
+CONECT   40   15
+CONECT   41   17
+CONECT   42   18
+CONECT   43   19
+CONECT   44   21
 END   
