@@ -2,6 +2,8 @@ import glob
 dir_prefix = "/scratch/groups/rondror/marvinli/combind_fragment"#"/home/pc/Documents/combind_fragment/combind_fragment"
 dataset_name = "fragment_dataset"
 source_dir = f"{dir_prefix}/{dataset_name}/*/structures/ligands"
+suffix = "add_bond_orders"
+
 #dest_dir = f"{dir_prefix}/{dataset_name}_redocking"
 
 source_dir_list = glob.glob(source_dir)
@@ -74,7 +76,7 @@ for source_dir in source_dir_list:
     #extract the  * part from the source_dir
     protein_name = source_dir.replace(f"{dir_prefix}/{dataset_name}/","")
     protein_name = protein_name.replace("/structures/ligands","")
-    dest_dir = f"{dir_prefix}/{dataset_name}_redocking/{protein_name}"
+    dest_dir = f"{dir_prefix}/{dataset_name}_{suffix}/{protein_name}"
 
     ligand_smiles = pd.DataFrame(columns=["ID", "SMILES"])
     for ligand_path in ligands_path:
