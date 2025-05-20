@@ -1,11 +1,17 @@
 import glob
-dir_prefix = "/scratch/groups/rondror/marvinli/combind_fragment"#"/home/pc/Documents/combind_fragment/combind_fragment"
-dataset_name = "fragment_dataset"
-source_dir = f"{dir_prefix}/{dataset_name}/*/structures/ligands"
-suffix = "add_bond_orders"
+import os
+if "SLURM_JOB_ID" in os.environ:
+    dir_prefix = "/scratch/groups/rondror/marvinli/combind_fragment"
+else:
+    dir_prefix = "/home/pc/Documents/combind_fragment/combind_fragment"
 
+dataset_name = "fragment_fullBinders_dataset_add_bond_orders"
+source_dir = f"{dir_prefix}/{dataset_name}/*/structures/ligands"
 #dest_dir = f"{dir_prefix}/{dataset_name}_redocking"
 
+
+#save csv to where. If suffix="", it means save to the same directory as the source_dir
+suffix = ""
 source_dir_list = glob.glob(source_dir)
 #breakpoint()
 import numpy as np
@@ -76,10 +82,12 @@ for source_dir in source_dir_list:
     #extract the  * part from the source_dir
     protein_name = source_dir.replace(f"{dir_prefix}/{dataset_name}/","")
     protein_name = protein_name.replace("/structures/ligands","")
-    dest_dir = f"{dir_prefix}/{dataset_name}_{suffix}/{protein_name}"
+    dest_dir = f"{dir_prefix}/{dataset_name}{suffix}/{protein_name}"
 
     ligand_smiles = pd.DataFrame(columns=["ID", "SMILES"])
     for ligand_path in ligands_path:
+        if "4jsg" in ligand_path:
+            print(ligand_path)
         ligand = next(StructureReader(ligand_path))
         ligand.write("temp.pdb")
         try:

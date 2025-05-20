@@ -18,10 +18,10 @@ RUNNING_PROTEINS=(A5H660)
 #for each subdirectory, run the redocking script
 for SUBDIR in $SUBDIRS; do
     #check if the subdirectory is in the running proteins list
-    if [[ ! " ${RUNNING_PROTEINS[@]} " =~ " ${SUBDIR} " ]]; then
-        echo "Skipping $SUBDIR"
-        continue
-    fi
+    #if [[ ! " ${RUNNING_PROTEINS[@]} " =~ " ${SUBDIR} " ]]; then
+    #    echo "Skipping $SUBDIR"
+    #    continue
+    #fi
 
     echo "Running redocking for $SUBDIR"
     #concatenate the subdirectory path with the redocking script path
