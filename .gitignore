@@ -19,3 +19,5 @@ fragment_fullBinders_dataset_redocking.zip
 fragment_fullBinders_dataset_redocking/
 fragment_dataset_add_bond_orders/
 fragment_fullBinders_dataset_add_bond_orders/
+schrodinger.ve/
+benchmark_set_split_no_copy/

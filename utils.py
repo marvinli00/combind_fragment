@@ -46,4 +46,4 @@ def mp(function, unfinished, processes):
 
 def mkdir(path):
     if not os.path.exists(path):
-        os.mkdir(path)
+        os.makedirs(path, exist_ok=True)

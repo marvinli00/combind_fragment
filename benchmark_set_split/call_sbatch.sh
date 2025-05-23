@@ -21,26 +21,26 @@ for folder in $folders; do
 
                 subfolder=$prefix/${folder}_${file_no_ext}
 
-                #if subfolder exists, remove it
-                if [ -d "$subfolder" ]; then
-                    rm -rf $subfolder
-                fi
+                # #if subfolder exists, remove it
+                # if [ -d "$subfolder" ]; then
+                #     rm -rf $subfolder
+                # fi
 
                 #copy the templete directory to the new folder
-                cp -r $templete_dir $subfolder
+                #cp -r $templete_dir $subfolder
 
                 #copy structure files to the structures folder in the new folder 
-                cp -r $folder/structures $subfolder/
-                cp $folder/split_library/$file $subfolder/structures/library.csv
+                #cp -r $folder/structures $subfolder/
+                ##cp $folder/split_library/$file $subfolder/structures/library.csv
 
                 #also copy the helpers_pv.maegz file to the new folder
-                mkdir -p $subfolder/helpers
-                cp $folder/helpers_pv.maegz $subfolder/helpers/
+                #mkdir -p $subfolder/helpers
+                #cp $folder/helpers_pv.maegz $subfolder/helpers/
 
                 #call the sbatch script
-                sbatch --output=sbatch_logs/${folder}_${file_no_ext}_%j.out --error=sbatch_logs/${folder}_${file_no_ext}_%j.err --job-name=${folder}_${file_no_ext} sbatch.sh $subfolder $folder
-                #exit the loop
-                #exit 0
+                #sbatch --output=sbatch_logs/${folder}_${file_no_ext}_%j.out --error=sbatch_logs/${folder}_${file_no_ext}_%j.err --job-name=${folder}_${file_no_ext} sbatch.sh $subfolder $folder
+                exit the loop
+                exit 0
             done
         fi
     fi
