@@ -19,8 +19,8 @@ Copied from /oak/stanford/groups/rondror/projects/ligand-docking/qcombind_fragme
 """
 
 import sys
-sys.path.append('/scratch/groups/rondror/marvinli/combind_fragment/')
-
+#sys.path.append('/scratch/groups/rondror/marvinli/combind_fragment/')
+sys.path.append('/home/pc/Documents/combind_fragment/combind_fragment/')
 from score import statistics
 from score.density_estimate import DensityEstimate
 from features.features import Features
@@ -36,6 +36,115 @@ from pathlib import Path
 @click.group()
 def main():
     pass
+
+
+#example python refit.py compute-frag-known-to-ligand-unknown refit_frag_known_ligand_unknown 
+# /home/pc/Documents/combind_fragment/combind_fragment/fragment_dataset_add_bond_orders/* 
+#--poses-paths=/home/pc/Documents/combind_fragment/combind_fragment/fragment_fullBinders_dataset_add_bond_orders/*  (using = to avoid glob in shell)
+# --protein-name-position -1 --feature-names 'hbond,saltbridge,contact'
+
+@main.command()
+@click.argument('stats_root')
+@click.argument('fragment_paths', nargs=-1)  # Multiple fragment folders
+@click.option('--poses-paths', required=True, multiple=False, help='Poses folder paths (folder B with real poses), will glob in python not in shell')
+@click.option('--protein-name-position', default=-2)
+@click.option('--feature-names', default='hbond,saltbridge,contact,shape,mcss')
+@click.option('--rmsd-cutoff', default=2.0)
+def compute_frag_known_to_ligand_unknown(stats_root, fragment_paths, poses_paths, 
+                          protein_name_position, feature_names, rmsd_cutoff):
+
+    """
+    Compute statistics for poses using near-native fragments as reference
+    
+    STATS_ROOT: Output directory for statistics
+    FRAGMENT_PATHS: Fragment folder paths (folder A with fragments)  
+    """
+    feature_names = feature_names.split(',')
+    poses_paths = glob(poses_paths+"/*")
+    # Create a mapping of proteins to paths
+    fragment_paths_dict = {}
+    poses_paths_dict = {}
+    for path in fragment_paths:
+        protein = path.split('/')[protein_name_position]
+        fragment_paths_dict[protein] = path
+    
+    for path in poses_paths:
+        protein = path.split('/')[protein_name_position]
+        poses_paths_dict[protein] = path
+    
+    #find common proteins between fragment_paths_dict and poses_paths_dict
+    common_proteins = set(fragment_paths_dict.keys()) & set(poses_paths_dict.keys())
+    
+    # Process each protein
+    for protein in tqdm(fragment_paths_dict.keys()):
+        if protein not in poses_paths_dict:
+            print(f"Warning: protein {protein} not found in poses folder, skipping")
+            continue
+            
+        output_dir = os.path.join(stats_root, protein)
+        os.makedirs(output_dir, exist_ok=True)
+        print(f'Processing {protein}, writing output to {output_dir}')
+        
+        # Load features from fragments (folder A)
+        fragments_features = Features(fragment_paths_dict[protein] + "/features")
+        fragments_features.load_features()
+        breakpoint()
+        # Load features from poses (folder B)
+        poses_features = Features(poses_paths_dict[protein] + "/features")
+        poses_features.load_features()
+        
+        # Identify near-native fragments from folder A
+        native_fragment_mask = fragments_features.raw['rmsd1'] <= rmsd_cutoff
+        native_fragment_names = set(fragments_features.raw['name1'][native_fragment_mask])
+        print(f"Found {len(native_fragment_names)} near-native fragments in folder A")
+        
+        # Process folder B data
+        # Get pose names
+        pose_names = poses_features.raw['name1']
+        
+        # Create masks for folder B
+        idx = np.array(range(len(pose_names)))
+        self_self = pose_names.reshape(-1, 1) == pose_names.reshape(1, -1)
+        upper_triangular = idx.reshape(-1, 1) < idx.reshape(1, -1)
+        
+        # Determine which poses in B are "native-like" based on RMSD
+        native_poses_mask = poses_features.raw['rmsd1'] <= rmsd_cutoff
+        native = native_poses_mask.reshape(-1, 1) * native_poses_mask.reshape(1, -1)
+        
+        # Compute density estimates for each feature
+        for feature in feature_names:
+            if feature not in poses_features.raw:
+                print(f"Feature {feature} not found in poses data, skipping")
+                continue
+            print(f'Density estimate for {feature}')
+
+            # Mask off values that are infinite (MCSS failed to compute)
+            not_infinite = (poses_features.raw[feature] != float('inf'))
+
+            nat_vals = poses_features.raw[feature][~self_self & upper_triangular & native & not_infinite]
+            ref_vals = poses_features.raw[feature][~self_self & upper_triangular & not_infinite]
+            
+            assert np.all(nat_vals != float('inf'))
+            assert np.all(ref_vals != float('inf'))
+            
+            if feature == 'mcss':
+                sd = 0.03*6
+                domain = (0, 6)
+            else:
+                sd = 0.03
+                domain = (0, 1)
+                
+            native_density = os.path.join(output_dir, f'native_{feature}.de')
+            if (not os.path.exists(native_density)) or (feature == 'mcss'):
+                nat = DensityEstimate(domain=domain, sd=sd).fit(nat_vals)
+                print(f'Writing native density to {native_density}')
+                nat.write(native_density)
+
+            reference_density = os.path.join(output_dir, f'reference_{feature}.de')
+            if (not os.path.exists(reference_density)) or (feature == 'mcss'):
+                ref = DensityEstimate(domain=domain, sd=sd).fit(ref_vals)
+                print(f'Writing reference density to {reference_density}')
+                ref.write(reference_density)
 
 
 # JOE's COMBIND DATASET (from /oak/stanford/groups/rondror/users/jpaggi/combind_paper_dataset)

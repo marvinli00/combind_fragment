@@ -1,0 +1,3 @@
+cd fragment_dataset_add_bond_orders
+rsync -av --relative ./*/structures/raw/* ../fragment_fixed_dataset/
+cd ..
