@@ -1,18 +1,15 @@
 #!/bin/sh
 #SBATCH --ntasks=1                 # Run a single task
-#SBATCH --cpus-per-task=4          # Number of CPU cores per task (8 CPUs)
-#SBATCH --mem=16G                  # Job memory request (64GB)
+#SBATCH --cpus-per-task=8          # Number of CPU cores per task (8 CPUs)
+#SBATCH --mem=32G                  # Job memory request (64GB)
 #SBATCH --time=3-00:00:00          # Time limit (days-hours:minutes:seconds) - 1 day
 #SBATCH --partition=rondror            # Use the GPU partition (change as needed)
 
-
-conda init
-conda deactivate
-cd /scratch/groups/rondror/marvinli/combind/
+cd /scratch/groups/rondror/marvinli/combind_fragment/
 
 module load chemistry
 module load schrodinger
-source /scratch/groups/rondror/marvinli/combind/schrodinger.ve/bin/activate
+source /scratch/groups/rondror/marvinli/combind_fragment/schrodinger.ve/bin/activate
 
 PROTEIN_DIR=$1
 COMBINDWORKING_DIR=$2
