@@ -240,7 +240,7 @@ class Features:
         ifp(settings, pv, out, self.max_poses)
 
     def compute_ifp_pair(self, ifps1, ifps2, feature, out):
-        from features.ifp_similarity import ifp_tanimoto
+        from features.ifp_similarity import ifp_tanimoto, ifp_tanimoto_mp
         tanimotos = ifp_tanimoto(ifps1, ifps2, feature)
         np.save(out, tanimotos)
 
